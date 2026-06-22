@@ -1,0 +1,44 @@
+{
+    "service-one": {
+        "heroSection": {
+            "image": "/images/service-one.jpg",
+            "title": "Service One",
+            "description": [
+                "Placeholder description for Service One.",
+                "Update this with your actual service content."
+            ]
+        },
+        "gallerySection": {
+            "title": "Service One Gallery",
+            "downloads": [
+                { "id": 1, "title": "Service One Brochure", "link": "#" }
+            ],
+            "gallery": [
+                { "id": 1, "image": "/images/service-one-1.jpg", "alt": "Service One image 1" },
+                { "id": 2, "image": "/images/service-one-2.jpg", "alt": "Service One image 2" },
+                { "id": 3, "image": "/images/service-one-3.jpg", "alt": "Service One image 3" }
+            ]
+        }
+    },
+    "service-two": {
+        "heroSection": {
+            "image": "/images/service-two.jpg",
+            "title": "Service Two",
+            "description": [
+                "Placeholder description for Service Two.",
+                "Update this with your actual service content."
+            ]
+        },
+        "gallerySection": {
+            "title": "Service Two Gallery",
+            "downloads": [
+                { "id": 1, "title": "Service Two Brochure", "link": "#" }
+            ],
+            "gallery": [
+                { "id": 1, "image": "/images/service-two-1.jpg", "alt": "Service Two image 1" },
+                { "id": 2, "image": "/images/service-two-2.jpg", "alt": "Service Two image 2" },
+                { "id": 3, "image": "/images/service-two-3.jpg", "alt": "Service Two image 3" }
+            ]
+        }
+    }
+}
