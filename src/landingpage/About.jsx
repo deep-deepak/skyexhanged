@@ -43,7 +43,7 @@ const AboutSection = () => {
 
             <style jsx>{`
                 .about-section {
-                    background: #111111;
+                    background: #241c1c;
                     padding: 90px 0;
                 }
                 .about-container {
