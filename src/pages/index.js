@@ -19,7 +19,7 @@ import WithdrawFundsSection from "@/landingpage/WithdrawFundsSection";
 import TestimonialsSection from "@/landingpage/TestimonialsSection";
 import WhyChooseSection from "@/containers/WhyChooseSection";
 import HistorySection from "@/containers/HistorySection";
-import QuickLinksSection from "@/landingpage/QuickLinksSection";
+// import QuickLinksSection from "@/landingpage/QuickLinksSection";
 import FaqSection from "@/landingpage/FaqSection";
 
 export default function Home() {
@@ -30,7 +30,7 @@ export default function Home() {
                 descrption="SkyExchin — your trusted partner for premium services delivered with precision and excellence."
             />
             <HeroSection />
-            <QuickLinksSection />
+            {/* <QuickLinksSection /> */}
             <AboutSection />
             <PopularitySection />
             <HowItWorksSection />
