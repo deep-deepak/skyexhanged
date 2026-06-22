@@ -1,74 +1,265 @@
 import Link from 'next/link';
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+
+const paymentMethods = [
+    'BANK DEPOSIT', 'RUPEE-O', 'UPI', 'PhonePe', 'Paytm',
+    'IMPS', 'freecharge', 'G Pay', 'Airtel Payments', 'AstroPay',
+];
+
+const navLinks = [
+    { label: 'Home', href: '/' },
+    { label: 'Skyexchin Login', href: '/' },
+    { label: 'Sign Up', href: '/' },
+    { label: 'Skyexchin 247', href: '/' },
+    { label: 'Skyexchin agent', href: '/' },
+    { label: 'Skyexchin app', href: '/' },
+    { label: 'Skyexchin Art', href: '/' },
+    { label: 'Skyexchin biz', href: '/' },
+    { label: 'Skyexchin ID', href: '/' },
+    { label: 'SkyExchin VIP', href: '/' },
+    { label: 'Skyexchin XYZ', href: '/' },
+    { label: 'Skyinplay', href: '/' },
+    { label: 'About Us', href: '/' },
+];
 
 const Footer = () => {
     return (
-        <footer style={{ backgroundColor: '#1B2760', color: '#fff', padding: '60px 0 20px' }}>
-            <Container>
-                <Row className="gy-4">
-                    <Col lg={4} md={6}>
-                        <h5 style={{ color: '#F47920', fontFamily: '"Oswald", sans-serif', letterSpacing: '2px' }}>
-                            SKYEXCHIN
-                        </h5>
-                        <p className="mt-3" style={{ opacity: 0.8, fontSize: '0.95rem' }}>
-                            {/* Company description goes here */}
-                            Your trusted partner for premium services.
-                        </p>
-                    </Col>
+        <footer className="site-footer">
 
-                    <Col lg={2} md={6}>
-                        <h6 style={{ color: '#F47920', textTransform: 'uppercase', letterSpacing: '1px' }}>Quick Links</h6>
-                        <ul className="list-unstyled mt-3" style={{ fontSize: '0.9rem' }}>
-                            {[
-                                { label: 'Home', path: '/' },
-                                { label: 'About Us', path: '/about' },
-                                { label: 'Services', path: '/category' },
-                                { label: 'Gallery', path: '/gallery' },
-                                { label: 'Blog', path: '/blog' },
-                                { label: 'Contact', path: '/contact' },
-                            ].map((link) => (
-                                <li key={link.path} className="mb-2">
-                                    <Link href={link.path} style={{ color: 'rgba(255,255,255,0.75)', textDecoration: 'none' }}>
-                                        {link.label}
-                                    </Link>
-                                </li>
-                            ))}
-                        </ul>
-                    </Col>
+            {/* CONTACT BAR */}
+            <div className="ft-contact-bar">
+                <div className="ft-contact-item">
+                    <span className="ft-contact-icon">📞</span>
+                    <span>Customer support1 | support2</span>
+                </div>
+                <div className="ft-contact-item">
+                    <span className="ft-contact-icon">💬</span>
+                    <span>WhatsApp 3 WhatsApp 4</span>
+                </div>
+                <div className="ft-contact-item">
+                    <span className="ft-contact-icon">✉️</span>
+                    <span>Email info@skyexchin.com</span>
+                </div>
+            </div>
 
-                    <Col lg={3} md={6}>
-                        <h6 style={{ color: '#F47920', textTransform: 'uppercase', letterSpacing: '1px' }}>Contact</h6>
-                        <ul className="list-unstyled mt-3" style={{ fontSize: '0.9rem', opacity: 0.8 }}>
-                            <li className="mb-2">Phone: +1-000-000-0000</li>
-                            <li className="mb-2">Email: info@skyexchin.com</li>
-                            <li className="mb-2">Address: To be updated</li>
-                        </ul>
-                    </Col>
+            {/* LICENSE BLOCK */}
+            <div className="ft-license-row">
+                <div className="ft-gc-logo">
+                    <div className="ft-gc-badge">
+                        <span className="ft-gc-text">GC</span>
+                    </div>
+                    <div className="ft-gc-label">
+                        <span className="ft-gc-brand">GAMING</span>
+                        <span className="ft-gc-brand">CURACAO</span>
+                    </div>
+                </div>
+                <div className="ft-license-text">
+                    <p>
+                        Skyexch.art is operated by Sky Infotech N.V. a limited liability company incorporated
+                        under the laws of Curacao with company Registration number 152377 with registered office
+                        at Abraham de Veerstraat 9, Curacao P.O Box 3421 and is licensed and regulated by the
+                        Curacao authority as the regulatory body responsible holding a (Sub-license with License
+                        number 365/JAZ Sub-License GLH-OCCHKTW0707072017 granted on 6.07.2017).
+                    </p>
+                    <p>
+                        Players are requested not to contact any untrusted sources for{' '}
+                        <span className="ft-highlight">Skyexchin</span> accounts as this is an online site
+                        and they can only register independently without any agents. Only deposit through the
+                        account details generated by the system or provided by our official support team.
+                    </p>
+                </div>
+            </div>
 
-                    <Col lg={3} md={6}>
-                        <h6 style={{ color: '#F47920', textTransform: 'uppercase', letterSpacing: '1px' }}>Newsletter</h6>
-                        <p className="mt-3" style={{ opacity: 0.8, fontSize: '0.9rem' }}>
-                            Subscribe for updates and offers.
-                        </p>
-                        <div className="input-group">
-                            <input type="email" className="form-control" placeholder="Your email" />
-                            <button
-                                className="btn"
-                                type="button"
-                                style={{ background: '#F47920', color: '#fff', border: 'none' }}
-                            >
-                                →
-                            </button>
-                        </div>
-                    </Col>
-                </Row>
+            {/* PAYMENT METHODS */}
+            <div className="ft-payments">
+                {paymentMethods.map((pm) => (
+                    <span key={pm} className="ft-payment-badge">{pm}</span>
+                ))}
+            </div>
 
-                <hr style={{ borderColor: 'rgba(255,255,255,0.15)', marginTop: '40px' }} />
-                <p className="text-center mb-0" style={{ opacity: 0.6, fontSize: '0.85rem' }}>
-                    © {new Date().getFullYear()} SkyExchin. All rights reserved.
-                </p>
-            </Container>
+            <hr className="ft-divider" />
+
+            {/* NAV LINKS */}
+            <nav className="ft-nav">
+                {navLinks.map(({ label, href }, i) => (
+                    <span key={label} className="ft-nav-item">
+                        <Link href={href} className="ft-nav-link">{label}</Link>
+                        {i < navLinks.length - 1 && <span className="ft-nav-sep">|</span>}
+                    </span>
+                ))}
+            </nav>
+            <nav className="ft-nav ft-nav--sm">
+                <span className="ft-nav-item">
+                    <Link href="/" className="ft-nav-link">Blog</Link>
+                </span>
+                <span className="ft-nav-sep">|</span>
+                <span className="ft-nav-item">
+                    <Link href="/" className="ft-nav-link">Contact Us</Link>
+                </span>
+            </nav>
+
+            {/* COPYRIGHT */}
+            <p className="ft-copy">© 2026 Skyexchinapp. All rights reserved.</p>
+
+            <style jsx>{`
+                .site-footer {
+                    background: #ebebeb;
+                    padding: 0 0 32px;
+                    font-family: 'Poppins', Arial, sans-serif;
+                }
+
+                /* CONTACT BAR */
+                .ft-contact-bar {
+                    display: flex;
+                    gap: 0;
+                    max-width: 1300px;
+                    margin: 0 auto;
+                    padding: 32px 50px 28px;
+                    gap: 16px;
+                }
+                .ft-contact-item {
+                    flex: 1;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    border: 1px solid #cccccc;
+                    border-radius: 6px;
+                    padding: 14px 20px;
+                    background: #ffffff;
+                    color: #333333;
+                    font-size: 14px;
+                    font-weight: 500;
+                }
+                .ft-contact-icon { font-size: 1.1rem; flex-shrink: 0; }
+
+                /* LICENSE */
+                .ft-license-row {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 28px;
+                    max-width: 1300px;
+                    margin: 0 auto;
+                    padding: 10px 50px 28px;
+                }
+                .ft-gc-logo {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    flex-shrink: 0;
+                }
+                .ft-gc-badge {
+                    width: 54px;
+                    height: 54px;
+                    border-radius: 50%;
+                    background: linear-gradient(135deg, #e53935, #1565c0, #4caf50, #ffd600);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .ft-gc-text {
+                    color: #ffffff;
+                    font-weight: 900;
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                }
+                .ft-gc-label {
+                    display: flex;
+                    flex-direction: column;
+                }
+                .ft-gc-brand {
+                    font-size: 0.75rem;
+                    font-weight: 700;
+                    color: #333333;
+                    letter-spacing: 1.5px;
+                    line-height: 1.3;
+                }
+                .ft-license-text p {
+                    color: #444444;
+                    font-size: 13px;
+                    line-height: 1.75;
+                    margin-bottom: 8px;
+                }
+                .ft-license-text p:last-child { margin-bottom: 0; }
+                .ft-highlight { color: #E53935; font-weight: 600; }
+
+                /* PAYMENTS */
+                .ft-payments {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    gap: 8px;
+                    max-width: 1300px;
+                    margin: 0 auto;
+                    padding: 4px 50px 24px;
+                }
+                .ft-payment-badge {
+                    border: 1px solid #bbbbbb;
+                    border-radius: 4px;
+                    padding: 6px 14px;
+                    font-size: 12px;
+                    font-weight: 600;
+                    color: #444444;
+                    background: #ffffff;
+                    letter-spacing: 0.5px;
+                }
+
+                /* DIVIDER */
+                .ft-divider {
+                    border: none;
+                    border-top: 1px solid #cccccc;
+                    max-width: 1300px;
+                    margin: 0 auto 20px;
+                }
+
+                /* NAV */
+                .ft-nav {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 1300px;
+                    margin: 0 auto;
+                    padding: 0 50px;
+                    row-gap: 2px;
+                }
+                .ft-nav--sm { margin-top: 4px; }
+                .ft-nav-item {
+                    display: inline-flex;
+                    align-items: center;
+                }
+                .ft-nav-link {
+                    color: #1a73e8;
+                    font-size: 13px;
+                    text-decoration: none;
+                    padding: 4px 8px;
+                    transition: color 0.2s;
+                    white-space: nowrap;
+                }
+                .ft-nav-link:hover { color: #E53935; text-decoration: underline; }
+                .ft-nav-sep {
+                    color: #aaaaaa;
+                    font-size: 12px;
+                    padding: 0 2px;
+                    user-select: none;
+                }
+
+                /* COPYRIGHT */
+                .ft-copy {
+                    text-align: center;
+                    color: #666666;
+                    font-size: 13px;
+                    margin: 20px 0 0;
+                    padding: 0 20px;
+                }
+
+                /* RESPONSIVE */
+                @media (max-width: 900px) {
+                    .ft-contact-bar { flex-direction: column; padding: 24px 20px 20px; }
+                    .ft-license-row { flex-direction: column; padding: 10px 20px 24px; }
+                    .ft-payments { padding: 4px 20px 20px; }
+                    .ft-nav { padding: 0 20px; }
+                }
+            `}</style>
         </footer>
     );
 };

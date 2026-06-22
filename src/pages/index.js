@@ -2,11 +2,23 @@ import Seo from "@/common/Seo";
 import Layout from "@/layout/Layout";
 import HeroSection from "@/landingpage/HeroSection";
 import AboutSection from "@/landingpage/About";
-import ExpertiseSection from "@/landingpage/Experties";
-import ProductsSection from "@/landingpage/ProductSection";
-import ProjectGallery from "@/landingpage/ProjectGallery ";
-import NewGallery from "@/containers/NewGallery";
-import VideoGallery from "@/containers/VideoGallery";
+import PopularitySection from "@/landingpage/PopularitySection";
+import HowItWorksSection from "@/landingpage/HowItWorksSection";
+import TrustSection from "@/landingpage/TrustSection";
+import SignUpSection from "@/landingpage/SignUpSection";
+import LoginSection from "@/landingpage/LoginSection";
+import MobileLoginSection from "@/landingpage/MobileLoginSection";
+import ApkGuideSection from "@/landingpage/ApkGuideSection";
+import SportsBettingSection from "@/landingpage/SportsBettingSection";
+import CasinoGamesSection from "@/landingpage/CasinoGamesSection";
+import TrendingBettingSection from "@/landingpage/TrendingBettingSection";
+import PromotionsSection from "@/landingpage/PromotionsSection";
+import PaymentMethodsSection from "@/landingpage/PaymentMethodsSection";
+import DepositWithdrawalSection from "@/landingpage/DepositWithdrawalSection";
+import WithdrawFundsSection from "@/landingpage/WithdrawFundsSection";
+import TestimonialsSection from "@/landingpage/TestimonialsSection";
+import WhyChooseSection from "@/containers/WhyChooseSection";
+import HistorySection from "@/containers/HistorySection";
 import FaqSection from "@/landingpage/FaqSection";
 
 export default function Home() {
@@ -18,11 +30,23 @@ export default function Home() {
             />
             <HeroSection />
             <AboutSection />
-            <ExpertiseSection />
-            <ProductsSection />
-            <NewGallery />
-            <VideoGallery />
-            <ProjectGallery />
+            <PopularitySection />
+            <HowItWorksSection />
+            <WhyChooseSection />
+            <HistorySection />
+            <TrustSection />
+            <SignUpSection />
+            <LoginSection />
+            <MobileLoginSection />
+            <ApkGuideSection />
+            <SportsBettingSection />
+            <CasinoGamesSection />
+            <TrendingBettingSection />
+            <PromotionsSection />
+            <PaymentMethodsSection />
+            <DepositWithdrawalSection />
+            <WithdrawFundsSection />
+            <TestimonialsSection />
             <FaqSection />
         </Layout>
     );

@@ -38,7 +38,7 @@ const Header = () => {
                                     <polygon points="23,5 41,14 41,32 23,41 5,32 5,14" fill="#ffffff" />
                                     <text x="23" y="29" textAnchor="middle" fill="#000000" fontSize="16" fontWeight="900" fontFamily="Arial Black,Arial,sans-serif">X</text>
                                 </svg>
-                                <span className="logo-name">SKYEXCH</span>
+                                <span className="logo-name">SKYEXCHIN</span>
                             </div>
                         </Link>
 
