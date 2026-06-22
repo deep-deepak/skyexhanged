@@ -4,7 +4,6 @@ import Slider from 'react-slick';
 
 const slides = [
     { src: '/images/b8872e90-08f0-4107-8041-b2d20562d14f.jpg', alt: 'Welcome to Skyexchin – India\'s Trusted Betting Platform' },
-    { src: '/images/3e9a5000-3199-4398-a6ce-e0f5734a1bb9.jpg', alt: 'Sky Exchin – Unmatched Odds, Fast Payouts' },
     { src: '/images/dc6bbbc5-4727-41f1-98b0-99e114c0f416.jpg', alt: 'Skyexchin – Your Ultimate Gaming Destination' },
 ];
 
@@ -90,8 +89,8 @@ const HeroSection = () => {
                                 <Image
                                     src={slide.src}
                                     alt={slide.alt}
-                                    width={1200}
-                                    height={360}
+                                    width={1920}
+                                    height={700}
                                     style={{ width: '100%', height: 'auto', display: 'block' }}
                                     priority
                                 />
@@ -113,18 +112,16 @@ const HeroSection = () => {
             <style jsx>{`
                 .hero-section {
                     padding-top: 107px;
-                    background: #f0f0f0;
-                    min-height: calc(100vh - 107px);
+                    background: #000;
                 }
                 .hero-container {
-                    max-width: 1440px;
-                    margin: 0 auto;
-                    padding: 12px 16px 0;
+                    width: 100%;
                 }
                 .slider-wrapper {
                     overflow: hidden;
                     position: relative;
                     background: #000;
+                    width: 100%;
                 }
                 .slide {
                     line-height: 0;
