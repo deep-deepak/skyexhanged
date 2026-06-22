@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 const navItems = [
@@ -33,11 +34,14 @@ const Header = () => {
                         {/* Logo */}
                         <Link href="/" className="logo-link">
                             <div className="logo">
-                                <svg width="46" height="46" viewBox="0 0 46 46" fill="none">
-                                    <rect width="46" height="46" rx="5" fill="#000" />
-                                    <polygon points="23,5 41,14 41,32 23,41 5,32 5,14" fill="#ffffff" />
-                                    <text x="23" y="29" textAnchor="middle" fill="#000000" fontSize="16" fontWeight="900" fontFamily="Arial Black,Arial,sans-serif">X</text>
-                                </svg>
+                                <Image
+                                    src="/images/bfb1d63b-b713-45b8-9e02-5747b47cc840.jpg"
+                                    alt="Skyexchin Logo"
+                                    width={46}
+                                    height={46}
+                                    style={{ borderRadius: '5px', display: 'block' }}
+                                    priority
+                                />
                                 <span className="logo-name">SKYEXCHIN</span>
                             </div>
                         </Link>

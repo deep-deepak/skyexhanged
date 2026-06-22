@@ -26,7 +26,7 @@ const MobileLoginSection = () => {
                 <div className="ml-left">
                     <div className="ml-left-inner">
                         <Image
-                            src="/images/skyexchangeapp-img-010.webp"
+                            src="/images/45875717-c1c0-4c1d-ba43-8713bddc5a4a.jpg"
                             alt="Sky Exchin Mobile Login Guide"
                             width={600}
                             height={800}

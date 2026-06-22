@@ -10,7 +10,7 @@ const AboutSection = () => {
                 <div className="about-image-col">
                     <div className="about-image-wrap">
                         <Image
-                            src="/images/skyexchangeapp-img-02.webp"
+                            src="/images/1ee54013-9ffa-4c9e-a75d-4d1781ae5305.jpg"
                             alt="Welcome to Sky Exchin"
                             width={520}
                             height={520}

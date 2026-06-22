@@ -49,7 +49,7 @@ const SignUpSection = () => {
                 <div className="signup-left">
                     <div className="signup-left-inner">
                         <Image
-                            src="/images/skyexchangeapp-img-04.webp"
+                            src="/images/5dafafb1-92a5-4f59-bc2b-f4952e7c6dee.jpg"
                             alt="How to Sign Up on Sky Exchin"
                             width={600}
                             height={800}

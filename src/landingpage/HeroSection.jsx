@@ -3,8 +3,9 @@ import Image from 'next/image';
 import Slider from 'react-slick';
 
 const slides = [
-    { src: '/images/kv-skyexchange-m.webp',   alt: 'SkyExch – Get Online ID Now' },
-    { src: '/images/kv-skyexchange-2-m.webp', alt: 'SkyExch – Sports Betting' },
+    { src: '/images/b8872e90-08f0-4107-8041-b2d20562d14f.jpg', alt: 'Welcome to Skyexchin – India\'s Trusted Betting Platform' },
+    { src: '/images/3e9a5000-3199-4398-a6ce-e0f5734a1bb9.jpg', alt: 'Sky Exchin – Unmatched Odds, Fast Payouts' },
+    { src: '/images/dc6bbbc5-4727-41f1-98b0-99e114c0f416.jpg', alt: 'Skyexchin – Your Ultimate Gaming Destination' },
 ];
 
 const PrevArrow = ({ onClick }) => (
