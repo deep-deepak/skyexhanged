@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect, useState } from "react";
-import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
   const [showScrollButton, setShowScrollButton] = useState(false);
@@ -22,78 +21,6 @@ export default function App({ Component, pageProps }) {
 
   return (
     <>
-      <Head>
-        <meta name="robots" content="index,follow" />
-        <link rel="canonical" href="https://skyexchange.com/" />
-
-        {/* Organization Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "Organization",
-              name: "SkyExchin",
-              url: "https://skyexchange.com/",
-              logo: "https://skyexchange.com/logo.png",
-              description: "SkyExchin — your trusted partner for premium services.",
-              contactPoint: {
-                "@type": "ContactPoint",
-                telephone: "+1-000-000-0000",
-                contactType: "customer service",
-                availableLanguage: "en",
-              },
-              email: "info@skyexchange.com",
-            }),
-          }}
-        />
-
-        {/* LocalBusiness Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              name: "SkyExchin",
-              url: "https://skyexchange.com/",
-              telephone: "+1-000-000-0000",
-              email: "info@skyexchange.com",
-              priceRange: "££",
-            }),
-          }}
-        />
-
-        {/* FAQPage Schema */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "FAQPage",
-              mainEntity: [
-                {
-                  "@type": "Question",
-                  name: "What services does SkyExchin provide?",
-                  acceptedAnswer: {
-                    "@type": "Answer",
-                    text: "SkyExchin provides a wide range of premium services tailored to your needs.",
-                  },
-                },
-                {
-                  "@type": "Question",
-                  name: "Do you offer free quotes?",
-                  acceptedAnswer: {
-                    "@type": "Answer",
-                    text: "Yes — we offer free, no-obligation consultations and quotes for all projects.",
-                  },
-                },
-              ],
-            }),
-          }}
-        />
-      </Head>
-
       {/* Floating WhatsApp CTA */}
       <a
         href="https://wa.me/9062813000"
