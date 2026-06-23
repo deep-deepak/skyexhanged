@@ -2,58 +2,64 @@ import React, { useState } from 'react';
 
 const faqs = [
     {
-        q: 'What is Skyexchange?',
+        q: 'What is SkyExchin?',
         paras: [
-            'Skyexchange is an online sports betting and gaming platform that allows users to place bets on various sports events and participate in other online gaming activities. It is designed to provide a smooth user experience with multiple betting markets, competitive odds, and secure transactions.',
-            'Skyexchange is popular among users looking for online sports betting options with flexible payment methods and customer support assistance.',
+            'SkyExchin is a trusted Online Cricket Exchange platform that offers users a seamless and secure experience for live sports exchange. Our platform provides real-time updates, fast access, and reliable support for sports enthusiasts.',
         ],
     },
     {
-        q: 'What Steps Should I Follow for Skyexchange Account Registration?',
-        intro: 'To create an account on Skyexchange, follow these simple steps:',
-        ordered: [
-            'Visit the official Skyexchange website.',
-            'Click on the "Register" or "Sign Up" button.',
-            'Enter your required personal details such as name, mobile number, and email address.',
-            'Create a secure username and password.',
-            'Complete the verification process, if required.',
+        q: 'Why is SkyExchin considered a trusted Cricket Exchange Platform?',
+        paras: [
+            'SkyExchin is recognized as a reliable Cricket Exchange Platform because it offers secure transactions, fast performance, live match updates, and dedicated customer support to ensure a smooth user experience.',
         ],
     },
     {
-        q: 'What Sports Can I Bet On?',
-        intro: 'Skyexchange offers a wide range of sports betting options. Users can typically place bets on:',
-        bullets: ['Cricket', 'Football', 'Tennis', 'Basketball', 'Kabaddi', 'Horse Racing', 'Other international and domestic sports events'],
-        closing: 'The availability of sports may vary depending on ongoing tournaments and seasons. Live betting options are also commonly available for major sports events.',
-    },
-    {
-        q: 'What Payment Methods Are Accepted?',
-        intro: 'Skyexchange generally supports multiple payment options to make deposits convenient for users. Commonly accepted payment methods include:',
-        bullets: ['UPI (Unified Payments Interface)', 'Net Banking', 'Bank Transfers', 'E-wallets', 'Other digital payment solutions'],
-        closing: 'The available payment methods may vary depending on your location. It is recommended to check the payment section of the platform for updated options.',
-    },
-    {
-        q: 'What Steps Need to Be Taken for Money Withdrawal?',
-        intro: 'Withdrawing money from Skyexchange is usually a straightforward process. Follow these steps:',
-        ordered: [
-            'Log in to your Skyexchange account.',
-            'Go to the "Withdrawal" or "Cash Out" section.',
-            'Enter the amount you wish to withdraw.',
-            'Select your preferred payment method.',
-            'Confirm your request.',
+        q: 'What services does SkyExchin offer as a Sports Exchange Platform?',
+        paras: [
+            'As a leading Sports Exchange Platform, SkyExchin provides access to live cricket exchange services, real-time match information, and a user-friendly platform designed for sports fans.',
         ],
-        closing: 'Processing time may vary depending on the payment method selected. Make sure your account is verified to avoid delays in withdrawal approval.',
     },
     {
-        q: 'Does Skyexchange Provide Bonus Offers and Promotional Benefits?',
-        intro: 'Yes, Skyexchange often provides bonus offers and promotional benefits to its users. These may include:',
-        bullets: ['Welcome bonuses for new users', 'Deposit bonuses', 'Cashback offers', 'Referral rewards', 'Special promotions during major sports events'],
-        closing: 'Bonus terms and conditions usually apply, so users should carefully read the promotional rules before participating.',
+        q: 'How can I get an Online Cricket ID on SkyExchin?',
+        paras: [
+            'Getting an Online Cricket ID on SkyExchin is quick and easy. Simply contact our support team, complete the registration process, and start accessing the platform securely.',
+        ],
     },
     {
-        q: 'What Are the Available Channels to Contact Skyexchange Customer Support?',
-        intro: 'Skyexchange typically provides multiple customer support channels to assist users. These may include:',
-        bullets: ['Live chat support', 'WhatsApp assistance', 'Email support', 'Telegram support', 'Customer helpline (if available)'],
-        closing: 'Support availability may vary depending on time and platform policies. For faster resolution, users should provide accurate account details while contacting support.',
+        q: 'What makes SkyExchin the best Cricket Exchange Platform?',
+        paras: [
+            'SkyExchin is considered one of the Best Cricket Exchange Platforms due to its advanced technology, secure environment, instant support, and seamless user experience for cricket enthusiasts.',
+        ],
+    },
+    {
+        q: 'Does SkyExchin provide Live Cricket Exchange services?',
+        paras: [
+            'Yes, SkyExchin offers Live Cricket Exchange services with real-time updates, fast access, and a smooth interface to enhance your overall experience.',
+        ],
+    },
+    {
+        q: 'Why choose SkyExchin over other Online Sports Exchange platforms?',
+        paras: [
+            'SkyExchin stands out among Online Sports Exchange platforms because of its reliability, responsive customer support, user-friendly design, and commitment to delivering a premium experience.',
+        ],
+    },
+    {
+        q: 'Is SkyExchin a trusted platform for Cricket Exchange services?',
+        paras: [
+            'Yes, SkyExchin is a Trusted Cricket Exchange platform that prioritizes user security, fast performance, and excellent customer support.',
+        ],
+    },
+    {
+        q: 'Can I access multiple sports on SkyExchin?',
+        paras: [
+            'Yes, SkyExchin is a comprehensive Sports Exchange Platform that aims to provide users with a seamless experience across various sports along with live cricket updates.',
+        ],
+    },
+    {
+        q: 'How does SkyExchin ensure a secure Cricket Betting Exchange experience?',
+        paras: [
+            'SkyExchin focuses on platform security, data protection, and a smooth user interface to provide a secure and reliable Cricket Betting Exchange experience.',
+        ],
     },
 ];
 

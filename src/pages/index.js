@@ -26,8 +26,8 @@ export default function Home() {
     return (
         <Layout>
             <Seo
-                title="SkyExchin — Premium Services"
-                descrption="SkyExchin — your trusted partner for premium services delivered with precision and excellence."
+                title="SkyExchin - Trusted Online Cricket Exchange Platform | Sports Exchange"
+                descrption="SkyExchin is a trusted online cricket exchange platform offering seamless sports exchange experience, live cricket exchange, secure transactions, and 24/7 customer support."
             />
             <HeroSection />
             {/* <QuickLinksSection /> */}
