@@ -41,7 +41,7 @@ const features = [
 
 export default function WhyChooseSection() {
     return (
-        <section className="whychoose-section">
+        <section id="why-choose" className="whychoose-section">
             <div className="whychoose-container">
 
                 {/* Intro */}

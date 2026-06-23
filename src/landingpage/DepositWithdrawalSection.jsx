@@ -100,7 +100,7 @@ const StepCard = ({ step, title, para, bullets, closing }) => (
 
 const DepositWithdrawalSection = () => {
     return (
-        <section className="dw-section">
+        <section id="deposit" className="dw-section">
             <div className="dw-container">
 
                 {/* MAIN HEADING */}

@@ -19,7 +19,7 @@ const squareCards = [
 
 const QuickLinksSection = () => {
     return (
-        <section className="ql-section">
+        <section id="quick-links" className="ql-section">
 
             {/* Rows 1 & 2 — wide landscape banners, 2 per row */}
             <div className="ql-wide-grid">

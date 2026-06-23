@@ -4,14 +4,14 @@ import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 const navItems = [
-    { label: 'Home',            path: '/',               badge: null },
-    { label: 'In-Play',         path: '/in-play',        badge: null },
-    { label: 'Multi Markets',   path: '/multi-markets',  badge: null },
-    { label: 'Cricket',         path: '/cricket',        badge: 6    },
-    { label: 'Soccer',          path: '/soccer',         badge: 13   },
-    { label: 'Tennis',          path: '/tennis',         badge: 13   },
-    { label: 'Virtual Cricket', path: '/virtual-cricket',badge: null },
-    { label: 'E-Soccer',        path: '/e-soccer',       badge: 7    },
+    { label: 'Home',            path: '/#home',           badge: null },
+    { label: 'In-Play',         path: '/#sports-betting', badge: null },
+    { label: 'Multi Markets',   path: '/#sports-betting', badge: null },
+    { label: 'Cricket',         path: '/#sports-betting', badge: 6    },
+    { label: 'Soccer',          path: '/#sports-betting', badge: 13   },
+    { label: 'Tennis',          path: '/#sports-betting', badge: 13   },
+    { label: 'Virtual Cricket', path: '/#sports-betting', badge: null },
+    { label: 'E-Soccer',        path: '/#sports-betting', badge: 7    },
 ];
 
 const Header = () => {
@@ -19,8 +19,8 @@ const Header = () => {
     const router = useRouter();
 
     const isActive = (path) => {
-        if (path === '/') return router.pathname === '/';
-        return router.pathname === path || router.pathname.startsWith(path + '/');
+        if (path === '/#home') return router.pathname === '/';
+        return false;
     };
 
     return (

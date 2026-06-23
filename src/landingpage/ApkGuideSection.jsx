@@ -26,7 +26,7 @@ const features = [
 
 const ApkGuideSection = () => {
     return (
-        <section className="apk-section">
+        <section id="apk-guide" className="apk-section">
             <div className="apk-container">
 
                 {/* MAIN HEADING BLOCK */}

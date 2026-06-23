@@ -63,7 +63,7 @@ const steps = [
 
 const HowItWorksSection = () => {
     return (
-        <section className="howworks-section">
+        <section id="how-it-works" className="howworks-section">
             <div className="howworks-container">
 
                 {/* Intro */}

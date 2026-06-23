@@ -123,7 +123,7 @@ const Stars = ({ count }) => (
 
 const TestimonialsSection = () => {
     return (
-        <section className="ts-section">
+        <section id="testimonials" className="ts-section">
             <div className="ts-container">
                 <h2 className="ts-heading" data-aos="fade-up">Skyexchange User Testimonials</h2>
 

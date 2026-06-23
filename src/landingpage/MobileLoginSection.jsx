@@ -19,7 +19,7 @@ const safeTips = [
 
 const MobileLoginSection = () => {
     return (
-        <section className="ml-section">
+        <section id="mobile-login" className="ml-section">
             <div className="ml-container">
 
                 {/* LEFT — sticky image */}

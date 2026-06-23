@@ -86,7 +86,7 @@ const cards = [
 
 const TrustSection = () => {
     return (
-        <section className="trust-section">
+        <section id="trust" className="trust-section">
             <div className="trust-container">
 
                 {/* Intro */}

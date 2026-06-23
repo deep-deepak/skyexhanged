@@ -80,7 +80,7 @@ const sliderSettings = {
 
 const HeroSection = () => {
     return (
-        <section className="hero-section">
+        <section id="home" className="hero-section">
             <div className="hero-container">
                 <div className="slider-wrapper">
                     <Slider {...sliderSettings}>

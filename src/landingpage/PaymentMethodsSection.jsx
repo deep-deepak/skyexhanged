@@ -41,7 +41,7 @@ const payments = [
 
 const PaymentMethodsSection = () => {
     return (
-        <section className="pm-section">
+        <section id="payment-methods" className="pm-section">
             <div className="pm-container">
                 <h2 className="pm-heading" data-aos="fade-up">Accepted Payment Methods on Sky Exchange</h2>
                 <p className="pm-para">

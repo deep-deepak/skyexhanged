@@ -47,7 +47,7 @@ const kycItems = ['Identity documents', 'Bank details', 'Contact information'];
 
 const WithdrawFundsSection = () => {
     return (
-        <section className="wf-section">
+        <section id="withdraw" className="wf-section">
             <div className="wf-container">
 
                 <h2 className="wf-heading" data-aos="fade-up">How to Withdraw Funds from Sky Exchange</h2>

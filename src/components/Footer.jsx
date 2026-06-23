@@ -8,19 +8,19 @@ const paymentMethods = [
 ];
 
 const navLinks = [
-    { label: 'Home', href: '/' },
-    { label: 'Skyexchange Login', href: '/' },
-    { label: 'Sign Up', href: '/' },
-    { label: 'Skyexchange 247', href: '/' },
-    { label: 'Skyexchange agent', href: '/' },
-    { label: 'Skyexchange app', href: '/' },
-    { label: 'Skyexchange Art', href: '/' },
-    { label: 'Skyexchange biz', href: '/' },
-    { label: 'Skyexchange ID', href: '/' },
-    { label: 'SkyExchin VIP', href: '/' },
-    { label: 'Skyexchange XYZ', href: '/' },
-    { label: 'Skyinplay', href: '/' },
-    { label: 'About Us', href: '/' },
+    { label: 'Home',              href: '/#home' },
+    { label: 'Skyexchange Login', href: '/#login' },
+    { label: 'Sign Up',           href: '/#sign-up' },
+    { label: 'Skyexchange 247',   href: '/#sports-betting' },
+    { label: 'Skyexchange agent', href: '/#about' },
+    { label: 'Skyexchange app',   href: '/#apk-guide' },
+    { label: 'Skyexchange Art',   href: '/#about' },
+    { label: 'Skyexchange biz',   href: '/#about' },
+    { label: 'Skyexchange ID',    href: '/#login' },
+    { label: 'SkyExchin VIP',     href: '/#promotions' },
+    { label: 'Skyexchange XYZ',   href: '/#about' },
+    { label: 'Skyinplay',         href: '/#sports-betting' },
+    { label: 'About Us',          href: '/#about' },
 ];
 
 const Footer = () => {
@@ -102,11 +102,11 @@ const Footer = () => {
             </nav>
             <nav className="ft-nav ft-nav--sm">
                 <span className="ft-nav-item">
-                    <Link href="/" className="ft-nav-link">Blog</Link>
+                    <Link href="/#faq" className="ft-nav-link">Blog</Link>
                 </span>
                 <span className="ft-nav-sep">|</span>
                 <span className="ft-nav-item">
-                    <Link href="/" className="ft-nav-link">Contact Us</Link>
+                    <Link href="/#faq" className="ft-nav-link">Contact Us</Link>
                 </span>
             </nav>
 

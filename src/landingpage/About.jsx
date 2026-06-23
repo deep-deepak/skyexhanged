@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const AboutSection = () => {
     return (
-        <section className="about-section">
+        <section id="about" className="about-section">
             <div className="about-container">
 
                 {/* Left — image */}

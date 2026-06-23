@@ -146,7 +146,7 @@ const FaqSection = () => {
     const toggle = (i) => setOpenIndex(openIndex === i ? null : i);
 
     return (
-        <section className="faq-section">
+        <section id="faq" className="faq-section">
             <div className="faq-container">
                 <h2 className="faq-heading" data-aos="fade-up">FAQs About Skyexchange</h2>
                 <p className="faq-intro">

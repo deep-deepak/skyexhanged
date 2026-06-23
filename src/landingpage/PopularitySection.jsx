@@ -53,7 +53,7 @@ const features = [
 
 const PopularitySection = () => {
     return (
-        <section className="expertise-section">
+        <section id="popularity" className="expertise-section">
             <div className="expertise-container">
 
                 {/* Heading block */}

@@ -42,7 +42,7 @@ const rightSteps = [
 
 const SignUpSection = () => {
     return (
-        <section className="signup-section">
+        <section id="sign-up" className="signup-section">
             <div className="signup-container">
 
                 {/* LEFT — sticky image */}

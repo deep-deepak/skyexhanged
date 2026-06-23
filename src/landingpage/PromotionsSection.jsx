@@ -35,7 +35,7 @@ const bonuses = [
 
 const PromotionsSection = () => {
     return (
-        <section className="promo-section">
+        <section id="promotions" className="promo-section">
             <div className="promo-container">
 
                 {/* LEFT — sticky image */}

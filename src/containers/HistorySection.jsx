@@ -55,7 +55,7 @@ const sections = [
 
 export default function HistorySection() {
     return (
-        <section className="history-section">
+        <section id="history" className="history-section">
             <div className="history-container">
 
                 {/* LEFT — sticky image */}

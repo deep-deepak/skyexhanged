@@ -79,7 +79,7 @@ const whyBullets = [
 
 const CasinoGamesSection = () => {
     return (
-        <section className="cg-section">
+        <section id="casino-games" className="cg-section">
             <div className="cg-container">
                 <h2 className="cg-heading" data-aos="fade-up">Casino Games on Sky Exchange</h2>
                 <p className="cg-intro">

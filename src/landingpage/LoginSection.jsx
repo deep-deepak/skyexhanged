@@ -38,7 +38,7 @@ const steps = [
 
 const LoginSection = () => {
     return (
-        <section className="login-section">
+        <section id="login" className="login-section">
             <div className="login-container">
 
                 {/* LEFT — scrollable text */}

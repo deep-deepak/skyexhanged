@@ -57,7 +57,7 @@ const sports = [
 
 const SportsBettingSection = () => {
     return (
-        <section className="sb-section">
+        <section id="sports-betting" className="sb-section">
             <div className="sb-container">
                 <h2 className="sb-heading" data-aos="fade-up">Sports Betting Options Available on Sky Exchange</h2>
                 <p className="sb-intro">

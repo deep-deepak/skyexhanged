@@ -116,7 +116,7 @@ const kycDocs = ['Identity documents', 'Bank details', 'Contact information'];
 
 const TrendingBettingSection = () => {
     return (
-        <section className="tb-section">
+        <section id="trending" className="tb-section">
             <div className="tb-container">
 
                 {/* HEADING */}
