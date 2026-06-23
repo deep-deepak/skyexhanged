@@ -6,35 +6,35 @@ const payments = [
         Icon: FaMobileAlt,
         iconColor: '#4CAF50',
         title: 'UPI Payments (Google Pay, PhonePe, Paytm, BHIM)',
-        intro: 'Unified Payments Interface (UPI) is one of the fastest and most widely used payment systems in India. Sky Exchin supports popular UPI apps, including:',
+        intro: 'Unified Payments Interface (UPI) is one of the fastest and most widely used payment systems in India. Sky Exchange supports popular UPI apps, including:',
         bullets: ['Google Pay', 'PhonePe', 'Paytm', 'BHIM'],
     },
     {
         Icon: FaUniversity,
         iconColor: '#E65100',
         title: 'Bank Transfers (NEFT, IMPS, RTGS)',
-        intro: 'For users who prefer traditional banking methods, Sky Exchin allows direct bank transfers through:',
+        intro: 'For users who prefer traditional banking methods, Sky Exchange allows direct bank transfers through:',
         bullets: ['NEFT (National Electronic Funds Transfer)', 'IMPS (Immediate Payment Service)', 'RTGS (Real-Time Gross Settlement)'],
     },
     {
         Icon: FaWallet,
         iconColor: '#1976D2',
         title: 'E-Wallets (Skrill, Neteller, AstroPay)',
-        intro: 'Digital wallets are becoming increasingly popular due to their speed and security. Sky Exchin accepts trusted international e-wallet services such as:',
+        intro: 'Digital wallets are becoming increasingly popular due to their speed and security. Sky Exchange accepts trusted international e-wallet services such as:',
         bullets: ['Skrill', 'Neteller', 'AstroPay'],
     },
     {
         Icon: FaBitcoin,
         iconColor: '#F7931A',
         title: 'Cryptocurrency (Bitcoin, Ethereum, USDT)',
-        intro: 'Sky Exchin also supports cryptocurrency payments for users who prefer decentralized and digital assets. Accepted cryptocurrencies include:',
+        intro: 'Sky Exchange also supports cryptocurrency payments for users who prefer decentralized and digital assets. Accepted cryptocurrencies include:',
         bullets: ['Bitcoin (BTC)', 'Ethereum (ETH)', 'USDT (Tether).'],
     },
     {
         Icon: FaCreditCard,
         iconColor: '#1565C0',
         title: 'Debit and Credit Cards (Visa, Mastercard, RuPay)',
-        intro: 'For quick and hassle-free deposits, Sky Exchin accepts major debit and credit cards, including:',
+        intro: 'For quick and hassle-free deposits, Sky Exchange accepts major debit and credit cards, including:',
         bullets: ['Visa', 'Mastercard', 'RuPay'],
     },
 ];
@@ -43,15 +43,15 @@ const PaymentMethodsSection = () => {
     return (
         <section className="pm-section">
             <div className="pm-container">
-                <h2 className="pm-heading">Accepted Payment Methods on Sky Exchin</h2>
+                <h2 className="pm-heading">Accepted Payment Methods on Sky Exchange</h2>
                 <p className="pm-para">
-                    Sky Exchin provides users with multiple secure and convenient payment options to deposit and
+                    Sky Exchange provides users with multiple secure and convenient payment options to deposit and
                     withdraw funds smoothly. Whether you prefer traditional banking methods or modern digital
                     wallets, the platform supports a wide range of trusted payment solutions to ensure safe and
                     fast transactions.
                 </p>
                 <p className="pm-para pm-para--gap">
-                    Below is a detailed overview of the approved payment methods available on Sky Exchin.
+                    Below is a detailed overview of the approved payment methods available on Sky Exchange.
                 </p>
 
                 <div className="pm-grid">
@@ -71,15 +71,15 @@ const PaymentMethodsSection = () => {
 
                 {/* FOOTER TEXT */}
                 <div className="pm-footer">
-                    <h2 className="pm-footer-heading">Safe and Flexible Transactions on Sky Exchin</h2>
+                    <h2 className="pm-footer-heading">Safe and Flexible Transactions on Sky Exchange</h2>
                     <p className="pm-para">
-                        Sky Exchin ensures that all payment methods are processed through secure systems to
+                        Sky Exchange ensures that all payment methods are processed through secure systems to
                         protect user data and financial information. With multiple payment choices available,
                         users can select the option that best fits their convenience and financial preferences.
                     </p>
                     <p className="pm-para">
                         Whether you prefer UPI, bank transfers, e-wallets, cryptocurrency, or debit/credit cards,
-                        Sky Exchin offers flexibility and efficiency in every transaction.
+                        Sky Exchange offers flexibility and efficiency in every transaction.
                     </p>
 
                     <h2 className="pm-footer-heading pm-footer-heading--note">Important Note</h2>

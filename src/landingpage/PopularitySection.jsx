@@ -5,7 +5,7 @@ const features = [
         num: '01',
         title: 'A Complete Sports Betting Experience',
         paras: [
-            'Sports betting is one of the core strengths of Sky Exchin. Indian players, especially cricket fans, can enjoy competitive odds and a wide variety of betting markets. From local cricket tournaments to international matches, the platform covers multiple sporting events to ensure players never miss an opportunity.',
+            'Sports betting is one of the core strengths of Sky Exchange. Indian players, especially cricket fans, can enjoy competitive odds and a wide variety of betting markets. From local cricket tournaments to international matches, the platform covers multiple sporting events to ensure players never miss an opportunity.',
             'The platform is optimized for both desktop and mobile users, allowing seamless access anytime and anywhere. With fast loading speeds and real-time updates, players can place bets confidently without delays.',
         ],
     },
@@ -13,7 +13,7 @@ const features = [
         num: '02',
         title: 'Live Casino and Slots Under One Platform',
         paras: [
-            'In addition to sports betting, Sky Exchin provides an impressive selection of live dealer casino games. These games recreate the atmosphere of a real casino, offering players a more immersive experience. Professional dealers, smooth streaming, and interactive gameplay make live gaming exciting and engaging.',
+            'In addition to sports betting, Sky Exchange provides an impressive selection of live dealer casino games. These games recreate the atmosphere of a real casino, offering players a more immersive experience. Professional dealers, smooth streaming, and interactive gameplay make live gaming exciting and engaging.',
             'Slot lovers can explore a wide range of slot games featuring attractive themes, bonuses, and jackpots. Whether you prefer classic slots or modern video slots, the platform ensures variety and entertainment.',
         ],
     },
@@ -21,16 +21,16 @@ const features = [
         num: '03',
         title: 'Safe, Secure, and Reliable',
         paras: [
-            'Security is one of the biggest concerns for online players, and Sky Exchin prioritizes user safety at every step. The platform uses advanced security measures to protect personal information and financial transactions.',
+            'Security is one of the biggest concerns for online players, and Sky Exchange prioritizes user safety at every step. The platform uses advanced security measures to protect personal information and financial transactions.',
             'From account registration to deposits and withdrawals, every process is designed to ensure data privacy and secure payment handling. Players can focus on gaming without worrying about the safety of their information or funds.',
-            'In case of any issue, the Sky Exchin support team is available 24/7 to assist users. The customer care staff is trained to resolve queries quickly and guide players through any technical or account-related concerns. This round-the-clock support adds an extra layer of trust and reliability.',
+            'In case of any issue, the Sky Exchange support team is available 24/7 to assist users. The customer care staff is trained to resolve queries quickly and guide players through any technical or account-related concerns. This round-the-clock support adds an extra layer of trust and reliability.',
         ],
     },
     {
         num: '04',
         title: 'Trusted by Millions of Players',
         paras: [
-            'Today, Sky Exchin is trusted by over 50 lakh active users across India. This growing community reflects the platform\'s strong reputation and commitment to delivering a quality gaming experience.',
+            'Today, Sky Exchange is trusted by over 50 lakh active users across India. This growing community reflects the platform\'s strong reputation and commitment to delivering a quality gaming experience.',
             'The increasing number of users highlights:',
         ],
         bullets: [
@@ -39,13 +39,13 @@ const features = [
             'Fast customer support',
             'A wide variety of betting and gaming options',
         ],
-        closing: 'Such consistent performance has helped Sky Exchin build credibility in a competitive online gaming market.',
+        closing: 'Such consistent performance has helped Sky Exchange build credibility in a competitive online gaming market.',
     },
     {
         num: '05',
         title: 'Easy Registration and Quick Access',
         paras: [
-            'Creating an account on Sky Exchin is simple and fast. New users can register within minutes and start exploring the platform immediately. The straightforward sign-up process ensures that players can begin betting and gaming without unnecessary complications.',
+            'Creating an account on Sky Exchange is simple and fast. New users can register within minutes and start exploring the platform immediately. The straightforward sign-up process ensures that players can begin betting and gaming without unnecessary complications.',
             'The platform\'s clean design and intuitive layout make it easy for users to navigate between sports betting, casino games, slots, and other features. Even first-time users can quickly understand how to place bets, manage their accounts, and explore different gaming sections.',
         ],
     },
@@ -58,13 +58,13 @@ const PopularitySection = () => {
 
                 {/* Heading block */}
                 <div className="intro-block">
-                    <h2 className="intro-heading">Why Sky Exchin Is Gaining Popularity in India</h2>
+                    <h2 className="intro-heading">Why Sky Exchange Is Gaining Popularity in India</h2>
                     <p className="intro-para">
-                        One of the main reasons behind the rapid success of Sky Exchin is its user-focused approach.
+                        One of the main reasons behind the rapid success of Sky Exchange is its user-focused approach.
                         The platform combines multiple gaming services under one roof, ensuring players do not need to
                         switch between different websites.
                     </p>
-                    <p className="intro-para">Sky Exchin offers:</p>
+                    <p className="intro-para">Sky Exchange offers:</p>
                     <ul className="intro-list">
                         <li>Sports betting on major national and international events</li>
                         <li>Live dealer casino games for a real-time gaming experience</li>
@@ -74,7 +74,7 @@ const PopularitySection = () => {
                     </ul>
                     <p className="intro-para">
                         Whether you want to place a bet on your favorite cricket team, enjoy spinning slots, or test
-                        your skills at a poker table, Sky Exchin provides everything in one easy-to-use interface.
+                        your skills at a poker table, Sky Exchange provides everything in one easy-to-use interface.
                     </p>
                 </div>
 

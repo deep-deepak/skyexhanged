@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const mobileSteps = [
     'Open your mobile browser.',
-    'Visit the official Sky Exchin website.',
+    'Visit the official Sky Exchange website.',
     'Tap on the "Login" button.',
     'Enter your username and password.',
     'Complete OTP verification if required.',
@@ -27,7 +27,7 @@ const MobileLoginSection = () => {
                     <div className="ml-left-inner">
                         <Image
                             src="/images/45875717-c1c0-4c1d-ba43-8713bddc5a4a.jpg"
-                            alt="Sky Exchin Mobile Login Guide"
+                            alt="Sky Exchange Mobile Login Guide"
                             width={600}
                             height={800}
                             style={{ width: '100%', height: 'auto', display: 'block' }}
@@ -38,12 +38,12 @@ const MobileLoginSection = () => {
 
                 {/* RIGHT — scrollable text */}
                 <div className="ml-right">
-                    <h2 className="ml-heading">Sky Exchin Mobile Login Guide</h2>
+                    <h2 className="ml-heading">Sky Exchange Mobile Login Guide</h2>
                     <p className="ml-para">
                         Logging in through mobile devices is just as simple and secure.
                     </p>
 
-                    <h3 className="ml-subheading">Steps for Sky Exchin Mobile Login:</h3>
+                    <h3 className="ml-subheading">Steps for Sky Exchange Mobile Login:</h3>
                     <ol className="ml-ordered-list">
                         {mobileSteps.map((step, i) => (
                             <li key={i}>{step}</li>
@@ -58,7 +58,7 @@ const MobileLoginSection = () => {
                         Logging in through mobile devices is just as simple and secure.
                     </p>
 
-                    <h3 className="ml-subheading">Tips for Safe Sky Exchin Login</h3>
+                    <h3 className="ml-subheading">Tips for Safe Sky Exchange Login</h3>
                     <p className="ml-para">
                         To keep your account secure, follow these best practices:
                     </p>

@@ -4,7 +4,7 @@ const steps = [
     {
         step: 'Step 01',
         title: 'Access Your Account',
-        para: 'Login to your Sky Exchin account using your registered credentials.',
+        para: 'Login to your Sky Exchange account using your registered credentials.',
     },
     {
         step: 'Step 02',
@@ -50,9 +50,9 @@ const WithdrawFundsSection = () => {
         <section className="wf-section">
             <div className="wf-container">
 
-                <h2 className="wf-heading">How to Withdraw Funds from Sky Exchin</h2>
+                <h2 className="wf-heading">How to Withdraw Funds from Sky Exchange</h2>
                 <p className="wf-para wf-para--gap">
-                    Withdrawing money from your Sky Exchin account is just as easy and secure as depositing
+                    Withdrawing money from your Sky Exchange account is just as easy and secure as depositing
                     funds. Follow the steps below to process your withdrawal request smoothly.
                 </p>
 
@@ -77,7 +77,7 @@ const WithdrawFundsSection = () => {
                 <div className="wf-tips">
                     <h2 className="wf-tips-heading">Important Tips for Secure Transactions</h2>
                     <p className="wf-para">
-                        To ensure smooth deposits and withdrawals on Sky Exchin, keep the following best
+                        To ensure smooth deposits and withdrawals on Sky Exchange, keep the following best
                         practices in mind:
                     </p>
                     <ul className="wf-bullet-list">

@@ -4,7 +4,7 @@ const depositSteps = [
     {
         step: 'Step 1',
         title: 'Login to Your Account',
-        para: 'Start by visiting the official Sky Exchin platform and enter your login credentials (username and password). Always ensure you are accessing the correct website to maintain account security.',
+        para: 'Start by visiting the official Sky Exchange platform and enter your login credentials (username and password). Always ensure you are accessing the correct website to maintain account security.',
     },
     {
         step: 'Step 2',
@@ -14,7 +14,7 @@ const depositSteps = [
     {
         step: 'Step 3',
         title: 'Select Your Preferred Payment Method',
-        para: 'Sky Exchin provides multiple secure payment options to suit different user preferences. You can choose from:',
+        para: 'Sky Exchange provides multiple secure payment options to suit different user preferences. You can choose from:',
         bullets: ['UPI (Unified Payments Interface)', 'Bank Transfer', 'E-wallets', 'Cryptocurrency'],
         closing: 'Select the method that is most convenient for you.',
     },
@@ -36,7 +36,7 @@ const depositSteps = [
     {
         step: 'Step 6',
         title: 'Funds Credited Instantly',
-        para: 'Once the transaction is successfully completed, the funds are typically credited to your Sky Exchin account instantly or within a few minutes, depending on the payment method used.',
+        para: 'Once the transaction is successfully completed, the funds are typically credited to your Sky Exchange account instantly or within a few minutes, depending on the payment method used.',
     },
 ];
 
@@ -104,18 +104,18 @@ const DepositWithdrawalSection = () => {
             <div className="dw-container">
 
                 {/* MAIN HEADING */}
-                <h2 className="dw-heading">Deposit and Withdrawal Money from Sky Exchin Account</h2>
+                <h2 className="dw-heading">Deposit and Withdrawal Money from Sky Exchange Account</h2>
                 <p className="dw-para">
-                    Managing your account balance smoothly is essential for a hassle-free experience. Sky Exchin
+                    Managing your account balance smoothly is essential for a hassle-free experience. Sky Exchange
                     offers secure, fast, and user-friendly options to deposit and withdraw funds. This step-by-step
                     guide explains the complete process in a clear and SEO-friendly format, making it easy for both
                     users and search engines to understand.
                 </p>
 
                 {/* DEPOSIT */}
-                <h3 className="dw-sub-heading">How to Deposit Funds in Sky Exchin</h3>
+                <h3 className="dw-sub-heading">How to Deposit Funds in Sky Exchange</h3>
                 <p className="dw-para dw-para--gap">
-                    Depositing money into your Sky Exchin account is simple and secure. Follow these steps to
+                    Depositing money into your Sky Exchange account is simple and secure. Follow these steps to
                     complete your transaction without any confusion:
                 </p>
                 <div className="dw-grid">

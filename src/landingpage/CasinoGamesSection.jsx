@@ -4,7 +4,7 @@ const games = [
     {
         title: 'Live Casino Games',
         paras: [
-            'Live Casino Games on Sky Exchin bring the real casino atmosphere directly to your screen. Players can enjoy real-time gameplay with professional dealers hosting popular table games such as Blackjack, Roulette, Baccarat, and Poker.',
+            'Live Casino Games on Sky Exchange bring the real casino atmosphere directly to your screen. Players can enjoy real-time gameplay with professional dealers hosting popular table games such as Blackjack, Roulette, Baccarat, and Poker.',
             'These games are streamed live, allowing users to interact with dealers and experience an authentic casino setting from the comfort of their homes. The smooth interface and high-quality streaming make live casino games one of the most popular sections on the platform.',
             'Whether you are a beginner or an experienced player, live casino games offer excitement, transparency, and real-time action.',
         ],
@@ -12,7 +12,7 @@ const games = [
     {
         title: 'Slot Games',
         paras: [
-            'Slot Games on Sky Exchin provide a mix of classic slots, video slots, and progressive jackpot slots. Each slot game comes with unique themes, engaging graphics, and rewarding bonus features.',
+            'Slot Games on Sky Exchange provide a mix of classic slots, video slots, and progressive jackpot slots. Each slot game comes with unique themes, engaging graphics, and rewarding bonus features.',
             'Players can choose from:',
         ],
         bullets: [
@@ -25,7 +25,7 @@ const games = [
     {
         title: 'Teen Patti & Andar Bahar',
         paras: [
-            'For fans of traditional Indian card games, Sky Exchin offers Teen Patti and Andar Bahar with real dealers. These games combine cultural familiarity with exciting betting options.',
+            'For fans of traditional Indian card games, Sky Exchange offers Teen Patti and Andar Bahar with real dealers. These games combine cultural familiarity with exciting betting options.',
             'Teen Patti allows players to compete using strategic card combinations, while Andar Bahar focuses on predicting where the matching card will appear. Both games are fast-paced and highly engaging.',
             'Playing Teen Patti and Andar Bahar with live dealers enhances the overall experience, giving players the feel of a real gaming table while enjoying online convenience.',
         ],
@@ -33,7 +33,7 @@ const games = [
     {
         title: 'Poker Games',
         paras: [
-            'Poker enthusiasts can enjoy multiple variations of poker on Sky Exchin. Popular options include Texas Hold\'em, Omaha, and other competitive poker formats.',
+            'Poker enthusiasts can enjoy multiple variations of poker on Sky Exchange. Popular options include Texas Hold\'em, Omaha, and other competitive poker formats.',
             'Players can:',
         ],
         bullets: [
@@ -46,7 +46,7 @@ const games = [
     {
         title: 'Roulette',
         paras: [
-            'Roulette remains one of the most iconic casino games, and Sky Exchin provides several exciting versions. Players can place bets on European Roulette, American Roulette, and French Roulette.',
+            'Roulette remains one of the most iconic casino games, and Sky Exchange provides several exciting versions. Players can place bets on European Roulette, American Roulette, and French Roulette.',
             'Each version offers unique rules and betting structures, giving users multiple ways to enjoy the spinning wheel. From betting on single numbers to colors and combinations, roulette combines simplicity with suspense.',
             'The live roulette tables create an immersive casino experience with real-time spins and transparent outcomes.',
         ],
@@ -56,15 +56,15 @@ const games = [
         paras: [
             'Blackjack is a classic casino favorite available in both live dealer and AI-powered formats. Players can choose to compete against professional dealers in real-time or practice with digital versions.',
             'The objective is simple—reach a card total as close to 21 as possible without exceeding it. However, strategic decisions such as hitting, standing, splitting, and doubling down add depth to the game.',
-            'Blackjack on Sky Exchin is suitable for beginners and advanced players who enjoy skill-based gameplay with competitive odds.',
+            'Blackjack on Sky Exchange is suitable for beginners and advanced players who enjoy skill-based gameplay with competitive odds.',
         ],
     },
     {
         title: 'Baccarat',
         paras: [
-            'Baccarat is a fast-paced card game that is widely popular among casino enthusiasts. Sky Exchin offers live dealer baccarat tables that recreate the authentic casino experience online.',
+            'Baccarat is a fast-paced card game that is widely popular among casino enthusiasts. Sky Exchange offers live dealer baccarat tables that recreate the authentic casino experience online.',
             'Players bet on one of three outcomes: the Player, the Banker, or a Tie. The simplicity of the rules combined with the excitement of live gameplay makes baccarat one of the top choices on the platform.',
-            'Baccarat on Sky Exchin is suitable for beginners and advanced players who enjoy skill-based gameplay with competitive odds.',
+            'Baccarat on Sky Exchange is suitable for beginners and advanced players who enjoy skill-based gameplay with competitive odds.',
         ],
     },
 ];
@@ -81,12 +81,12 @@ const CasinoGamesSection = () => {
     return (
         <section className="cg-section">
             <div className="cg-container">
-                <h2 className="cg-heading">Casino Games on Sky Exchin</h2>
+                <h2 className="cg-heading">Casino Games on Sky Exchange</h2>
                 <p className="cg-intro">
-                    Sky Exchin offers a dynamic and engaging online casino environment where players can enjoy a
+                    Sky Exchange offers a dynamic and engaging online casino environment where players can enjoy a
                     wide variety of games. From live dealer tables to thrilling slot machines and traditional Indian
                     card games, the platform is designed to deliver a seamless and immersive gaming experience.
-                    Below is a detailed overview of the exciting casino games available on Sky Exchin.
+                    Below is a detailed overview of the exciting casino games available on Sky Exchange.
                 </p>
 
                 <div className="cg-grid">
@@ -106,8 +106,8 @@ const CasinoGamesSection = () => {
 
                 {/* WHY CHOOSE */}
                 <div className="cg-why">
-                    <h2 className="cg-why-heading">Why Choose Sky Exchin for Casino Games?</h2>
-                    <p className="cg-card-text">Sky Exchin offers a well-rounded casino experience with:</p>
+                    <h2 className="cg-why-heading">Why Choose Sky Exchange for Casino Games?</h2>
+                    <p className="cg-card-text">Sky Exchange offers a well-rounded casino experience with:</p>
                     <ul className="cg-why-list">
                         {whyBullets.map((b) => <li key={b}>{b}</li>)}
                     </ul>

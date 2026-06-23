@@ -18,7 +18,7 @@ const trendingGames = [
         Icon: MdSportsSoccer,
         title: 'Football Betting (Premier League, FIFA, UCL)',
         paras: [
-            'Football betting is another top-performing category on Sky Exchin. Popular competitions like the English Premier League (EPL), UEFA Champions League (UCL), and FIFA tournaments attract strong participation.',
+            'Football betting is another top-performing category on Sky Exchange. Popular competitions like the English Premier League (EPL), UEFA Champions League (UCL), and FIFA tournaments attract strong participation.',
             'Available betting markets include:',
         ],
         bullets: ['Match winner', 'Over/Under goals', 'Both teams to score', 'Cards and corners', 'In-play goal betting'],
@@ -28,7 +28,7 @@ const trendingGames = [
         Icon: MdSportsTennis,
         title: 'Tennis Betting (ATP, Wimbledon, Grand Slams)',
         paras: [
-            'Tennis betting continues to grow, especially during major tournaments like Wimbledon and the Grand Slams. Sky Exchin covers ATP and WTA events with detailed markets.',
+            'Tennis betting continues to grow, especially during major tournaments like Wimbledon and the Grand Slams. Sky Exchange covers ATP and WTA events with detailed markets.',
             'Popular betting options include:',
         ],
         bullets: ['Match winner', 'Set betting', 'Game betting', 'Point-by-point live markets'],
@@ -48,7 +48,7 @@ const trendingGames = [
         Icon: GiCardRandom,
         title: 'Card Games (Rummy, Poker, Teen Patti)',
         paras: [
-            'Traditional Indian card games remain among the most trending betting formats. Sky Exchin offers both live and digital tables for:',
+            'Traditional Indian card games remain among the most trending betting formats. Sky Exchange offers both live and digital tables for:',
         ],
         bullets: ['Rummy', 'Poker', 'Teen Patti'],
         closing: 'These games are designed for quick entry and continuous gameplay. With steady action and simple rules, card games appeal to players looking for skill-based formats alongside entertainment.',
@@ -120,20 +120,20 @@ const TrendingBettingSection = () => {
             <div className="tb-container">
 
                 {/* HEADING */}
-                <h2 className="tb-heading">Top Trending Betting Games on Sky Exchin in 2025</h2>
+                <h2 className="tb-heading">Top Trending Betting Games on Sky Exchange in 2025</h2>
                 <p className="tb-para">
-                    Sky Exchin offers a broad spectrum of betting options tailored to the distinctive tastes of
+                    Sky Exchange offers a broad spectrum of betting options tailored to the distinctive tastes of
                     Indian players. From the unmatched excitement of cricket to the fast-paced thrill of casino
                     games, the platform delivers a balanced mix of variety, simplicity, and real-time engagement.
                 </p>
                 <p className="tb-para">
                     With real-time odds, easy navigation requiring minimal clicks, and year-round sporting events,
-                    Sky Exchin ensures that players always have something exciting to explore—without feeling
+                    Sky Exchange ensures that players always have something exciting to explore—without feeling
                     overwhelmed. Whether you prefer quick bets with simple rules or deeper markets with advanced
                     options, the platform supports both casual players and experienced bettors.
                 </p>
                 <p className="tb-para tb-para--bottom">
-                    Below are the top trending betting games on Sky Exchin in 2025.
+                    Below are the top trending betting games on Sky Exchange in 2025.
                 </p>
 
                 {/* CARDS GRID */}
@@ -159,7 +159,7 @@ const TrendingBettingSection = () => {
                 <div className="tb-tips">
                     <h2 className="tb-sub-heading">Important Tips for Secure Transactions</h2>
                     <p className="tb-para">
-                        To ensure smooth deposits and withdrawals on Sky Exchin, keep the following best practices in mind:
+                        To ensure smooth deposits and withdrawals on Sky Exchange, keep the following best practices in mind:
                     </p>
                     <ul className="tb-bullet-list">
                         {secureTips.map((t) => <li key={t}>{t}</li>)}

@@ -4,28 +4,28 @@ import Image from 'next/image';
 const bonuses = [
     {
         title: 'Welcome Bonus',
-        para: 'The Welcome Bonus is specially designed for new users. When you create an account and make your first deposit, you receive bonus funds to kick-start your betting or casino journey. This bonus gives you additional value right from the beginning, allowing you to explore sports betting markets or casino games with extra balance. It\'s a great way to start your experience on Skyexchin with added confidence.',
+        para: 'The Welcome Bonus is specially designed for new users. When you create an account and make your first deposit, you receive bonus funds to kick-start your betting or casino journey. This bonus gives you additional value right from the beginning, allowing you to explore sports betting markets or casino games with extra balance. It\'s a great way to start your experience on Skyexchange with added confidence.',
     },
     {
         title: 'Deposit Bonus',
-        para: 'Sky Exchin provides deposit bonuses that reward you every time you add funds to your account. With a matched bonus structure, you receive a percentage of your deposit as extra betting credit. For example, when you deposit a certain amount, Skyexchin adds a bonus amount to increase your total balance. This gives you more opportunities to place bets and try different games without using only your own funds. Deposit bonuses are ideal for regular players who want to boost their betting power and maximize value on every transaction.',
+        para: 'Sky Exchange provides deposit bonuses that reward you every time you add funds to your account. With a matched bonus structure, you receive a percentage of your deposit as extra betting credit. For example, when you deposit a certain amount, Skyexchange adds a bonus amount to increase your total balance. This gives you more opportunities to place bets and try different games without using only your own funds. Deposit bonuses are ideal for regular players who want to boost their betting power and maximize value on every transaction.',
     },
     {
         title: 'Cashback Offers',
-        para: 'Cashback promotions help reduce potential losses by returning a percentage of your losing bets. These offers make selected sports bets less risky because even if your bet doesn\'t win, you still receive part of your stake back. Cashback deals are especially useful during major sporting events when players place multiple bets. This type of bonus provides added security and helps maintain your balance over time. With Sky Exchin cashback offers, you can continue enjoying your betting experience while minimizing losses.',
+        para: 'Cashback promotions help reduce potential losses by returning a percentage of your losing bets. These offers make selected sports bets less risky because even if your bet doesn\'t win, you still receive part of your stake back. Cashback deals are especially useful during major sporting events when players place multiple bets. This type of bonus provides added security and helps maintain your balance over time. With Sky Exchange cashback offers, you can continue enjoying your betting experience while minimizing losses.',
     },
     {
         title: 'Free Bets & Free Spins',
-        para: 'Skyexchin regularly rewards players with free bets and free spins. Free Bets allow you to place sports wagers without using your main balance. If the bet wins, you keep the profit. Free Spins are available for selected slot games, giving you chances to win real rewards without spending your own funds. These promotions are perfect for trying new betting markets or exploring different casino games. They add excitement and increase your chances of winning without additional investment.',
+        para: 'Skyexchange regularly rewards players with free bets and free spins. Free Bets allow you to place sports wagers without using your main balance. If the bet wins, you keep the profit. Free Spins are available for selected slot games, giving you chances to win real rewards without spending your own funds. These promotions are perfect for trying new betting markets or exploring different casino games. They add excitement and increase your chances of winning without additional investment.',
     },
     {
         title: 'Referral Bonus',
-        para: 'The Referral Bonus program rewards you for inviting friends to join Sky Exchin. When someone registers using your referral link and makes their first deposit, you receive bonus rewards. This promotion benefits both you and the new member. Your friend gets access to Skyexchin offers, and you earn extra rewards for helping grow the platform community. It\'s a simple way to earn additional bonuses while sharing your gaming experience with others.',
+        para: 'The Referral Bonus program rewards you for inviting friends to join Sky Exchange. When someone registers using your referral link and makes their first deposit, you receive bonus rewards. This promotion benefits both you and the new member. Your friend gets access to Skyexchange offers, and you earn extra rewards for helping grow the platform community. It\'s a simple way to earn additional bonuses while sharing your gaming experience with others.',
     },
     {
         title: 'VIP & Loyalty Rewards',
         paras: [
-            'For regular and high-activity players, Sky Exchin offers a VIP & Loyalty Program. Members of the Sky Exchin VIP Club receive exclusive benefits that are not available to standard users.',
+            'For regular and high-activity players, Sky Exchange offers a VIP & Loyalty Program. Members of the Sky Exchange VIP Club receive exclusive benefits that are not available to standard users.',
             'VIP advantages may include:',
         ],
         bullets: ['Special deposit bonuses', 'Higher cashback percentages', 'Personalized promotions', 'Faster withdrawals', 'Dedicated customer support'],
@@ -43,7 +43,7 @@ const PromotionsSection = () => {
                     <div className="promo-left-inner">
                         <Image
                             src="/images/f548224f-af0c-48c6-9a3e-ce13e651db3b.jpg"
-                            alt="Sky Exchin Promotions and Bonuses"
+                            alt="Sky Exchange Promotions and Bonuses"
                             width={600}
                             height={800}
                             style={{ width: '100%', height: 'auto', display: 'block' }}
@@ -55,17 +55,17 @@ const PromotionsSection = () => {
                 {/* RIGHT — scrollable text */}
                 <div className="promo-right">
                     <h2 className="promo-heading">
-                        Sky Exchin Promotions &amp; Bonuses: Maximize Your Rewards
+                        Sky Exchange Promotions &amp; Bonuses: Maximize Your Rewards
                     </h2>
                     <p className="promo-para">
-                        Sky Exchin offers a wide range of promotions and bonus deals designed to enhance your
+                        Sky Exchange offers a wide range of promotions and bonus deals designed to enhance your
                         betting and gaming experience. Whether you are a beginner or an experienced player,
-                        Skyexchin provides valuable rewards that help you get more from every deposit and every
+                        Skyexchange provides valuable rewards that help you get more from every deposit and every
                         bet.
                     </p>
                     <p className="promo-para">
                         By taking advantage of these offers, you can increase your balance, reduce risk, and enjoy
-                        extended gameplay. Below are the main promotions and bonuses available at Sky Exchin.
+                        extended gameplay. Below are the main promotions and bonuses available at Sky Exchange.
                     </p>
 
                     <div className="promo-bonuses">

@@ -5,7 +5,7 @@ const rightSteps = [
     {
         num: '01',
         title: 'Visit the Official Website',
-        paras: ['First, go to the official Sky Exchin website using a secure and trusted link. Make sure you are accessing the correct platform to ensure your personal information stays protected. Always double-check the URL before proceeding.'],
+        paras: ['First, go to the official Sky Exchange website using a secure and trusted link. Make sure you are accessing the correct platform to ensure your personal information stays protected. Always double-check the URL before proceeding.'],
     },
     {
         num: '02',
@@ -34,9 +34,9 @@ const rightSteps = [
     {
         num: '06',
         title: 'Start Betting and Enjoy',
-        paras: ['Once your account is fully set up and verified, you are ready to explore everything Sky Exchin has to offer. Browse through the available sports markets, casino games, and other betting options.'],
+        paras: ['Once your account is fully set up and verified, you are ready to explore everything Sky Exchange has to offer. Browse through the available sports markets, casino games, and other betting options.'],
         bullets: ['Place your first bet on your favourite sport', 'Explore live casino games', 'Claim your welcome bonus', 'Enjoy 24/7 access from any device'],
-        closing: 'Sky Exchin makes the entire experience smooth, secure, and enjoyable from start to finish.',
+        closing: 'Sky Exchange makes the entire experience smooth, secure, and enjoyable from start to finish.',
     },
 ];
 
@@ -50,7 +50,7 @@ const SignUpSection = () => {
                     <div className="signup-left-inner">
                         <Image
                             src="/images/5dafafb1-92a5-4f59-bc2b-f4952e7c6dee.jpg"
-                            alt="How to Sign Up on Sky Exchin"
+                            alt="How to Sign Up on Sky Exchange"
                             width={600}
                             height={800}
                             style={{ width: '100%', height: 'auto', display: 'block' }}
@@ -61,9 +61,9 @@ const SignUpSection = () => {
 
                 {/* RIGHT — scrollable */}
                 <div className="signup-right">
-                    <h2 className="su-heading">How to Sign Up on Sky Exchin (Step-by-Step Guide)</h2>
+                    <h2 className="su-heading">How to Sign Up on Sky Exchange (Step-by-Step Guide)</h2>
                     <p className="su-para">
-                        Getting started on Sky Exchin is simple and user-friendly. The registration process is smooth
+                        Getting started on Sky Exchange is simple and user-friendly. The registration process is smooth
                         and can be completed in just a few minutes. If you're new to the platform, follow this easy
                         step-by-step guide to create your account and start exploring its features.
                     </p>

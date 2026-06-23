@@ -4,8 +4,8 @@ import Image from 'next/image';
 const steps = [
     {
         num: '01',
-        title: 'Visit the Official Sky Exchin Website',
-        para: 'Open your browser and go to the official Sky Exchin website. Always ensure you are visiting the correct and verified website to avoid phishing or fake platforms.',
+        title: 'Visit the Official Sky Exchange Website',
+        para: 'Open your browser and go to the official Sky Exchange website. Always ensure you are visiting the correct and verified website to avoid phishing or fake platforms.',
     },
     {
         num: '02',
@@ -32,7 +32,7 @@ const steps = [
         title: 'Start Betting & Gaming',
         para: 'Once logged in successfully, you can explore all available features, including:',
         bullets: ['Sports betting', 'Live casino games', 'Ongoing promotions and bonuses', 'Account management options'],
-        closing: 'You are now ready to enjoy the full Sky Exchin experience.',
+        closing: 'You are now ready to enjoy the full Sky Exchange experience.',
     },
 ];
 
@@ -43,9 +43,9 @@ const LoginSection = () => {
 
                 {/* LEFT — scrollable text */}
                 <div className="login-left">
-                    <h2 className="login-heading">Sky Exchin Login – Step-by-Step Secure Access</h2>
+                    <h2 className="login-heading">Sky Exchange Login – Step-by-Step Secure Access</h2>
                     <p className="login-para">
-                        Accessing your Sky Exchin account is a quick and secure process designed to protect your
+                        Accessing your Sky Exchange account is a quick and secure process designed to protect your
                         information while giving you instant entry to betting and gaming features. Whether you are
                         logging in from desktop or mobile, following the correct steps ensures smooth access without
                         any issues.
@@ -75,7 +75,7 @@ const LoginSection = () => {
                     <div className="login-right-inner">
                         <Image
                             src="/images/6a8adaa2-c64c-4311-b9c2-3a95d891f51c.jpg"
-                            alt="Sky Exchin Login Step-by-Step"
+                            alt="Sky Exchange Login Step-by-Step"
                             width={600}
                             height={800}
                             style={{ width: '100%', height: 'auto', display: 'block' }}

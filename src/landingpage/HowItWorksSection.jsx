@@ -12,13 +12,13 @@ const steps = [
             'Create a secure username and password.',
             'Complete any necessary verification steps.',
         ],
-        closing: 'Once your account is successfully created, you can log in anytime using your credentials and access the full range of features available on Sky Exchin.',
+        closing: 'Once your account is successfully created, you can log in anytime using your credentials and access the full range of features available on Sky Exchange.',
     },
     {
         step: 'Step 2',
         title: 'Make a Secure Deposit',
         paras: [
-            'After registration, the next step is to fund your account. Sky Exchin offers multiple payment options, allowing users to choose a method that is convenient and secure for them.',
+            'After registration, the next step is to fund your account. Sky Exchange offers multiple payment options, allowing users to choose a method that is convenient and secure for them.',
             'Deposits are typically processed quickly, ensuring you can start betting without delays. The platform prioritizes safe financial transactions, giving users peace of mind while managing their funds.',
         ],
     },
@@ -26,7 +26,7 @@ const steps = [
         step: 'Step 3',
         title: 'Choose Your Sport or Casino Game',
         paras: [
-            'Once your account balance is updated, you can explore the available betting options. Sky Exchin provides access to:',
+            'Once your account balance is updated, you can explore the available betting options. Sky Exchange provides access to:',
         ],
         bullets: [
             'Sports betting on various national and international events',
@@ -41,7 +41,7 @@ const steps = [
         step: 'Step 4',
         title: 'Place Bets and Track Winnings in Real-Time',
         paras: [
-            'Sports betting is one of the core strengths of Sky Exchin. Indian players, especially cricket fans, can enjoy competitive odds and a wide variety of betting markets. From local cricket tournaments to international matches, the platform covers multiple sporting events to ensure players never miss an opportunity.',
+            'Sports betting is one of the core strengths of Sky Exchange. Indian players, especially cricket fans, can enjoy competitive odds and a wide variety of betting markets. From local cricket tournaments to international matches, the platform covers multiple sporting events to ensure players never miss an opportunity.',
             'The platform is optimized for both desktop and mobile users, allowing seamless access anytime and anywhere. With fast loading speeds and real-time updates, players can place bets confidently without delays.',
         ],
     },
@@ -49,7 +49,7 @@ const steps = [
         step: 'Step 5',
         title: 'Withdraw Your Winnings Easily',
         paras: [
-            'One of the key features of Sky Exchin is its simple withdrawal process. If you win, you can request a withdrawal directly from your account dashboard.',
+            'One of the key features of Sky Exchange is its simple withdrawal process. If you win, you can request a withdrawal directly from your account dashboard.',
             'The withdrawal process is designed to be:',
         ],
         bullets: [
@@ -68,11 +68,11 @@ const HowItWorksSection = () => {
 
                 {/* Intro */}
                 <div className="hw-intro">
-                    <h2 className="hw-main-heading">What is Sky Exchin and How Does It Work?</h2>
+                    <h2 className="hw-main-heading">What is Sky Exchange and How Does It Work?</h2>
                     <p className="hw-para">
-                        <strong>Sky Exchin</strong> is an online betting platform that allows users to safely log in
+                        <strong>Sky Exchange</strong> is an online betting platform that allows users to safely log in
                         and place bets on a wide range of sports and casino games. Designed for simplicity, security,
-                        and user-friendly navigation, Sky Exchin makes it easy for players to enjoy sports betting,
+                        and user-friendly navigation, Sky Exchange makes it easy for players to enjoy sports betting,
                         live casino games, slot machines, card games, and matka in one place.
                     </p>
                     <p className="hw-para">
@@ -81,9 +81,9 @@ const HowItWorksSection = () => {
                         entertainment with confidence and convenience.
                     </p>
 
-                    <h3 className="hw-sub-heading">How Sky Exchin Works</h3>
+                    <h3 className="hw-sub-heading">How Sky Exchange Works</h3>
                     <p className="hw-para">
-                        Sky Exchin operates through a straightforward process that allows users to start betting
+                        Sky Exchange operates through a straightforward process that allows users to start betting
                         in just a few easy steps.
                     </p>
                 </div>

@@ -11,7 +11,7 @@ const AboutSection = () => {
                     <div className="about-image-wrap">
                         <Image
                             src="/images/1ee54013-9ffa-4c9e-a75d-4d1781ae5305.jpg"
-                            alt="Welcome to Sky Exchin"
+                            alt="Welcome to Sky Exchange"
                             width={520}
                             height={520}
                             style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '8px' }}
@@ -23,19 +23,19 @@ const AboutSection = () => {
                 {/* Right — text */}
                 <div className="about-text-col">
                     <h2 className="about-heading">
-                        Welcome to Sky Exchin – India's Trusted Betting Platform
+                        Welcome to Sky Exchange – India's Trusted Betting Platform
                     </h2>
                     <p className="about-para">
-                        Sky Exchin may be a newer name for some players, but since entering the online gaming
+                        Sky Exchange may be a newer name for some players, but since entering the online gaming
                         industry in 2017, it has grown rapidly into one of India's most trusted and popular betting
                         platforms. What started as a small digital space for Indian players has evolved into a powerful
                         and feature-rich destination for sports betting and online casino gaming.
                     </p>
                     <p className="about-para">
-                        Sky Exchin was built with a clear goal: to deliver an exciting, secure, and hassle-free gaming
+                        Sky Exchange was built with a clear goal: to deliver an exciting, secure, and hassle-free gaming
                         experience right at players' fingertips. From simple navigation to fast access to betting markets,
                         the platform is designed to eliminate confusion and make online gaming smooth for both
-                        beginners and experienced players. Today, Sky Exchin stands as a reliable, energetic, and
+                        beginners and experienced players. Today, Sky Exchange stands as a reliable, energetic, and
                         engaging one-stop destination for online betting in India.
                     </p>
                 </div>

@@ -4,20 +4,20 @@ import Image from 'next/image';
 /* Wide landscape banner (shown full-width) */
 const wideBanner = {
     src: '/images/3e9a5000-3199-4398-a6ce-e0f5734a1bb9.jpg',
-    alt: 'Sky Exchin – Unmatched Odds, Fast Payouts, All-in-One Betting Platform',
+    alt: 'Sky Exchange – Unmatched Odds, Fast Payouts, All-in-One Betting Platform',
     width: 1920,
     height: 480,
 };
 
 /* Portrait / square cards — shown in a 4-column grid */
 const portraitCards = [
-    { src: '/images/1ee54013-9ffa-4c9e-a75d-4d1781ae5305.jpg', alt: 'Welcome to Skyexchin.com – India\'s Trusted Betting Platform', width: 600, height: 600 },
-    { src: '/images/5dafafb1-92a5-4f59-bc2b-f4952e7c6dee.jpg', alt: 'Sky Exchin Special Promotions',                               width: 600, height: 800 },
-    { src: '/images/f548224f-af0c-48c6-9a3e-ce13e651db3b.jpg', alt: 'Sky Exchin Promotions & Bonuses – Maximize Your Rewards',    width: 600, height: 800 },
-    { src: '/images/6a8adaa2-c64c-4311-b9c2-3a95d891f51c.jpg', alt: 'History of Skyexchin',                                       width: 600, height: 800 },
-    { src: '/images/d1626d70-94e8-49c8-add4-2e671d4147f3.jpg', alt: 'History of Skyexchin – Platform Growth',                    width: 600, height: 800 },
-    { src: '/images/45875717-c1c0-4c1d-ba43-8713bddc5a4a.jpg', alt: 'Sky Exchin Mobile Login Guide',                              width: 600, height: 800 },
-    { src: '/images/bfb1d63b-b713-45b8-9e02-5747b47cc840.jpg', alt: 'Skyexchin – Best Gaming Club Logo',                         width: 600, height: 600 },
+    { src: '/images/1ee54013-9ffa-4c9e-a75d-4d1781ae5305.jpg', alt: 'Welcome to Skyexchange.com – India\'s Trusted Betting Platform', width: 600, height: 600 },
+    { src: '/images/5dafafb1-92a5-4f59-bc2b-f4952e7c6dee.jpg', alt: 'Sky Exchange Special Promotions',                               width: 600, height: 800 },
+    { src: '/images/f548224f-af0c-48c6-9a3e-ce13e651db3b.jpg', alt: 'Sky Exchange Promotions & Bonuses – Maximize Your Rewards',    width: 600, height: 800 },
+    { src: '/images/6a8adaa2-c64c-4311-b9c2-3a95d891f51c.jpg', alt: 'History of Skyexchange',                                       width: 600, height: 800 },
+    { src: '/images/d1626d70-94e8-49c8-add4-2e671d4147f3.jpg', alt: 'History of Skyexchange – Platform Growth',                    width: 600, height: 800 },
+    { src: '/images/45875717-c1c0-4c1d-ba43-8713bddc5a4a.jpg', alt: 'Sky Exchange Mobile Login Guide',                              width: 600, height: 800 },
+    { src: '/images/bfb1d63b-b713-45b8-9e02-5747b47cc840.jpg', alt: 'Skyexchange – Best Gaming Club Logo',                         width: 600, height: 600 },
 ];
 
 const QuickLinksSection = () => {

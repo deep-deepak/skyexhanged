@@ -47,17 +47,17 @@ export default function WhyChooseSection() {
                 {/* Intro */}
                 <div className="wc-intro">
                     <h2 className="wc-heading">
-                        Why Millions in India Choose Sky Exchin for Online Betting
+                        Why Millions in India Choose Sky Exchange for Online Betting
                     </h2>
                     <p className="wc-para">
                         As online betting continues to grow rapidly in India, players are looking for a platform that
                         offers <strong>security, speed, variety, and reliability</strong>. With over <strong>50 lakh users</strong>,
-                        Sky Exchin has built a strong reputation as a trusted and user-friendly online betting platform.
+                        Sky Exchange has built a strong reputation as a trusted and user-friendly online betting platform.
                         It combines advanced security features, fast transactions, diverse betting markets, and exciting
                         bonuses to deliver a complete and enjoyable gaming experience.
                     </p>
                     <p className="wc-para">
-                        Sky Exchin is designed to make betting simple, safe, and rewarding for every type of player.
+                        Sky Exchange is designed to make betting simple, safe, and rewarding for every type of player.
                         Here's what makes it stand out:
                     </p>
                     <h3 className="wc-sub-heading">Key Features & Benefits</h3>

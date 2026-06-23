@@ -6,37 +6,37 @@ const testimonials = [
     {
         name: 'Priya Mehta',
         stars: 5,
-        quote: '"My experience with Skyexchin has been very positive. The platform provides a wide range of sports options, and everything from account access to placing bets feels quick and convenient."',
+        quote: '"My experience with Skyexchange has been very positive. The platform provides a wide range of sports options, and everything from account access to placing bets feels quick and convenient."',
     },
     {
         name: 'Sandeep Patel',
         stars: 5,
-        quote: '"I was searching for a reliable betting platform and came across Skyexchin. After using it for some time, I can say it offers a stable and user-friendly environment for sports enthusiasts."',
+        quote: '"I was searching for a reliable betting platform and came across Skyexchange. After using it for some time, I can say it offers a stable and user-friendly environment for sports enthusiasts."',
     },
     {
         name: 'Rohit Gupta',
         stars: 5,
-        quote: '"Skyexchin stands out because of its organized layout and smooth navigation. It\'s easy to track matches, check odds, and manage your account without confusion."',
+        quote: '"Skyexchange stands out because of its organized layout and smooth navigation. It\'s easy to track matches, check odds, and manage your account without confusion."',
     },
     {
         name: 'Neha Kapoor',
         stars: 5,
-        quote: '"I like how Skyexchin provides a seamless experience across devices. Whether I access it from my phone or laptop, the platform works consistently and keeps everything simple."',
+        quote: '"I like how Skyexchange provides a seamless experience across devices. Whether I access it from my phone or laptop, the platform works consistently and keeps everything simple."',
     },
     {
         name: 'Arjun Sharma',
         stars: 5,
-        quote: '"The live betting feature on Skyexchin is exceptional. Real-time odds and instant updates make every match thrilling. I\'ve been using it for months and it never disappoints."',
+        quote: '"The live betting feature on Skyexchange is exceptional. Real-time odds and instant updates make every match thrilling. I\'ve been using it for months and it never disappoints."',
     },
     {
         name: 'Kavya Reddy',
         stars: 5,
-        quote: '"Depositing and withdrawing funds on Skyexchin is hassle-free. Transactions are processed quickly and the platform supports multiple payment methods including UPI and bank transfer."',
+        quote: '"Depositing and withdrawing funds on Skyexchange is hassle-free. Transactions are processed quickly and the platform supports multiple payment methods including UPI and bank transfer."',
     },
     {
         name: 'Manish Verma',
         stars: 5,
-        quote: '"The cricket betting section is amazing. From IPL to international matches, every market is available with competitive odds. Skyexchin is my go-to platform for cricket betting."',
+        quote: '"The cricket betting section is amazing. From IPL to international matches, every market is available with competitive odds. Skyexchange is my go-to platform for cricket betting."',
     },
 ];
 
@@ -125,7 +125,7 @@ const TestimonialsSection = () => {
     return (
         <section className="ts-section">
             <div className="ts-container">
-                <h2 className="ts-heading">Skyexchin User Testimonials</h2>
+                <h2 className="ts-heading">Skyexchange User Testimonials</h2>
 
                 <div className="ts-slider-wrap">
                     <Slider {...settings}>

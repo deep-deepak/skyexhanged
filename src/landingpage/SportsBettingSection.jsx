@@ -42,7 +42,7 @@ const sports = [
     {
         Icon: MdSportsEsports,
         title: 'Esports Betting',
-        intro: 'Esports continues to grow rapidly, and Sky Exchin offers betting on top gaming tournaments, including:',
+        intro: 'Esports continues to grow rapidly, and Sky Exchange offers betting on top gaming tournaments, including:',
         bullets: ['CS: GO', 'Dota 2', 'League of Legends', 'Valorant'],
         closing: 'With competitive markets and live wagering features, esports betting provides a modern and dynamic experience for gaming fans.',
     },
@@ -59,9 +59,9 @@ const SportsBettingSection = () => {
     return (
         <section className="sb-section">
             <div className="sb-container">
-                <h2 className="sb-heading">Sports Betting Options Available on Sky Exchin</h2>
+                <h2 className="sb-heading">Sports Betting Options Available on Sky Exchange</h2>
                 <p className="sb-intro">
-                    Sky Exchin offers a wide range of sports betting opportunities designed for both beginners and
+                    Sky Exchange offers a wide range of sports betting opportunities designed for both beginners and
                     experienced bettors. With competitive odds, live betting features, and diverse markets, the
                     platform provides an engaging and secure environment for sports enthusiasts. Below is a detailed
                     overview of the major sports available for betting.

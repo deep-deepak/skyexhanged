@@ -5,50 +5,50 @@ const sections = [
     {
         heading: null,
         paras: [
-            'Sky Exchin emerged as a specialized online platform focused on delivering high-quality betting and gaming services through a smooth and secure system. From its early days, the platform positioned itself as a reliable destination for users seeking a seamless online betting experience supported by advanced technology and user-friendly features.',
+            'Sky Exchange emerged as a specialized online platform focused on delivering high-quality betting and gaming services through a smooth and secure system. From its early days, the platform positioned itself as a reliable destination for users seeking a seamless online betting experience supported by advanced technology and user-friendly features.',
         ],
     },
     {
-        heading: 'The Beginning of Sky Exchin',
+        heading: 'The Beginning of Sky Exchange',
         paras: [
-            'At the time of its establishment, Sky Exchin entered the market with a clear goal: to provide secure, fast, and dependable betting services. The platform was designed to meet the growing demand for online sports betting and casino gaming by offering a wide range of markets and competitive options.',
-            'One of the key highlights during its launch phase was the introduction of multiple sports markets. Users were given access to popular sports categories, allowing them to explore different betting opportunities on a single platform. This diversity quickly helped Sky Exchin build recognition in the competitive online betting industry.',
+            'At the time of its establishment, Sky Exchange entered the market with a clear goal: to provide secure, fast, and dependable betting services. The platform was designed to meet the growing demand for online sports betting and casino gaming by offering a wide range of markets and competitive options.',
+            'One of the key highlights during its launch phase was the introduction of multiple sports markets. Users were given access to popular sports categories, allowing them to explore different betting opportunities on a single platform. This diversity quickly helped Sky Exchange build recognition in the competitive online betting industry.',
         ],
     },
     {
         heading: 'Expansion into Live Betting and Online Casino',
         paras: [
-            'As the platform evolved, Sky Exchin expanded its offerings by adding live betting features. Live betting allowed users to place wagers in real time while matches were in progress, enhancing excitement and engagement. This feature became a major attraction for sports enthusiasts who preferred dynamic and interactive betting experiences.',
-            'In addition to sports markets, Sky Exchin developed an extensive online casino section. The casino area included a variety of games designed to cater to different user preferences. By combining sports betting and casino gaming under one platform, Sky Exchin created a comprehensive ecosystem that appealed to a broader audience.',
+            'As the platform evolved, Sky Exchange expanded its offerings by adding live betting features. Live betting allowed users to place wagers in real time while matches were in progress, enhancing excitement and engagement. This feature became a major attraction for sports enthusiasts who preferred dynamic and interactive betting experiences.',
+            'In addition to sports markets, Sky Exchange developed an extensive online casino section. The casino area included a variety of games designed to cater to different user preferences. By combining sports betting and casino gaming under one platform, Sky Exchange created a comprehensive ecosystem that appealed to a broader audience.',
         ],
     },
     {
         heading: 'Focus on Technology and Security',
         paras: [
-            'A major reason behind the growth of Sky Exchin has been its commitment to advanced technology and strong security systems. From the beginning, the platform invested in modern infrastructure to ensure smooth navigation, fast loading times, and uninterrupted service.',
-            'Security has remained a top priority. Sky Exchin implemented secure payment systems to protect user transactions and financial data. By maintaining strict security protocols, the platform built confidence among users who valued privacy and safety while engaging in online betting.',
-            'The integration of reliable payment gateways ensured that deposits and withdrawals were processed efficiently. This focus on secure and hassle-free transactions played a significant role in establishing Sky Exchin as a trusted platform.',
+            'A major reason behind the growth of Sky Exchange has been its commitment to advanced technology and strong security systems. From the beginning, the platform invested in modern infrastructure to ensure smooth navigation, fast loading times, and uninterrupted service.',
+            'Security has remained a top priority. Sky Exchange implemented secure payment systems to protect user transactions and financial data. By maintaining strict security protocols, the platform built confidence among users who valued privacy and safety while engaging in online betting.',
+            'The integration of reliable payment gateways ensured that deposits and withdrawals were processed efficiently. This focus on secure and hassle-free transactions played a significant role in establishing Sky Exchange as a trusted platform.',
         ],
     },
     {
         heading: 'Competitive Odds and User-Centric Services',
         paras: [
-            'Another important milestone in the history of Sky Exchin is its commitment to offering attractive and competitive odds. Competitive odds are essential in the betting industry, and the platform consistently worked to provide favorable rates across various sports and games.',
-            'Beyond odds, user satisfaction has always been at the center of its operations. Sky Exchin invested in customer support services to assist users with account-related queries, technical issues, and transaction concerns. Responsive support strengthened user trust and contributed to long-term loyalty.',
+            'Another important milestone in the history of Sky Exchange is its commitment to offering attractive and competitive odds. Competitive odds are essential in the betting industry, and the platform consistently worked to provide favorable rates across various sports and games.',
+            'Beyond odds, user satisfaction has always been at the center of its operations. Sky Exchange invested in customer support services to assist users with account-related queries, technical issues, and transaction concerns. Responsive support strengthened user trust and contributed to long-term loyalty.',
         ],
     },
     {
         heading: 'Growth in the Indian Betting Market',
         paras: [
-            'Over time, Sky Exchin gained strong acceptance in the Indian betting market. With the increasing popularity of online sports betting and casino gaming in India, the platform positioned itself as a dependable option for users seeking reliability and variety.',
-            'Its consistent performance, secure systems, and broad selection of games helped it attract thousands of users across the country. The combination of trustworthiness and innovation allowed Sky Exchin to build a solid reputation in a competitive industry.',
+            'Over time, Sky Exchange gained strong acceptance in the Indian betting market. With the increasing popularity of online sports betting and casino gaming in India, the platform positioned itself as a dependable option for users seeking reliability and variety.',
+            'Its consistent performance, secure systems, and broad selection of games helped it attract thousands of users across the country. The combination of trustworthiness and innovation allowed Sky Exchange to build a solid reputation in a competitive industry.',
         ],
     },
     {
         heading: 'Reputation and Ongoing Development',
         paras: [
-            'Today, Sky Exchin is recognized for its wide array of betting options, secure operations, and user-friendly interface. The platform continues to refine its services by upgrading technology and enhancing user experience.',
-            'Its journey reflects steady growth driven by a clear focus on security, transparency, and customer satisfaction. By maintaining high operational standards and continuously expanding its features, Sky Exchin has established itself as a dependable name in the online betting and gaming sector.',
+            'Today, Sky Exchange is recognized for its wide array of betting options, secure operations, and user-friendly interface. The platform continues to refine its services by upgrading technology and enhancing user experience.',
+            'Its journey reflects steady growth driven by a clear focus on security, transparency, and customer satisfaction. By maintaining high operational standards and continuously expanding its features, Sky Exchange has established itself as a dependable name in the online betting and gaming sector.',
         ],
     },
 ];
@@ -63,7 +63,7 @@ export default function HistorySection() {
                     <div className="sticky-image">
                         <Image
                             src="/images/d1626d70-94e8-49c8-add4-2e671d4147f3.jpg"
-                            alt="History of Sky Exchin"
+                            alt="History of Sky Exchange"
                             width={600}
                             height={800}
                             style={{ width: '100%', height: 'auto', display: 'block', borderRadius: '12px' }}
@@ -74,7 +74,7 @@ export default function HistorySection() {
 
                 {/* RIGHT — scrollable content */}
                 <div className="history-right">
-                    <h2 className="hist-main-heading">History of Sky Exchin</h2>
+                    <h2 className="hist-main-heading">History of Sky Exchange</h2>
                     {sections.map((s, i) => (
                         <div key={i} className="hist-block">
                             {s.heading && <h3 className="hist-sub-heading">{s.heading}</h3>}

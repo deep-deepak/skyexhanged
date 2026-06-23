@@ -31,28 +31,28 @@ const ApkGuideSection = () => {
 
                 {/* MAIN HEADING BLOCK */}
                 <h2 className="apk-main-heading">
-                    Downloading the Sky Exchin App (APK) – Safe &amp; Easy Guide
+                    Downloading the Sky Exchange App (APK) – Safe &amp; Easy Guide
                 </h2>
                 <p className="apk-para">
-                    Downloading the Sky Exchin App (APK) is quick and secure when you follow the official process.
+                    Downloading the Sky Exchange App (APK) is quick and secure when you follow the official process.
                     Whether you're using Android or iOS, this guide will help you install the app safely and avoid
-                    fake files. Always download the app only from the official Sky Exchin website and never trust
+                    fake files. Always download the app only from the official Sky Exchange website and never trust
                     third-party APK links.
                 </p>
                 <p className="apk-para">
                     For Android users, the APK file allows direct installation. For iOS users, the mobile site or
-                    official installer instructions on the Sky Exchin pages provide a smooth setup experience.
+                    official installer instructions on the Sky Exchange pages provide a smooth setup experience.
                 </p>
 
                 {/* WHY DOWNLOAD */}
-                <h2 className="apk-section-heading">Why Download the Sky Exchin Mobile App?</h2>
+                <h2 className="apk-section-heading">Why Download the Sky Exchange Mobile App?</h2>
                 <p className="apk-para">
-                    The Sky Exchin mobile app is designed for speed, safety, and convenience. Whether you use
+                    The Sky Exchange mobile app is designed for speed, safety, and convenience. Whether you use
                     Android or iOS, the app ensures a seamless betting experience on the go.
                 </p>
 
                 {/* KEY FEATURES LABEL */}
-                <p className="apk-gold-label">Key Features of the Sky Exchin App (Android &amp; iOS)</p>
+                <p className="apk-gold-label">Key Features of the Sky Exchange App (Android &amp; iOS)</p>
 
                 {/* FEATURE CARDS */}
                 <div className="apk-features-grid">
@@ -68,9 +68,9 @@ const ApkGuideSection = () => {
                 </div>
 
                 {/* GET YOUR ID */}
-                <h2 className="apk-section-heading">Get Your Sky Exchin ID Now</h2>
+                <h2 className="apk-section-heading">Get Your Sky Exchange ID Now</h2>
                 <p className="apk-para">
-                    Before downloading the app, make sure you have a valid Sky Exchin ID. You'll need it to log
+                    Before downloading the app, make sure you have a valid Sky Exchange ID. You'll need it to log
                     in and access all features after installation.
                 </p>
             </div>

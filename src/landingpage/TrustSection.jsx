@@ -5,7 +5,7 @@ const cards = [
     {
         Icon: MdLock,
         title: 'Licensed & Secure Platform',
-        paras: ['Security is one of the biggest concerns for online bettors. Sky Exchin operates on a secure and monitored system designed to protect user funds and personal data.'],
+        paras: ['Security is one of the biggest concerns for online bettors. Sky Exchange operates on a secure and monitored system designed to protect user funds and personal data.'],
         bullets: [
             'Advanced encryption technology safeguards transactions',
             '24/7 monitoring ensures platform integrity',
@@ -16,7 +16,7 @@ const cards = [
     {
         Icon: MdSportsCricket,
         title: 'Wide Range of Betting Markets & Competitive Odds',
-        paras: ['One of the main reasons players prefer Sky Exchin is the variety of betting options available. The platform offers multiple sports and gaming categories, making it suitable for every type of bettor.', 'Popular options include:'],
+        paras: ['One of the main reasons players prefer Sky Exchange is the variety of betting options available. The platform offers multiple sports and gaming categories, making it suitable for every type of bettor.', 'Popular options include:'],
         bullets: [
             'Cricket betting',
             'Football betting',
@@ -29,7 +29,7 @@ const cards = [
     {
         Icon: MdAccountBalance,
         title: 'Fast Deposit & Withdrawal Process',
-        paras: ['Quick and hassle-free transactions are essential for a smooth betting experience. Sky Exchin is known for its fast deposit and withdrawal system.'],
+        paras: ['Quick and hassle-free transactions are essential for a smooth betting experience. Sky Exchange is known for its fast deposit and withdrawal system.'],
         bullets: [
             'Instant or near-instant deposits',
             'Quick withdrawal processing',
@@ -40,7 +40,7 @@ const cards = [
     {
         Icon: MdPhoneAndroid,
         title: 'User-Friendly Interface',
-        paras: ['A simple and intuitive interface makes Sky Exchin accessible to both beginners and experienced bettors.'],
+        paras: ['A simple and intuitive interface makes Sky Exchange accessible to both beginners and experienced bettors.'],
         bullets: [
             'Easy navigation across categories',
             'Clear betting options and odds display',
@@ -51,7 +51,7 @@ const cards = [
     {
         Icon: MdCardGiftcard,
         title: 'Exclusive Promotions & Bonus Offers',
-        paras: ['Bonuses and rewards play a major role in enhancing the betting experience. Sky Exchin regularly provides:'],
+        paras: ['Bonuses and rewards play a major role in enhancing the betting experience. Sky Exchange regularly provides:'],
         bullets: [
             'Welcome bonuses for new users',
             'Special promotions on major sporting events',
@@ -63,7 +63,7 @@ const cards = [
     {
         Icon: MdSupportAgent,
         title: '24/7 Customer Support',
-        paras: ['Reliable customer service is crucial for building trust. Sky Exchin offers dedicated support around the clock.'],
+        paras: ['Reliable customer service is crucial for building trust. Sky Exchange offers dedicated support around the clock.'],
         bullets: [
             '24/7 assistance for account-related issues',
             'Quick responses to transaction queries',
@@ -74,7 +74,7 @@ const cards = [
     {
         Icon: MdDevices,
         title: 'Seamless Access on Mobile & Desktop',
-        paras: ['In today\'s mobile-first world, accessibility is key. Sky Exchin provides smooth performance on both mobile devices and desktop platforms.'],
+        paras: ['In today\'s mobile-first world, accessibility is key. Sky Exchange provides smooth performance on both mobile devices and desktop platforms.'],
         bullets: [
             'Fast-loading website',
             'Optimized mobile experience',
@@ -91,15 +91,15 @@ const TrustSection = () => {
 
                 {/* Intro */}
                 <div className="trust-intro">
-                    <h2 className="trust-heading">Why Over 50 Lakh Users Trust Sky Exchin for Online Betting in India</h2>
+                    <h2 className="trust-heading">Why Over 50 Lakh Users Trust Sky Exchange for Online Betting in India</h2>
                     <p className="trust-para">
                         When it comes to online betting in India, trust, security, and user experience matter the most.
-                        Over 50 lakh users across the country rely on Sky Exchin for a safe, smooth, and rewarding
+                        Over 50 lakh users across the country rely on Sky Exchange for a safe, smooth, and rewarding
                         betting experience.
                     </p>
                     <p className="trust-para">
                         So, what makes this platform stand out in a competitive market? Let's explore the key reasons
-                        why millions of players continue to choose Sky Exchin.
+                        why millions of players continue to choose Sky Exchange.
                     </p>
                 </div>
 

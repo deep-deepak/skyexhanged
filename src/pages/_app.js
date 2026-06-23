@@ -24,7 +24,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="robots" content="index,follow" />
-        <link rel="canonical" href="https://skyexchin.com/" />
+        <link rel="canonical" href="https://skyexchange.com/" />
 
         {/* Organization Schema */}
         <script
@@ -34,8 +34,8 @@ export default function App({ Component, pageProps }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "SkyExchin",
-              url: "https://skyexchin.com/",
-              logo: "https://skyexchin.com/logo.png",
+              url: "https://skyexchange.com/",
+              logo: "https://skyexchange.com/logo.png",
               description: "SkyExchin — your trusted partner for premium services.",
               contactPoint: {
                 "@type": "ContactPoint",
@@ -43,7 +43,7 @@ export default function App({ Component, pageProps }) {
                 contactType: "customer service",
                 availableLanguage: "en",
               },
-              email: "info@skyexchin.com",
+              email: "info@skyexchange.com",
             }),
           }}
         />
@@ -56,9 +56,9 @@ export default function App({ Component, pageProps }) {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               name: "SkyExchin",
-              url: "https://skyexchin.com/",
+              url: "https://skyexchange.com/",
               telephone: "+1-000-000-0000",
-              email: "info@skyexchin.com",
+              email: "info@skyexchange.com",
               priceRange: "££",
             }),
           }}
@@ -138,7 +138,7 @@ export default function App({ Component, pageProps }) {
             <path d="M23.07 20.18c-.31-.87-1.8-1.71-2.53-1.82-.52-.08-.97.02-1.37.32-.54.41-.78.82-1.15.82-.27 0-.63-.22-1.08-.6-.9-.74-1.66-1.74-2.07-2.48-.28-.5-.3-.9.04-1.28.28-.3.62-.47.62-.95 0-.31-.6-2.01-1.06-2.6-.27-.35-.56-.46-.93-.46-.62 0-1.26.21-1.68.66-.73.78-1.07 1.78-.92 2.84.2 1.41 1.02 2.86 2.18 4.04 1.16 1.18 2.7 2.2 4.17 2.64 1.02.3 2.05.2 2.86-.28.62-.37 1.08-.96 1.28-1.65.09-.31.07-.62-.06-.8z" fill="#ffffff"/>
           </svg>
         </span>
-        Get Skyexchin Id Now
+        Get Skyexchange Id Now
       </a>
 
       {showScrollButton && (

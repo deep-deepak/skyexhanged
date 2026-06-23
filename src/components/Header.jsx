@@ -36,13 +36,13 @@ const Header = () => {
                             <div className="logo">
                                 <Image
                                     src="/images/bfb1d63b-b713-45b8-9e02-5747b47cc840.jpg"
-                                    alt="Skyexchin Logo"
+                                    alt="Skyexchange Logo"
                                     width={46}
                                     height={46}
                                     style={{ borderRadius: '5px', display: 'block' }}
                                     priority
                                 />
-                                <span className="logo-name">SKYEXCHIN</span>
+                                <span className="logo-name">SKYEXCHANGE</span>
                             </div>
                         </Link>
 
