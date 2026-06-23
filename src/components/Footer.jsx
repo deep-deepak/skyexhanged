@@ -113,7 +113,7 @@ const Footer = () => {
                 </span>
                 <span className="ft-nav-sep">|</span>
                 <span className="ft-nav-item">
-                    <a href="/#faq" className="ft-nav-link" onClick={(e) => scrollTo(e, 'faq')}>Contact Us</a>
+                    <a href="/contact" className="ft-nav-link">Contact Us</a>
                 </span>
             </nav>
 
