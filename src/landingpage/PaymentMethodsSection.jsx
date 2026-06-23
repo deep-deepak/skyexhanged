@@ -43,7 +43,7 @@ const PaymentMethodsSection = () => {
     return (
         <section className="pm-section">
             <div className="pm-container">
-                <h2 className="pm-heading">Accepted Payment Methods on Sky Exchange</h2>
+                <h2 className="pm-heading" data-aos="fade-up">Accepted Payment Methods on Sky Exchange</h2>
                 <p className="pm-para">
                     Sky Exchange provides users with multiple secure and convenient payment options to deposit and
                     withdraw funds smoothly. Whether you prefer traditional banking methods or modern digital
@@ -55,8 +55,8 @@ const PaymentMethodsSection = () => {
                 </p>
 
                 <div className="pm-grid">
-                    {payments.map(({ Icon, iconColor, title, intro, bullets }) => (
-                        <div key={title} className="pm-card">
+                    {payments.map(({ Icon, iconColor, title, intro, bullets }, index) => (
+                        <div key={title} className="pm-card" data-aos="fade-up" data-aos-delay={String((index % 4) * 100)}>
                             <div className="pm-icon-wrap">
                                 <Icon size={36} color={iconColor} />
                             </div>

@@ -46,7 +46,7 @@ export default function WhyChooseSection() {
 
                 {/* Intro */}
                 <div className="wc-intro">
-                    <h2 className="wc-heading">
+                    <h2 className="wc-heading" data-aos="fade-up">
                         Why Millions in India Choose Sky Exchange for Online Betting
                     </h2>
                     <p className="wc-para">
@@ -65,8 +65,8 @@ export default function WhyChooseSection() {
 
                 {/* Features grid */}
                 <div className="features-grid">
-                    {features.map((f) => (
-                        <div key={f.title} className="feat-item">
+                    {features.map((f, index) => (
+                        <div key={f.title} className="feat-item" data-aos="fade-up" data-aos-delay={String((index % 4) * 100)}>
                             <div className="feat-icon-wrap">
                                 <f.Icon size={52} />
                             </div>

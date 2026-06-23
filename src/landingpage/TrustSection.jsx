@@ -91,7 +91,7 @@ const TrustSection = () => {
 
                 {/* Intro */}
                 <div className="trust-intro">
-                    <h2 className="trust-heading">Why Over 50 Lakh Users Trust Sky Exchange for Online Betting in India</h2>
+                    <h2 className="trust-heading" data-aos="fade-up">Why Over 50 Lakh Users Trust Sky Exchange for Online Betting in India</h2>
                     <p className="trust-para">
                         When it comes to online betting in India, trust, security, and user experience matter the most.
                         Over 50 lakh users across the country rely on Sky Exchange for a safe, smooth, and rewarding
@@ -106,7 +106,7 @@ const TrustSection = () => {
                 {/* Cards */}
                 <div className="trust-grid">
                     {cards.map((card, i) => (
-                        <div key={i} className={`trust-card ${i === 6 ? 'last-card' : ''}`}>
+                        <div key={i} className={`trust-card ${i === 6 ? 'last-card' : ''}`} data-aos="zoom-in" data-aos-delay={String((i % 4) * 100)}>
                             <div className="trust-icon-wrap">
                                 <card.Icon size={36} color="#111" />
                             </div>

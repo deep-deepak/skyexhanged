@@ -148,7 +148,7 @@ const FaqSection = () => {
     return (
         <section className="faq-section">
             <div className="faq-container">
-                <h2 className="faq-heading">FAQs About Skyexchange</h2>
+                <h2 className="faq-heading" data-aos="fade-up">FAQs About Skyexchange</h2>
                 <p className="faq-intro">
                     If you are searching for clear and SEO-friendly information about Skyexchange, this guide
                     answers the most common questions in a simple and easy-to-understand format. These FAQs are
@@ -156,7 +156,7 @@ const FaqSection = () => {
                     options, payments, withdrawals, legality, bonuses, and customer support.
                 </p>
 
-                <div className="faq-list-wrap">
+                <div className="faq-list-wrap" data-aos="fade-up">
                     {faqs.map((faq, i) => (
                         <FaqItem
                             key={i}

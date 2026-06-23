@@ -59,7 +59,7 @@ const SportsBettingSection = () => {
     return (
         <section className="sb-section">
             <div className="sb-container">
-                <h2 className="sb-heading">Sports Betting Options Available on Sky Exchange</h2>
+                <h2 className="sb-heading" data-aos="fade-up">Sports Betting Options Available on Sky Exchange</h2>
                 <p className="sb-intro">
                     Sky Exchange offers a wide range of sports betting opportunities designed for both beginners and
                     experienced bettors. With competitive odds, live betting features, and diverse markets, the
@@ -68,8 +68,8 @@ const SportsBettingSection = () => {
                 </p>
 
                 <div className="sb-grid">
-                    {sports.map(({ Icon, title, intro, bullets, closing }) => (
-                        <div key={title} className="sb-card">
+                    {sports.map(({ Icon, title, intro, bullets, closing }, index) => (
+                        <div key={title} className="sb-card" data-aos="fade-up" data-aos-delay={String((index % 4) * 100)}>
                             <div className="sb-icon-box">
                                 <Icon size={40} color="#111111" />
                             </div>

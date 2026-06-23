@@ -39,7 +39,7 @@ const PromotionsSection = () => {
             <div className="promo-container">
 
                 {/* LEFT — sticky image */}
-                <div className="promo-left">
+                <div className="promo-left" data-aos="fade-right">
                     <div className="promo-left-inner">
                         <Image
                             src="/images/skyexchangeapp-img-08.webp"
@@ -53,7 +53,7 @@ const PromotionsSection = () => {
                 </div>
 
                 {/* RIGHT — scrollable text */}
-                <div className="promo-right">
+                <div className="promo-right" data-aos="fade-left">
                     <h2 className="promo-heading">
                         Sky Exchange Promotions &amp; Bonuses: Maximize Your Rewards
                     </h2>

@@ -58,7 +58,7 @@ const PopularitySection = () => {
 
                 {/* Heading block */}
                 <div className="intro-block">
-                    <h2 className="intro-heading">Why Sky Exchange Is Gaining Popularity in India</h2>
+                    <h2 className="intro-heading" data-aos="fade-up">Why Sky Exchange Is Gaining Popularity in India</h2>
                     <p className="intro-para">
                         One of the main reasons behind the rapid success of Sky Exchange is its user-focused approach.
                         The platform combines multiple gaming services under one roof, ensuring players do not need to
@@ -80,8 +80,8 @@ const PopularitySection = () => {
 
                 {/* Feature cards */}
                 <div className="cards-grid">
-                    {features.map((f) => (
-                        <div key={f.num} className="feat-card">
+                    {features.map((f, index) => (
+                        <div key={f.num} className="feat-card" data-aos="fade-up" data-aos-delay={String((index % 4) * 100)}>
                             <span className="feat-num">{f.num}</span>
                             <h3 className="feat-title">{f.title}</h3>
                             {f.paras.map((p, i) => (

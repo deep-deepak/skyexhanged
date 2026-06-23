@@ -42,8 +42,8 @@ const LoginSection = () => {
             <div className="login-container">
 
                 {/* LEFT — scrollable text */}
-                <div className="login-left">
-                    <h2 className="login-heading">Sky Exchange Login – Step-by-Step Secure Access</h2>
+                <div className="login-left" data-aos="fade-right">
+                    <h2 className="login-heading" data-aos="fade-up">Sky Exchange Login – Step-by-Step Secure Access</h2>
                     <p className="login-para">
                         Accessing your Sky Exchange account is a quick and secure process designed to protect your
                         information while giving you instant entry to betting and gaming features. Whether you are
@@ -71,7 +71,7 @@ const LoginSection = () => {
                 </div>
 
                 {/* RIGHT — sticky image */}
-                <div className="login-right">
+                <div className="login-right" data-aos="fade-left">
                     <div className="login-right-inner">
                         <Image
                             src="/images/skyexchangeapp-img-06.webp"

@@ -46,7 +46,7 @@ const SignUpSection = () => {
             <div className="signup-container">
 
                 {/* LEFT — sticky image */}
-                <div className="signup-left">
+                <div className="signup-left" data-aos="fade-right">
                     <div className="signup-left-inner">
                         <Image
                             src="/images/skyexchangeapp-img-04.webp"
@@ -60,8 +60,8 @@ const SignUpSection = () => {
                 </div>
 
                 {/* RIGHT — scrollable */}
-                <div className="signup-right">
-                    <h2 className="su-heading">How to Sign Up on Sky Exchange (Step-by-Step Guide)</h2>
+                <div className="signup-right" data-aos="fade-left">
+                    <h2 className="su-heading" data-aos="fade-up">How to Sign Up on Sky Exchange (Step-by-Step Guide)</h2>
                     <p className="su-para">
                         Getting started on Sky Exchange is simple and user-friendly. The registration process is smooth
                         and can be completed in just a few minutes. If you're new to the platform, follow this easy

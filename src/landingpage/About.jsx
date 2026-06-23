@@ -7,7 +7,7 @@ const AboutSection = () => {
             <div className="about-container">
 
                 {/* Left — image */}
-                <div className="about-image-col">
+                <div className="about-image-col" data-aos="fade-right">
                     <div className="about-image-wrap">
                         <Image
                             src="/images/skyexchangeapp-img-02.webp"
@@ -21,11 +21,11 @@ const AboutSection = () => {
                 </div>
 
                 {/* Right — text */}
-                <div className="about-text-col">
-                    <h2 className="about-heading">
+                <div className="about-text-col" data-aos="fade-left">
+                    <h2 className="about-heading" data-aos="fade-up">
                         Welcome to Sky Exchange – India's Trusted Betting Platform
                     </h2>
-                    <p className="about-para">
+                    <p className="about-para" data-aos="fade-up" data-aos-delay="100">
                         Sky Exchange may be a newer name for some players, but since entering the online gaming
                         industry in 2017, it has grown rapidly into one of India's most trusted and popular betting
                         platforms. What started as a small digital space for Indian players has evolved into a powerful

@@ -81,7 +81,7 @@ const CasinoGamesSection = () => {
     return (
         <section className="cg-section">
             <div className="cg-container">
-                <h2 className="cg-heading">Casino Games on Sky Exchange</h2>
+                <h2 className="cg-heading" data-aos="fade-up">Casino Games on Sky Exchange</h2>
                 <p className="cg-intro">
                     Sky Exchange offers a dynamic and engaging online casino environment where players can enjoy a
                     wide variety of games. From live dealer tables to thrilling slot machines and traditional Indian
@@ -90,8 +90,8 @@ const CasinoGamesSection = () => {
                 </p>
 
                 <div className="cg-grid">
-                    {games.map(({ title, paras, bullets, closing }) => (
-                        <div key={title} className="cg-card">
+                    {games.map(({ title, paras, bullets, closing }, index) => (
+                        <div key={title} className="cg-card" data-aos="zoom-in" data-aos-delay={String((index % 4) * 100)}>
                             <h3 className="cg-card-title">{title}</h3>
                             {paras.map((p, i) => <p key={i} className="cg-card-text">{p}</p>)}
                             {bullets && (

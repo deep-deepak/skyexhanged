@@ -59,7 +59,7 @@ export default function HistorySection() {
             <div className="history-container">
 
                 {/* LEFT — sticky image */}
-                <div className="history-left">
+                <div className="history-left" data-aos="fade-right">
                     <div className="sticky-image">
                         <Image
                             src="/images/skyexchangeapp-img-012.webp"
@@ -73,10 +73,10 @@ export default function HistorySection() {
                 </div>
 
                 {/* RIGHT — scrollable content */}
-                <div className="history-right">
-                    <h2 className="hist-main-heading">History of Sky Exchange</h2>
+                <div className="history-right" data-aos="fade-left">
+                    <h2 className="hist-main-heading" data-aos="fade-up">History of Sky Exchange</h2>
                     {sections.map((s, i) => (
-                        <div key={i} className="hist-block">
+                        <div key={i} className="hist-block" data-aos="fade-up" data-aos-delay={String((i % 4) * 100)}>
                             {s.heading && <h3 className="hist-sub-heading">{s.heading}</h3>}
                             {s.paras.map((p, j) => (
                                 <p key={j} className="hist-para">{p}</p>

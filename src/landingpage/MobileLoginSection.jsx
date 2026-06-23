@@ -23,7 +23,7 @@ const MobileLoginSection = () => {
             <div className="ml-container">
 
                 {/* LEFT — sticky image */}
-                <div className="ml-left">
+                <div className="ml-left" data-aos="fade-right">
                     <div className="ml-left-inner">
                         <Image
                             src="/images/skyexchangeapp-img-010.webp"
@@ -37,8 +37,8 @@ const MobileLoginSection = () => {
                 </div>
 
                 {/* RIGHT — scrollable text */}
-                <div className="ml-right">
-                    <h2 className="ml-heading">Sky Exchange Mobile Login Guide</h2>
+                <div className="ml-right" data-aos="fade-left">
+                    <h2 className="ml-heading" data-aos="fade-up">Sky Exchange Mobile Login Guide</h2>
                     <p className="ml-para">
                         Logging in through mobile devices is just as simple and secure.
                     </p>

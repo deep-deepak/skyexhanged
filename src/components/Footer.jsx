@@ -28,7 +28,7 @@ const Footer = () => {
         <footer className="site-footer">
 
             {/* LOGO STRIP */}
-            <div className="ft-logo-strip">
+            <div className="ft-logo-strip" data-aos="fade-in">
                 <Image
                     src="/images/logo.jpg"
                     alt="Skyexchange Logo"
@@ -39,7 +39,7 @@ const Footer = () => {
             </div>
 
             {/* CONTACT BAR */}
-            <div className="ft-contact-bar">
+            <div className="ft-contact-bar" data-aos="fade-up">
                 <div className="ft-contact-item">
                     <span className="ft-contact-icon">📞</span>
                     <span>Customer support1 | support2</span>
@@ -55,7 +55,7 @@ const Footer = () => {
             </div>
 
             {/* LICENSE BLOCK */}
-            <div className="ft-license-row">
+            <div className="ft-license-row" data-aos="fade-up" data-aos-delay="100">
                 <div className="ft-gc-logo">
                     <div className="ft-gc-badge">
                         <span className="ft-gc-text">GC</span>
@@ -83,7 +83,7 @@ const Footer = () => {
             </div>
 
             {/* PAYMENT METHODS */}
-            <div className="ft-payments">
+            <div className="ft-payments" data-aos="fade-up" data-aos-delay="200">
                 {paymentMethods.map((pm) => (
                     <span key={pm} className="ft-payment-badge">{pm}</span>
                 ))}
@@ -92,7 +92,7 @@ const Footer = () => {
             <hr className="ft-divider" />
 
             {/* NAV LINKS */}
-            <nav className="ft-nav">
+            <nav className="ft-nav" data-aos="fade-up" data-aos-delay="300">
                 {navLinks.map(({ label, href }, i) => (
                     <span key={label} className="ft-nav-item">
                         <Link href={href} className="ft-nav-link">{label}</Link>

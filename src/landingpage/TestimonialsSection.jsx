@@ -125,9 +125,9 @@ const TestimonialsSection = () => {
     return (
         <section className="ts-section">
             <div className="ts-container">
-                <h2 className="ts-heading">Skyexchange User Testimonials</h2>
+                <h2 className="ts-heading" data-aos="fade-up">Skyexchange User Testimonials</h2>
 
-                <div className="ts-slider-wrap">
+                <div className="ts-slider-wrap" data-aos="fade-in">
                     <Slider {...settings}>
                         {testimonials.map(({ name, stars, quote }) => (
                             <div key={name} className="ts-slide">

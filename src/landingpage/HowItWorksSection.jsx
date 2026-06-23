@@ -68,7 +68,7 @@ const HowItWorksSection = () => {
 
                 {/* Intro */}
                 <div className="hw-intro">
-                    <h2 className="hw-main-heading">What is Sky Exchange and How Does It Work?</h2>
+                    <h2 className="hw-main-heading" data-aos="fade-up">What is Sky Exchange and How Does It Work?</h2>
                     <p className="hw-para">
                         <strong>Sky Exchange</strong> is an online betting platform that allows users to safely log in
                         and place bets on a wide range of sports and casino games. Designed for simplicity, security,
@@ -90,8 +90,8 @@ const HowItWorksSection = () => {
 
                 {/* Step cards */}
                 <div className="steps-grid">
-                    {steps.map((s) => (
-                        <div key={s.step} className="step-card">
+                    {steps.map((s, index) => (
+                        <div key={s.step} className="step-card" data-aos="fade-up" data-aos-delay={String((index % 4) * 100)}>
                             <div className="step-badge">{s.step}</div>
                             <h4 className="step-title">{s.title}</h4>
                             {s.paras.map((p, i) => (

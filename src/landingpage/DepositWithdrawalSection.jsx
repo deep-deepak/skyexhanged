@@ -104,7 +104,7 @@ const DepositWithdrawalSection = () => {
             <div className="dw-container">
 
                 {/* MAIN HEADING */}
-                <h2 className="dw-heading">Deposit and Withdrawal Money from Sky Exchange Account</h2>
+                <h2 className="dw-heading" data-aos="fade-up">Deposit and Withdrawal Money from Sky Exchange Account</h2>
                 <p className="dw-para">
                     Managing your account balance smoothly is essential for a hassle-free experience. Sky Exchange
                     offers secure, fast, and user-friendly options to deposit and withdraw funds. This step-by-step
@@ -119,8 +119,10 @@ const DepositWithdrawalSection = () => {
                     complete your transaction without any confusion:
                 </p>
                 <div className="dw-grid">
-                    {depositSteps.map((s) => (
-                        <StepCard key={s.step + '-dep'} {...s} />
+                    {depositSteps.map((s, index) => (
+                        <div key={s.step + '-dep'} data-aos="fade-up" data-aos-delay={String((index % 4) * 100)}>
+                            <StepCard {...s} />
+                        </div>
                     ))}
                 </div>
 

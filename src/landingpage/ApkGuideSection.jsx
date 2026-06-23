@@ -30,7 +30,7 @@ const ApkGuideSection = () => {
             <div className="apk-container">
 
                 {/* MAIN HEADING BLOCK */}
-                <h2 className="apk-main-heading">
+                <h2 className="apk-main-heading" data-aos="fade-up">
                     Downloading the Sky Exchange App (APK) – Safe &amp; Easy Guide
                 </h2>
                 <p className="apk-para">
@@ -56,8 +56,8 @@ const ApkGuideSection = () => {
 
                 {/* FEATURE CARDS */}
                 <div className="apk-features-grid">
-                    {features.map(({ Icon, title, desc }) => (
-                        <div key={title} className="apk-card">
+                    {features.map(({ Icon, title, desc }, index) => (
+                        <div key={title} className="apk-card" data-aos="fade-up" data-aos-delay={String((index % 4) * 100)}>
                             <div className="apk-icon-wrap">
                                 <Icon size={38} />
                             </div>

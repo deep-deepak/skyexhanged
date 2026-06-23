@@ -50,7 +50,7 @@ const WithdrawFundsSection = () => {
         <section className="wf-section">
             <div className="wf-container">
 
-                <h2 className="wf-heading">How to Withdraw Funds from Sky Exchange</h2>
+                <h2 className="wf-heading" data-aos="fade-up">How to Withdraw Funds from Sky Exchange</h2>
                 <p className="wf-para wf-para--gap">
                     Withdrawing money from your Sky Exchange account is just as easy and secure as depositing
                     funds. Follow the steps below to process your withdrawal request smoothly.
@@ -58,8 +58,8 @@ const WithdrawFundsSection = () => {
 
                 {/* STEP CARDS */}
                 <div className="wf-grid">
-                    {steps.map(({ step, title, para, bullets, closing }) => (
-                        <div key={step} className="wf-card">
+                    {steps.map(({ step, title, para, bullets, closing }, index) => (
+                        <div key={step} className="wf-card" data-aos="fade-up" data-aos-delay={String((index % 4) * 100)}>
                             <span className="wf-badge">{step}</span>
                             <h3 className="wf-card-title">{title}</h3>
                             <p className="wf-card-text">{para}</p>

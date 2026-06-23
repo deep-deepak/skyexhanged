@@ -120,7 +120,7 @@ const TrendingBettingSection = () => {
             <div className="tb-container">
 
                 {/* HEADING */}
-                <h2 className="tb-heading">Top Trending Betting Games on Sky Exchange in 2025</h2>
+                <h2 className="tb-heading" data-aos="fade-up">Top Trending Betting Games on Sky Exchange in 2025</h2>
                 <p className="tb-para">
                     Sky Exchange offers a broad spectrum of betting options tailored to the distinctive tastes of
                     Indian players. From the unmatched excitement of cricket to the fast-paced thrill of casino
@@ -138,8 +138,8 @@ const TrendingBettingSection = () => {
 
                 {/* CARDS GRID */}
                 <div className="tb-grid">
-                    {trendingGames.map(({ Icon, title, paras, bullets, closing }) => (
-                        <div key={title} className="tb-card">
+                    {trendingGames.map(({ Icon, title, paras, bullets, closing }, index) => (
+                        <div key={title} className="tb-card" data-aos="fade-up" data-aos-delay={String((index % 4) * 100)}>
                             <div className="tb-icon-box">
                                 <Icon size={40} color="#111111" />
                             </div>
