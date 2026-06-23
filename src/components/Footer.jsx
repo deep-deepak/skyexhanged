@@ -52,10 +52,10 @@ const Footer = () => {
                     <span className="ft-contact-icon">📞</span>
                     <span>Customer support1 | support2</span>
                 </div>
-                <div className="ft-contact-item">
+                <a href="https://wa.me/9062813000" target="_blank" rel="noopener noreferrer" className="ft-contact-item ft-contact-link">
                     <span className="ft-contact-icon">💬</span>
-                    <span>WhatsApp 3 WhatsApp 4</span>
-                </div>
+                    <span>WhatsApp: +91 9062813000</span>
+                </a>
                 <div className="ft-contact-item">
                     <span className="ft-contact-icon">✉️</span>
                     <span>Email info@skyexchange.com</span>
@@ -159,6 +159,7 @@ const Footer = () => {
                     font-weight: 500;
                 }
                 .ft-contact-icon { font-size: 1.1rem; flex-shrink: 0; }
+                .ft-contact-link { text-decoration: none; color: inherit; }
 
                 /* LICENSE */
                 .ft-license-row {
