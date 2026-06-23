@@ -48,10 +48,10 @@ const Footer = () => {
 
             {/* CONTACT BAR */}
             <div className="ft-contact-bar" data-aos="fade-up">
-                <div className="ft-contact-item">
+                <a href="tel:+919062813000" className="ft-contact-item ft-contact-link">
                     <span className="ft-contact-icon">📞</span>
-                    <span>Customer support1 | support2</span>
-                </div>
+                    <span>Customer Support: +91 9062813000</span>
+                </a>
                 <a href="https://wa.me/9062813000" target="_blank" rel="noopener noreferrer" className="ft-contact-item ft-contact-link">
                     <span className="ft-contact-icon">💬</span>
                     <span>WhatsApp: +91 9062813000</span>
