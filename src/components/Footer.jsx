@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Image from 'next/image';
 import React from 'react';
 
@@ -8,20 +7,26 @@ const paymentMethods = [
 ];
 
 const navLinks = [
-    { label: 'Home',              href: '/#home' },
-    { label: 'Skyexchange Login', href: '/#login' },
-    { label: 'Sign Up',           href: '/#sign-up' },
-    { label: 'Skyexchange 247',   href: '/#sports-betting' },
-    { label: 'Skyexchange agent', href: '/#about' },
-    { label: 'Skyexchange app',   href: '/#apk-guide' },
-    { label: 'Skyexchange Art',   href: '/#about' },
-    { label: 'Skyexchange biz',   href: '/#about' },
-    { label: 'Skyexchange ID',    href: '/#login' },
-    { label: 'SkyExchin VIP',     href: '/#promotions' },
-    { label: 'Skyexchange XYZ',   href: '/#about' },
-    { label: 'Skyinplay',         href: '/#sports-betting' },
-    { label: 'About Us',          href: '/#about' },
+    { label: 'Home',              section: 'home' },
+    { label: 'Skyexchange Login', section: 'login' },
+    { label: 'Sign Up',           section: 'sign-up' },
+    { label: 'Skyexchange 247',   section: 'sports-betting' },
+    { label: 'Skyexchange agent', section: 'about' },
+    { label: 'Skyexchange app',   section: 'apk-guide' },
+    { label: 'Skyexchange Art',   section: 'about' },
+    { label: 'Skyexchange biz',   section: 'about' },
+    { label: 'Skyexchange ID',    section: 'login' },
+    { label: 'SkyExchin VIP',     section: 'promotions' },
+    { label: 'Skyexchange XYZ',   section: 'about' },
+    { label: 'Skyinplay',         section: 'sports-betting' },
+    { label: 'About Us',          section: 'about' },
 ];
+
+const scrollTo = (e, section) => {
+    e.preventDefault();
+    const el = document.getElementById(section);
+    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
 
 const Footer = () => {
     return (
@@ -93,20 +98,20 @@ const Footer = () => {
 
             {/* NAV LINKS */}
             <nav className="ft-nav" data-aos="fade-up" data-aos-delay="300">
-                {navLinks.map(({ label, href }, i) => (
+                {navLinks.map(({ label, section }, i) => (
                     <span key={label} className="ft-nav-item">
-                        <Link href={href} className="ft-nav-link">{label}</Link>
+                        <a href={`/#${section}`} className="ft-nav-link" onClick={(e) => scrollTo(e, section)}>{label}</a>
                         {i < navLinks.length - 1 && <span className="ft-nav-sep">|</span>}
                     </span>
                 ))}
             </nav>
             <nav className="ft-nav ft-nav--sm">
                 <span className="ft-nav-item">
-                    <Link href="/#faq" className="ft-nav-link">Blog</Link>
+                    <a href="/#faq" className="ft-nav-link" onClick={(e) => scrollTo(e, 'faq')}>Blog</a>
                 </span>
                 <span className="ft-nav-sep">|</span>
                 <span className="ft-nav-item">
-                    <Link href="/#faq" className="ft-nav-link">Contact Us</Link>
+                    <a href="/#faq" className="ft-nav-link" onClick={(e) => scrollTo(e, 'faq')}>Contact Us</a>
                 </span>
             </nav>
 

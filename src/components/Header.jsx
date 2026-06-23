@@ -1,26 +1,31 @@
 import React, { useState } from 'react';
-import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 
 const navItems = [
-    { label: 'Home',            path: '/#home',           badge: null },
-    { label: 'In-Play',         path: '/#sports-betting', badge: null },
-    { label: 'Multi Markets',   path: '/#sports-betting', badge: null },
-    { label: 'Cricket',         path: '/#sports-betting', badge: 6    },
-    { label: 'Soccer',          path: '/#sports-betting', badge: 13   },
-    { label: 'Tennis',          path: '/#sports-betting', badge: 13   },
-    { label: 'Virtual Cricket', path: '/#sports-betting', badge: null },
-    { label: 'E-Soccer',        path: '/#sports-betting', badge: 7    },
+    { label: 'Home',            section: 'home',           badge: null },
+    { label: 'In-Play',         section: 'sports-betting', badge: null },
+    { label: 'Multi Markets',   section: 'sports-betting', badge: null },
+    { label: 'Cricket',         section: 'sports-betting', badge: 6    },
+    { label: 'Soccer',          section: 'sports-betting', badge: 13   },
+    { label: 'Tennis',          section: 'sports-betting', badge: 13   },
+    { label: 'Virtual Cricket', section: 'sports-betting', badge: null },
+    { label: 'E-Soccer',        section: 'sports-betting', badge: 7    },
 ];
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const router = useRouter();
 
-    const isActive = (path) => {
-        if (path === '/#home') return router.pathname === '/';
-        return false;
+    const scrollToSection = (e, section) => {
+        e.preventDefault();
+        setIsMenuOpen(false);
+        const el = document.getElementById(section);
+        if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        } else if (router.pathname !== '/') {
+            router.push(`/#${section}`);
+        }
     };
 
     return (
@@ -82,17 +87,17 @@ const Header = () => {
                     <div className="nav-inner">
                         <ul className="nav-list">
                             {navItems.map((item) => (
-                                <li key={item.path} className="nav-item">
-                                    <Link
-                                        href={item.path}
-                                        className={`nav-link ${item.badge ? 'has-badge' : ''} ${isActive(item.path) ? 'active' : ''}`}
-                                        onClick={() => setIsMenuOpen(false)}
+                                <li key={item.label} className="nav-item">
+                                    <a
+                                        href={`/#${item.section}`}
+                                        className={`nav-link ${item.badge ? 'has-badge' : ''}`}
+                                        onClick={(e) => scrollToSection(e, item.section)}
                                     >
                                         {item.badge !== null && (
                                             <span className="nav-badge">{item.badge}</span>
                                         )}
                                         <span className="nav-label">{item.label}</span>
-                                    </Link>
+                                    </a>
                                 </li>
                             ))}
                         </ul>
