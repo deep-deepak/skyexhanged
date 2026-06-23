@@ -33,17 +33,14 @@ const Header = () => {
 
                         {/* Logo */}
                         <Link href="/" className="logo-link">
-                            <div className="logo">
-                                <Image
-                                    src="/images/bfb1d63b-b713-45b8-9e02-5747b47cc840.jpg"
-                                    alt="Skyexchange Logo"
-                                    width={46}
-                                    height={46}
-                                    style={{ borderRadius: '5px', display: 'block' }}
-                                    priority
-                                />
-                                <span className="logo-name">SKYEXCHANGE</span>
-                            </div>
+                            <Image
+                                src="/images/logo.jpg"
+                                alt="Skyexchange Logo"
+                                width={220}
+                                height={56}
+                                style={{ width: '220px', height: '56px', objectFit: 'cover', objectPosition: 'center center', display: 'block' }}
+                                priority
+                            />
                         </Link>
 
                         {/* Search */}
@@ -135,20 +132,7 @@ const Header = () => {
                 }
 
                 /* LOGO */
-                .logo-link { text-decoration: none; flex-shrink: 0; }
-                .logo {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    gap: 3px;
-                }
-                .logo-name {
-                    color: #fff;
-                    font-size: 9px;
-                    font-weight: 700;
-                    letter-spacing: 3px;
-                    font-family: Arial, sans-serif;
-                }
+                .logo-link { text-decoration: none; flex-shrink: 0; line-height: 0; }
 
                 /* SEARCH */
                 .search-wrap {

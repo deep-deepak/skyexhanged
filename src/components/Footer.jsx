@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import React from 'react';
 
 const paymentMethods = [
@@ -25,6 +26,17 @@ const navLinks = [
 const Footer = () => {
     return (
         <footer className="site-footer">
+
+            {/* LOGO STRIP */}
+            <div className="ft-logo-strip">
+                <Image
+                    src="/images/logo.jpg"
+                    alt="Skyexchange Logo"
+                    width={280}
+                    height={72}
+                    style={{ width: '280px', height: '72px', objectFit: 'cover', objectPosition: 'center center', display: 'block' }}
+                />
+            </div>
 
             {/* CONTACT BAR */}
             <div className="ft-contact-bar">
@@ -106,6 +118,15 @@ const Footer = () => {
                     background: #ebebeb;
                     padding: 0 0 32px;
                     font-family: 'Poppins', Arial, sans-serif;
+                }
+
+                /* LOGO STRIP */
+                .ft-logo-strip {
+                    background: #111111;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 18px 20px;
                 }
 
                 /* CONTACT BAR */
