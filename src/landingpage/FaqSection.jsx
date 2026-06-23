@@ -2,63 +2,63 @@ import React, { useState } from 'react';
 
 const faqs = [
     {
-        q: 'What is SkyExchin?',
+        q: 'What is Sky Exchange?',
         paras: [
-            'SkyExchin is a trusted Online Cricket Exchange platform that offers users a seamless and secure experience for live sports exchange. Our platform provides real-time updates, fast access, and reliable support for sports enthusiasts.',
+            'Sky Exchange is a trusted Online Cricket Exchange platform that offers users a seamless and secure experience for live sports exchange. Our platform provides real-time updates, fast access, and reliable support for sports enthusiasts.',
         ],
     },
     {
-        q: 'Why is SkyExchin considered a trusted Cricket Exchange Platform?',
+        q: 'Why is Sky Exchange considered a trusted Cricket Exchange Platform?',
         paras: [
-            'SkyExchin is recognized as a reliable Cricket Exchange Platform because it offers secure transactions, fast performance, live match updates, and dedicated customer support to ensure a smooth user experience.',
+            'Sky Exchange is recognized as a reliable Cricket Exchange Platform because it offers secure transactions, fast performance, live match updates, and dedicated customer support to ensure a smooth user experience.',
         ],
     },
     {
-        q: 'What services does SkyExchin offer as a Sports Exchange Platform?',
+        q: 'What services does Sky Exchange offer as a Sports Exchange Platform?',
         paras: [
-            'As a leading Sports Exchange Platform, SkyExchin provides access to live cricket exchange services, real-time match information, and a user-friendly platform designed for sports fans.',
+            'As a leading Sports Exchange Platform, Sky Exchange provides access to live cricket exchange services, real-time match information, and a user-friendly platform designed for sports fans.',
         ],
     },
     {
-        q: 'How can I get an Online Cricket ID on SkyExchin?',
+        q: 'How can I get an Online Cricket ID on Sky Exchange?',
         paras: [
-            'Getting an Online Cricket ID on SkyExchin is quick and easy. Simply contact our support team, complete the registration process, and start accessing the platform securely.',
+            'Getting an Online Cricket ID on Sky Exchange is quick and easy. Simply contact our support team, complete the registration process, and start accessing the platform securely.',
         ],
     },
     {
-        q: 'What makes SkyExchin the best Cricket Exchange Platform?',
+        q: 'What makes Sky Exchange the best Cricket Exchange Platform?',
         paras: [
-            'SkyExchin is considered one of the Best Cricket Exchange Platforms due to its advanced technology, secure environment, instant support, and seamless user experience for cricket enthusiasts.',
+            'Sky Exchange is considered one of the Best Cricket Exchange Platforms due to its advanced technology, secure environment, instant support, and seamless user experience for cricket enthusiasts.',
         ],
     },
     {
-        q: 'Does SkyExchin provide Live Cricket Exchange services?',
+        q: 'Does Sky Exchange provide Live Cricket Exchange services?',
         paras: [
-            'Yes, SkyExchin offers Live Cricket Exchange services with real-time updates, fast access, and a smooth interface to enhance your overall experience.',
+            'Yes, Sky Exchange offers Live Cricket Exchange services with real-time updates, fast access, and a smooth interface to enhance your overall experience.',
         ],
     },
     {
-        q: 'Why choose SkyExchin over other Online Sports Exchange platforms?',
+        q: 'Why choose Sky Exchange over other Online Sports Exchange platforms?',
         paras: [
-            'SkyExchin stands out among Online Sports Exchange platforms because of its reliability, responsive customer support, user-friendly design, and commitment to delivering a premium experience.',
+            'Sky Exchange stands out among Online Sports Exchange platforms because of its reliability, responsive customer support, user-friendly design, and commitment to delivering a premium experience.',
         ],
     },
     {
-        q: 'Is SkyExchin a trusted platform for Cricket Exchange services?',
+        q: 'Is Sky Exchange a trusted platform for Cricket Exchange services?',
         paras: [
-            'Yes, SkyExchin is a Trusted Cricket Exchange platform that prioritizes user security, fast performance, and excellent customer support.',
+            'Yes, Sky Exchange is a Trusted Cricket Exchange platform that prioritizes user security, fast performance, and excellent customer support.',
         ],
     },
     {
-        q: 'Can I access multiple sports on SkyExchin?',
+        q: 'Can I access multiple sports on Sky Exchange?',
         paras: [
-            'Yes, SkyExchin is a comprehensive Sports Exchange Platform that aims to provide users with a seamless experience across various sports along with live cricket updates.',
+            'Yes, Sky Exchange is a comprehensive Sports Exchange Platform that aims to provide users with a seamless experience across various sports along with live cricket updates.',
         ],
     },
     {
-        q: 'How does SkyExchin ensure a secure Cricket Betting Exchange experience?',
+        q: 'How does Sky Exchange ensure a secure Cricket Betting Exchange experience?',
         paras: [
-            'SkyExchin focuses on platform security, data protection, and a smooth user interface to provide a secure and reliable Cricket Betting Exchange experience.',
+            'Sky Exchange focuses on platform security, data protection, and a smooth user interface to provide a secure and reliable Cricket Betting Exchange experience.',
         ],
     },
 ];

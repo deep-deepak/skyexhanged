@@ -16,8 +16,10 @@ export default function ContactPage() {
     return (
         <Layout>
             <Head>
-                <title>Contact Us – Skyexchange</title>
-                <meta name="description" content="Get in touch with Skyexchange. Contact us via phone, WhatsApp or email for support and queries." />
+                <title>Contact Sky Exchange | Get in Touch With Us</title>
+                <meta name="description" content="Contact Sky Exchange for support, account assistance, and any queries. Our team is here to help you with quick and reliable assistance." />
+                <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+                <link rel="canonical" href="https://skyexchin.com/contact/" />
             </Head>
 
             {/* HERO BANNER */}

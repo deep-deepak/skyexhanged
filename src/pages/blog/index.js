@@ -8,8 +8,10 @@ export default function BlogPage() {
     return (
         <Layout>
             <Head>
-                <title>Blog – Skyexchange | Betting Tips, Guides &amp; News</title>
-                <meta name="description" content="Read the latest betting tips, guides, app tutorials and sports news from Skyexchange." />
+                <title>Sky Exchange Blog | Latest Cricket News, Tips &amp; Sports Guides</title>
+                <meta name="description" content="Stay updated with the latest cricket news, betting tips, match insights, & sports exchange guides on the Sky Exchange Blog. Read more!" />
+                <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+                <link rel="canonical" href="https://skyexchin.com/blog/" />
             </Head>
 
             {/* HERO */}
