@@ -27,8 +27,7 @@ const scrollTo = (e, section) => {
     const el = document.getElementById(section);
     if (!el) return;
     const headerH = document.querySelector('.skyexch-header')?.offsetHeight || 107;
-    const top = el.getBoundingClientRect().top + window.pageYOffset - headerH;
-    window.scrollTo({ top, behavior: 'smooth' });
+    window.scrollTo({ top: el.offsetTop - headerH, behavior: 'smooth' });
 };
 
 const Footer = () => {

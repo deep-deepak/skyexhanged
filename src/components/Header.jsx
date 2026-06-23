@@ -18,17 +18,23 @@ const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const router = useRouter();
 
-    const scrollToSection = (e, section) => {
-        e.preventDefault();
+    const scrollToSection = (section) => {
         setIsMenuOpen(false);
-        const el = document.getElementById(section);
-        if (!el) {
-            if (router.pathname !== '/') router.push(`/#${section}`);
+        if (router.pathname !== '/') {
+            router.push('/').then(() => {
+                setTimeout(() => {
+                    const el = document.getElementById(section);
+                    if (!el) return;
+                    const headerH = document.querySelector('.skyexch-header')?.offsetHeight || 107;
+                    window.scrollTo({ top: el.offsetTop - headerH, behavior: 'smooth' });
+                }, 300);
+            });
             return;
         }
+        const el = document.getElementById(section);
+        if (!el) return;
         const headerH = document.querySelector('.skyexch-header')?.offsetHeight || 107;
-        const top = el.getBoundingClientRect().top + window.pageYOffset - headerH;
-        window.scrollTo({ top, behavior: 'smooth' });
+        window.scrollTo({ top: el.offsetTop - headerH, behavior: 'smooth' });
     };
 
     return (
@@ -91,16 +97,16 @@ const Header = () => {
                         <ul className="nav-list">
                             {navItems.map((item) => (
                                 <li key={item.label} className="nav-item">
-                                    <a
-                                        href={`/#${item.section}`}
+                                    <button
+                                        type="button"
                                         className={`nav-link ${item.badge ? 'has-badge' : ''}`}
-                                        onClick={(e) => scrollToSection(e, item.section)}
+                                        onClick={() => scrollToSection(item.section)}
                                     >
                                         {item.badge !== null && (
                                             <span className="nav-badge">{item.badge}</span>
                                         )}
                                         <span className="nav-label">{item.label}</span>
-                                    </a>
+                                    </button>
                                 </li>
                             ))}
                         </ul>
@@ -270,8 +276,13 @@ const Header = () => {
                 }
                 .nav-item:first-child { border-left: 1px solid rgba(0,0,0,0.15); }
 
-                /* NAV LINK */
+                /* NAV LINK (button reset + style) */
                 .nav-link {
+                    background: none;
+                    border: none;
+                    outline: none;
+                    cursor: pointer;
+                    font-family: inherit;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
