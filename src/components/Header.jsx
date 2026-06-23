@@ -20,21 +20,18 @@ const Header = () => {
 
     const scrollToSection = (section) => {
         setIsMenuOpen(false);
+        const doScroll = () => {
+            const el = document.getElementById(section);
+            if (!el) return;
+            const headerH = document.querySelector('.skyexch-header')?.offsetHeight || 107;
+            const top = el.getBoundingClientRect().top + window.scrollY - headerH;
+            window.scrollTo({ top, behavior: 'smooth' });
+        };
         if (router.pathname !== '/') {
-            router.push('/').then(() => {
-                setTimeout(() => {
-                    const el = document.getElementById(section);
-                    if (!el) return;
-                    const headerH = document.querySelector('.skyexch-header')?.offsetHeight || 107;
-                    window.scrollTo({ top: el.offsetTop - headerH, behavior: 'smooth' });
-                }, 300);
-            });
-            return;
+            router.push('/').then(() => setTimeout(doScroll, 400));
+        } else {
+            requestAnimationFrame(doScroll);
         }
-        const el = document.getElementById(section);
-        if (!el) return;
-        const headerH = document.querySelector('.skyexch-header')?.offsetHeight || 107;
-        window.scrollTo({ top: el.offsetTop - headerH, behavior: 'smooth' });
     };
 
     return (

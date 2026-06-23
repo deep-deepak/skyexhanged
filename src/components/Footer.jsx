@@ -24,10 +24,13 @@ const navLinks = [
 
 const scrollTo = (e, section) => {
     e.preventDefault();
-    const el = document.getElementById(section);
-    if (!el) return;
-    const headerH = document.querySelector('.skyexch-header')?.offsetHeight || 107;
-    window.scrollTo({ top: el.offsetTop - headerH, behavior: 'smooth' });
+    requestAnimationFrame(() => {
+        const el = document.getElementById(section);
+        if (!el) return;
+        const headerH = document.querySelector('.skyexch-header')?.offsetHeight || 107;
+        const top = el.getBoundingClientRect().top + window.scrollY - headerH;
+        window.scrollTo({ top, behavior: 'smooth' });
+    });
 };
 
 const Footer = () => {
