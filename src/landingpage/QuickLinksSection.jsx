@@ -1,45 +1,45 @@
 import React from 'react';
 import Image from 'next/image';
 
-/* Wide landscape banner (shown full-width) */
-const wideBanner = {
-    src: '/images/3e9a5000-3199-4398-a6ce-e0f5734a1bb9.jpg',
-    alt: 'Sky Exchange – Unmatched Odds, Fast Payouts, All-in-One Betting Platform',
-    width: 1920,
-    height: 480,
-};
+/* Wide landscape banners — 2 per row */
+const wideCards = [
+    { src: '/images/1.png', alt: 'Sports Betting',               width: 900, height: 225 },
+    { src: '/images/2.png', alt: 'Blog – News & Sporting Info',  width: 900, height: 225 },
+    { src: '/images/3.png', alt: 'Virtual Cricket – Betradar',   width: 900, height: 225 },
+    { src: '/images/4.png', alt: 'Royal Gaming',                 width: 900, height: 225 },
+];
 
-/* Portrait / square cards — shown in a 4-column grid */
-const portraitCards = [
-    { src: '/images/1ee54013-9ffa-4c9e-a75d-4d1781ae5305.jpg', alt: 'Welcome to Skyexchange.com – India\'s Trusted Betting Platform', width: 600, height: 600 },
-    { src: '/images/5dafafb1-92a5-4f59-bc2b-f4952e7c6dee.jpg', alt: 'Sky Exchange Special Promotions',                               width: 600, height: 800 },
-    { src: '/images/f548224f-af0c-48c6-9a3e-ce13e651db3b.jpg', alt: 'Sky Exchange Promotions & Bonuses – Maximize Your Rewards',    width: 600, height: 800 },
-    { src: '/images/6a8adaa2-c64c-4311-b9c2-3a95d891f51c.jpg', alt: 'History of Skyexchange',                                       width: 600, height: 800 },
-    { src: '/images/d1626d70-94e8-49c8-add4-2e671d4147f3.jpg', alt: 'History of Skyexchange – Platform Growth',                    width: 600, height: 800 },
-    { src: '/images/45875717-c1c0-4c1d-ba43-8713bddc5a4a.jpg', alt: 'Sky Exchange Mobile Login Guide',                              width: 600, height: 800 },
-    { src: '/images/bfb1d63b-b713-45b8-9e02-5747b47cc840.jpg', alt: 'Skyexchange – Best Gaming Club Logo',                         width: 600, height: 600 },
+/* Square game-provider cards — 4 per row */
+const squareCards = [
+    { src: '/images/5.png', alt: 'Live Casino', width: 400, height: 400 },
+    { src: '/images/6.png', alt: 'Evolution',   width: 400, height: 400 },
+    { src: '/images/7.png', alt: 'Ezugi',       width: 400, height: 400 },
+    { src: '/images/8.png', alt: 'SmartSoft',   width: 400, height: 400 },
 ];
 
 const QuickLinksSection = () => {
     return (
         <section className="ql-section">
 
-            {/* Full-width wide banner */}
-            <div className="ql-banner">
-                <Image
-                    src={wideBanner.src}
-                    alt={wideBanner.alt}
-                    width={wideBanner.width}
-                    height={wideBanner.height}
-                    style={{ width: '100%', height: 'auto', display: 'block' }}
-                    priority
-                />
+            {/* Rows 1 & 2 — wide landscape banners, 2 per row */}
+            <div className="ql-wide-grid">
+                {wideCards.map(({ src, alt, width, height }) => (
+                    <div key={src} className="ql-wide-card">
+                        <Image
+                            src={src}
+                            alt={alt}
+                            width={width}
+                            height={height}
+                            style={{ width: '100%', height: 'auto', display: 'block' }}
+                        />
+                    </div>
+                ))}
             </div>
 
-            {/* Portrait / square cards grid */}
-            <div className="ql-grid">
-                {portraitCards.map(({ src, alt, width, height }) => (
-                    <div key={src} className="ql-card">
+            {/* Row 3 — square game-provider cards, 4 per row */}
+            <div className="ql-square-grid">
+                {squareCards.map(({ src, alt, width, height }) => (
+                    <div key={src} className="ql-square-card">
                         <Image
                             src={src}
                             alt={alt}
@@ -57,45 +57,39 @@ const QuickLinksSection = () => {
                     padding: 0;
                 }
 
-                /* WIDE BANNER */
-                .ql-banner {
-                    line-height: 0;
-                    width: 100%;
+                /* WIDE BANNERS — 2 columns */
+                .ql-wide-grid {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 2px;
+                }
+                .ql-wide-card {
                     overflow: hidden;
+                    cursor: pointer;
+                    line-height: 0;
                 }
-                .ql-banner:hover img {
-                    filter: brightness(1.06);
-                }
-                .ql-banner img {
-                    transition: filter 0.3s ease;
-                }
+                .ql-wide-card img { transition: transform 0.3s ease, filter 0.3s ease; }
+                .ql-wide-card:hover img { transform: scale(1.02); filter: brightness(1.08); }
 
-                /* PORTRAIT GRID — 4 columns */
-                .ql-grid {
+                /* SQUARE CARDS — 4 columns */
+                .ql-square-grid {
                     display: grid;
                     grid-template-columns: repeat(4, 1fr);
                     gap: 2px;
                     margin-top: 2px;
                 }
-                .ql-card {
+                .ql-square-card {
                     overflow: hidden;
                     cursor: pointer;
                     line-height: 0;
                 }
-                .ql-card img {
-                    transition: transform 0.3s ease, filter 0.3s ease;
-                }
-                .ql-card:hover img {
-                    transform: scale(1.03);
-                    filter: brightness(1.08);
-                }
+                .ql-square-card img { transition: transform 0.3s ease, filter 0.3s ease; }
+                .ql-square-card:hover img { transform: scale(1.03); filter: brightness(1.08); }
 
                 /* RESPONSIVE */
-                @media (max-width: 900px) {
-                    .ql-grid { grid-template-columns: repeat(3, 1fr); }
-                }
-                @media (max-width: 600px) {
-                    .ql-grid { grid-template-columns: repeat(2, 1fr); }
+                @media (max-width: 768px) {
+                    .ql-wide-grid  { grid-template-columns: 1fr; }
+                    .ql-square-grid { grid-template-columns: repeat(2, 1fr); }
                 }
             `}</style>
         </section>

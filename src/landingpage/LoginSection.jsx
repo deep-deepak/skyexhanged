@@ -74,7 +74,7 @@ const LoginSection = () => {
                 <div className="login-right">
                     <div className="login-right-inner">
                         <Image
-                            src="/images/6a8adaa2-c64c-4311-b9c2-3a95d891f51c.jpg"
+                            src="/images/skyexchangeapp-img-06.webp"
                             alt="Sky Exchange Login Step-by-Step"
                             width={600}
                             height={800}

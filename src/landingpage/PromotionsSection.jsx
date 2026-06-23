@@ -42,7 +42,7 @@ const PromotionsSection = () => {
                 <div className="promo-left">
                     <div className="promo-left-inner">
                         <Image
-                            src="/images/f548224f-af0c-48c6-9a3e-ce13e651db3b.jpg"
+                            src="/images/skyexchangeapp-img-08.webp"
                             alt="Sky Exchange Promotions and Bonuses"
                             width={600}
                             height={800}

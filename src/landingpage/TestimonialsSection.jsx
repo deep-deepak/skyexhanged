@@ -116,7 +116,7 @@ const Stars = ({ count }) => (
             <span key={i}>★</span>
         ))}
         <style jsx>{`
-            .ts-stars { color: #F5A623; font-size: 1.15rem; margin-bottom: 16px; letter-spacing: 2px; }
+            .ts-stars { color: #F5C518; font-size: 1.15rem; margin-bottom: 16px; letter-spacing: 2px; }
         `}</style>
     </div>
 );

@@ -62,7 +62,7 @@ export default function HistorySection() {
                 <div className="history-left">
                     <div className="sticky-image">
                         <Image
-                            src="/images/d1626d70-94e8-49c8-add4-2e671d4147f3.jpg"
+                            src="/images/skyexchangeapp-img-012.webp"
                             alt="History of Sky Exchange"
                             width={600}
                             height={800}

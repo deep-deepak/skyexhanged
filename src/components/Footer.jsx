@@ -132,7 +132,6 @@ const Footer = () => {
                 /* CONTACT BAR */
                 .ft-contact-bar {
                     display: flex;
-                    gap: 0;
                     max-width: 1300px;
                     margin: 0 auto;
                     padding: 32px 50px 28px;

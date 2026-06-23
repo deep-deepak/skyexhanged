@@ -159,7 +159,7 @@ const Header = () => {
                     outline: none;
                 }
                 .search-input::placeholder { color: #999; }
-                .search-input:focus { border-color: #F47920; }
+                .search-input:focus { border-color: #F5C518; }
 
                 /* AUTH */
                 .auth-section {
@@ -179,7 +179,7 @@ const Header = () => {
                     color: #333;
                     outline: none;
                 }
-                .auth-input:focus { border-color: #F47920; }
+                .auth-input:focus { border-color: #F5C518; }
                 .btn-login {
                     background: #cc1111;
                     color: #fff;

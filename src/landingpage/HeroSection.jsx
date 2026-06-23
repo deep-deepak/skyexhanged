@@ -3,8 +3,8 @@ import Image from 'next/image';
 import Slider from 'react-slick';
 
 const slides = [
-    { src: '/images/b8872e90-08f0-4107-8041-b2d20562d14f.jpg', alt: 'Welcome to Skyexchange – India\'s Trusted Betting Platform' },
-    { src: '/images/dc6bbbc5-4727-41f1-98b0-99e114c0f416.jpg', alt: 'Skyexchange – Your Ultimate Gaming Destination' },
+    { src: '/images/kv-skyexchange-m.webp',   alt: 'Welcome to Skyexchange – India\'s Trusted Betting Platform' },
+    { src: '/images/kv-skyexchange-2-m.webp', alt: 'Skyexchange – Your Ultimate Gaming Destination' },
 ];
 
 const PrevArrow = ({ onClick }) => (
