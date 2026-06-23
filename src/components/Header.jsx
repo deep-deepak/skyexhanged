@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 const navItems = [
     { label: 'Home',            section: 'home',           badge: null },
@@ -21,11 +22,13 @@ const Header = () => {
         e.preventDefault();
         setIsMenuOpen(false);
         const el = document.getElementById(section);
-        if (el) {
-            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        } else if (router.pathname !== '/') {
-            router.push(`/#${section}`);
+        if (!el) {
+            if (router.pathname !== '/') router.push(`/#${section}`);
+            return;
         }
+        const headerH = document.querySelector('.skyexch-header')?.offsetHeight || 107;
+        const top = el.getBoundingClientRect().top + window.pageYOffset - headerH;
+        window.scrollTo({ top, behavior: 'smooth' });
     };
 
     return (

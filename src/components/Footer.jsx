@@ -25,7 +25,10 @@ const navLinks = [
 const scrollTo = (e, section) => {
     e.preventDefault();
     const el = document.getElementById(section);
-    if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (!el) return;
+    const headerH = document.querySelector('.skyexch-header')?.offsetHeight || 107;
+    const top = el.getBoundingClientRect().top + window.pageYOffset - headerH;
+    window.scrollTo({ top, behavior: 'smooth' });
 };
 
 const Footer = () => {
