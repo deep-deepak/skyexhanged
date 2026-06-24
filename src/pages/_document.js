@@ -11,7 +11,6 @@ export default function Document() {
         <meta name="keywords" content="SkyExchin, online cricket exchange, cricket exchange platform, sports exchange, online betting exchange, live cricket exchange, cricket ID provider, sports betting exchange" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta name="author" content="SkyExchin" />
-        <link rel="canonical" href="https://skyexchin.com/" />
 
         {/* ── Open Graph ── */}
         <meta property="og:type" content="website" />
