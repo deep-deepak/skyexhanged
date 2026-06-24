@@ -29,8 +29,9 @@ export default function Document() {
 
         {/* ── Theme / Favicon ── */}
         <meta name="theme-color" content="#F5C518" />
-        <link rel="icon" href="/images/favicon.jpg" />
-        <link rel="apple-touch-icon" href="/images/favicon.jpg" />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+        <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+        <link rel="apple-touch-icon" href="/images/favicon.ico" />
 
         {/* ── Fonts ── */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
