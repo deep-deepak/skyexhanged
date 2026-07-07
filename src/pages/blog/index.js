@@ -4,6 +4,8 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { blogPosts } from '../../data/blogData';
 
+const sortedPosts = [...blogPosts].sort((a, b) => new Date(b.date) - new Date(a.date));
+
 export default function BlogPage() {
     return (
         <Layout>
@@ -23,13 +25,13 @@ export default function BlogPage() {
             <div className="blog-page">
 
                 {/* FEATURED POST */}
-                {blogPosts.length > 0 && (
+                {sortedPosts.length > 0 && (
                     <div className="featured-wrap" data-aos="fade-up">
-                        <Link href={`/blog/${blogPosts[0].slug}`} className="featured-card">
+                        <Link href={`/blog/${sortedPosts[0].slug}`} className="featured-card">
                             <div className="featured-img-wrap">
                                 <Image
-                                    src={blogPosts[0].image}
-                                    alt={blogPosts[0].title}
+                                    src={sortedPosts[0].image}
+                                    alt={sortedPosts[0].title}
                                     width={1200}
                                     height={500}
                                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
@@ -37,13 +39,13 @@ export default function BlogPage() {
                                 <span className="featured-badge">Featured</span>
                             </div>
                             <div className="featured-body">
-                                <span className="post-cat">{blogPosts[0].category}</span>
-                                <h2 className="featured-title">{blogPosts[0].title}</h2>
-                                <p className="featured-excerpt">{blogPosts[0].excerpt}</p>
+                                <span className="post-cat">{sortedPosts[0].category}</span>
+                                <h2 className="featured-title">{sortedPosts[0].title}</h2>
+                                <p className="featured-excerpt">{sortedPosts[0].excerpt}</p>
                                 <div className="post-meta">
-                                    <span>{blogPosts[0].date}</span>
+                                    <span>{sortedPosts[0].date}</span>
                                     <span className="meta-dot">·</span>
-                                    <span>{blogPosts[0].readTime}</span>
+                                    <span>{sortedPosts[0].readTime}</span>
                                 </div>
                                 <span className="btn-read">Read Article →</span>
                             </div>
@@ -55,7 +57,7 @@ export default function BlogPage() {
                 <div className="posts-section">
                     <h2 className="section-heading" data-aos="fade-up">All Articles</h2>
                     <div className="posts-grid">
-                        {blogPosts.slice(1).map((post, i) => (
+                        {sortedPosts.slice(1).map((post, i) => (
                             <Link
                                 key={post.id}
                                 href={`/blog/${post.slug}`}
