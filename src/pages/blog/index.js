@@ -4,7 +4,10 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { blogPosts } from '../../data/blogData';
 
-const sortedPosts = [...blogPosts].sort((a, b) => new Date(b.date) - new Date(a.date));
+const sortedPosts = [...blogPosts].sort((a, b) => {
+    const dateDiff = new Date(b.date) - new Date(a.date);
+    return dateDiff !== 0 ? dateDiff : Number(b.id) - Number(a.id);
+});
 
 export default function BlogPage() {
     return (
