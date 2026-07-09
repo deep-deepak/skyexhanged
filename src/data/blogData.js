@@ -2445,4 +2445,624 @@ export const blogPosts = [
             <p>Yes. Live in-play markets are available during IPL matches, allowing you to react to real-time events as they happen.</p>
         `,
     },
+    {
+        id: "32",
+        slug: "online-betting-exchange-guide",
+        title: "Online Betting Exchange: A Smarter Way to Bet on Sports and Casino Games",
+        excerpt: "Discover how an online betting exchange gives you better odds, peer-to-peer wagering, and full control over your bets compared to traditional bookmakers.",
+        image: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=800&auto=format&fit=crop",
+        date: "July 9, 2026",
+        category: "Betting Guide",
+        readTime: "6 min read",
+        metaTitle: "Online Betting Exchange Guide | Sky Exchange",
+        metaDescription: "Learn how online betting exchanges work, why they offer better odds than bookmakers, and how to get started with Sky Exchange today.",
+        hideFeaturedImage: false,
+        content: `
+            <h2>What Is an Online Betting Exchange?</h2>
+            <p>An online betting exchange is a platform where bettors wager directly against each other rather than against a traditional bookmaker. Instead of accepting fixed odds set by a house, you either back an outcome (betting it will happen) or lay an outcome (betting it will not happen). The exchange simply facilitates the match between opposing bets and charges a small commission on winnings.</p>
+            <p>Sky Exchange is one of India's most trusted online betting exchange platforms, offering competitive markets across cricket, football, tennis, and a full suite of casino games.</p>
+
+            <h2>How Does a Betting Exchange Work?</h2>
+            <p>When you place a back bet on Sky Exchange, you are matched with another user who is willing to lay that same outcome. The process works like this:</p>
+            <ul>
+                <li><strong>Back a selection:</strong> You bet that a team or player will win. Your stake is matched by a layer.</li>
+                <li><strong>Lay a selection:</strong> You act as the bookmaker, accepting someone else's back bet. You profit when the selection loses.</li>
+                <li><strong>Dynamic odds:</strong> Odds shift in real time based on supply and demand from users, typically resulting in better value than traditional bookmakers.</li>
+                <li><strong>Commission:</strong> The exchange earns revenue by charging a small percentage (typically 2–5%) on net winnings, keeping the platform neutral.</li>
+            </ul>
+
+            <h2>Key Benefits of Using an Online Betting Exchange</h2>
+            <h3>Better Odds</h3>
+            <p>Because exchange odds are determined by the market rather than a bookmaker's margin, they are generally higher than those offered at traditional sportsbooks. Over time, this difference can significantly improve your returns.</p>
+            <h3>Trading Opportunities</h3>
+            <p>Exchanges allow you to back and lay the same selection at different odds, locking in a guaranteed profit regardless of the outcome. This trading approach is popular among experienced bettors who monitor price movements before and during events.</p>
+            <h3>Full Transparency</h3>
+            <p>Every available price and the volume of money behind it is visible on the exchange. You can see exactly how much liquidity exists at each price point, enabling more informed decisions.</p>
+            <h3>No Account Restrictions</h3>
+            <p>Traditional bookmakers frequently limit or close accounts of consistently winning customers. On a betting exchange, you are betting against other users, so the platform has no incentive to restrict successful bettors.</p>
+
+            <h2>Sports and Casino Games Available on Sky Exchange</h2>
+            <p>Sky Exchange covers a wide range of markets including:</p>
+            <ul>
+                <li><strong>Cricket:</strong> IPL, Test matches, T20 Internationals, domestic leagues</li>
+                <li><strong>Football:</strong> Premier League, Champions League, La Liga, Serie A</li>
+                <li><strong>Tennis:</strong> Grand Slams, ATP and WTA Tour events</li>
+                <li><strong>Casino Games:</strong> Live roulette, baccarat, Teen Patti, Andar Bahar, slots</li>
+                <li><strong>Virtual Sports:</strong> Fast-paced simulated events available around the clock</li>
+            </ul>
+
+            <h2>How to Get Started on Sky Exchange</h2>
+            <ol>
+                <li><strong>Register and verify:</strong> Create your Sky Exchange account and complete the quick verification process.</li>
+                <li><strong>Deposit funds:</strong> Add funds using UPI, net banking, or your preferred payment method.</li>
+                <li><strong>Choose a market:</strong> Browse the sports or casino section and select an event.</li>
+                <li><strong>Place your bet:</strong> Enter your stake and click to back or lay your selection.</li>
+                <li><strong>Manage your position:</strong> Monitor live markets and trade out if the opportunity presents itself.</li>
+            </ol>
+
+            <h2>Responsible Betting on an Exchange</h2>
+            <p>The flexibility of a betting exchange can be both an advantage and a risk. Set a budget before you start, use the available tools to set deposit limits, and never wager more than you can afford to lose. Sky Exchange encourages all users to bet responsibly.</p>
+
+            <h2>Frequently Asked Questions</h2>
+            <h3>1. Is an online betting exchange legal in India?</h3>
+            <p>Sky Exchange operates under a licensed framework. Always check the regulations in your specific state before registering.</p>
+            <h3>2. What is the difference between backing and laying?</h3>
+            <p>Backing means you bet on something to happen; laying means you bet against it happening, effectively acting as the bookmaker.</p>
+            <h3>3. Can I make guaranteed profit by trading?</h3>
+            <p>Experienced bettors use trading strategies to lock in profits, but this requires skill and practice. There are no guaranteed outcomes in betting.</p>
+            <h3>4. How quickly are winnings paid out?</h3>
+            <p>Sky Exchange processes withdrawals promptly. Funds are typically available within hours of a successful withdrawal request.</p>
+            <h3>5. Is there a minimum stake on Sky Exchange?</h3>
+            <p>Minimum stake requirements vary by market. Check the individual market page for specific details before placing your bet.</p>
+        `,
+    },
+    {
+        id: "33",
+        slug: "ipl-betting-online-sky-exchange",
+        title: "IPL Betting Online: Experience Live Cricket Betting with Sky Exchange",
+        excerpt: "Everything you need to know about IPL betting online — markets, strategies, and how Sky Exchange gives you the best live cricket betting experience.",
+        image: "https://images.unsplash.com/photo-1565992441121-4367469f3dba?w=800&auto=format&fit=crop",
+        date: "July 9, 2026",
+        category: "Cricket Betting",
+        readTime: "6 min read",
+        metaTitle: "IPL Betting Online | Live Cricket Betting – Sky Exchange",
+        metaDescription: "Bet on IPL matches online with Sky Exchange. Explore live markets, competitive odds, and expert tips for the Indian Premier League.",
+        hideFeaturedImage: false,
+        content: `
+            <h2>Why IPL Betting Online Is So Popular</h2>
+            <p>The Indian Premier League is the most watched T20 cricket competition in the world, drawing hundreds of millions of fans and billions of dollars in betting volume every season. The combination of star-studded teams, unpredictable results, and a packed schedule of day and night matches makes IPL betting online one of the most exciting wagering experiences available.</p>
+            <p>Sky Exchange provides a dedicated IPL betting hub with live odds, in-play markets, and a full range of match and tournament markets so you can bet on every ball if you choose.</p>
+
+            <h2>Top IPL Betting Markets on Sky Exchange</h2>
+            <h3>Match Winner</h3>
+            <p>The simplest market — pick which team wins the match. Ideal for beginners and casual bettors who want straightforward IPL action.</p>
+            <h3>Top Batsman</h3>
+            <p>Predict which batsman will score the most runs in a match or innings. Research recent form, venue statistics, and head-to-head records to find value.</p>
+            <h3>Top Bowler</h3>
+            <p>Bet on which bowler will claim the most wickets. Powerplay and death-overs specialists tend to dominate this market.</p>
+            <h3>Over/Under Runs</h3>
+            <p>Bet on whether the total runs in an innings, over, or match will be above or below a specified figure. Pitch and weather conditions are key factors.</p>
+            <h3>Session Betting</h3>
+            <p>Wager on the runs scored in a specific number of overs (e.g., the first six). A fast start or early wickets can make session markets move rapidly.</p>
+            <h3>Live In-Play Markets</h3>
+            <p>Sky Exchange keeps its live markets open throughout each over, allowing you to place bets as the action unfolds — ball by ball if you like.</p>
+
+            <h2>IPL Betting Strategies That Work</h2>
+            <h3>Study Team Form and Injuries</h3>
+            <p>IPL squads change quickly. Check injury reports and team announcements before each match. A missing key batsman can shift the market significantly.</p>
+            <h3>Use Pitch and Venue Data</h3>
+            <p>Different IPL venues play very differently. Some pitches favour fast bowlers early; others are batting paradises. Historical scoring data for each ground is freely available and worth studying.</p>
+            <h3>Watch Toss Impact</h3>
+            <p>The toss matters enormously at certain venues, especially under lights where dew affects grip and pace. Teams often prefer to field first in evening games.</p>
+            <h3>Follow Line Movement</h3>
+            <p>On Sky Exchange you can see odds move in real time. Sharp money moving on one side before a match can signal insider confidence. Track these movements and judge whether to follow or fade them.</p>
+            <h3>Manage Your Bankroll</h3>
+            <p>Never place more than 5% of your total betting bankroll on any single IPL match. The competition is long and there are opportunities every day — patience is more profitable than aggression.</p>
+
+            <h2>How to Bet on IPL with Sky Exchange</h2>
+            <ol>
+                <li>Log in to your Sky Exchange account.</li>
+                <li>Navigate to Cricket &gt; IPL from the main menu.</li>
+                <li>Select today's match or browse the full fixture list.</li>
+                <li>Choose your market and enter your stake.</li>
+                <li>Confirm your bet and track it in the My Bets section.</li>
+            </ol>
+
+            <h2>Frequently Asked Questions</h2>
+            <h3>1. Can I bet live during IPL matches on Sky Exchange?</h3>
+            <p>Yes, live in-play markets are available throughout every IPL match, updating ball by ball.</p>
+            <h3>2. Are IPL betting odds better on an exchange than a bookmaker?</h3>
+            <p>Generally yes. Exchange odds reflect the market and are typically higher than bookmaker prices because there is no built-in margin for a house.</p>
+            <h3>3. What is session betting in IPL?</h3>
+            <p>Session betting lets you bet on the number of runs scored in a defined period — usually a set number of overs. It is one of the most popular IPL markets among Indian bettors.</p>
+            <h3>4. How do I deposit money for IPL betting?</h3>
+            <p>Sky Exchange accepts UPI, net banking, and other popular Indian payment methods. Deposits are instant in most cases.</p>
+            <h3>5. What happens if an IPL match is abandoned?</h3>
+            <p>If fewer than the minimum number of overs required to produce a result are bowled and no DLS result is declared, all pre-match bets on the match winner market are voided and stakes are returned.</p>
+        `,
+    },
+    {
+        id: "34",
+        slug: "football-betting-online-sky-exchange",
+        title: "Football Betting Online: Enjoy Every Match with Sky Exchange",
+        excerpt: "From the Premier League to local leagues, discover how Sky Exchange lets you bet on football online with live odds, multiple markets, and instant payouts.",
+        image: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?w=800&auto=format&fit=crop",
+        date: "July 9, 2026",
+        category: "Sports Betting",
+        readTime: "5 min read",
+        metaTitle: "Football Betting Online | Sky Exchange Sports Betting",
+        metaDescription: "Bet on football matches online with Sky Exchange. Explore Premier League, Champions League, and more with live odds and competitive markets.",
+        hideFeaturedImage: false,
+        content: `
+            <h2>Football Betting Online with Sky Exchange</h2>
+            <p>Football is the world's most popular sport, and online football betting has grown into one of the largest segments of the global sports wagering market. Sky Exchange gives Indian bettors access to thousands of football markets every week — from the English Premier League and UEFA Champions League to the Indian Super League and international fixtures.</p>
+
+            <h2>Popular Football Betting Markets</h2>
+            <h3>Match Result (1X2)</h3>
+            <p>The most straightforward market. You bet on a home win, draw, or away win. Simple to understand and available for virtually every match worldwide.</p>
+            <h3>Over/Under Goals</h3>
+            <p>Predict whether the total goals in a match will be above or below a set line (commonly 2.5). Teams with attacking styles and leaky defences often go over; defensive sides frequently go under.</p>
+            <h3>Both Teams to Score</h3>
+            <p>Bet on whether both teams will find the net during the match. This market produces exciting results regardless of who wins and is widely popular among bettors.</p>
+            <h3>Asian Handicap</h3>
+            <p>A handicap is applied to even out mismatches, eliminating the draw outcome. It offers better value than the standard match result market when one team is a heavy favourite.</p>
+            <h3>First Goal Scorer</h3>
+            <p>Predict which player will score the first goal in a match. Strikers and attacking midfielders with high shot volumes offer the best value in this market.</p>
+            <h3>Correct Score</h3>
+            <p>A higher-risk, higher-reward market where you predict the exact final score. Potential returns are substantial but so is the difficulty of predicting the precise outcome.</p>
+
+            <h2>Live Football Betting on Sky Exchange</h2>
+            <p>Sky Exchange's live betting platform keeps football markets open during matches, with odds updating in real time as goals, bookings, and tactical changes occur. You can bet on the next goal, the outcome after 60 minutes, whether a penalty will be awarded, and dozens of other in-play markets. Live football betting rewards users who watch the match closely and react quickly to unfolding events.</p>
+
+            <h2>Football Betting Tips</h2>
+            <ul>
+                <li><strong>Research team news:</strong> Injuries and suspensions to key players — especially goalkeepers and strikers — heavily influence both pre-match odds and in-play markets.</li>
+                <li><strong>Check head-to-head records:</strong> Some fixtures have predictable patterns. Certain teams consistently draw or produce high-scoring games against specific opponents.</li>
+                <li><strong>Consider fatigue and schedule congestion:</strong> Teams playing in multiple competitions mid-week often rotate squads for league matches, affecting performance.</li>
+                <li><strong>Analyse home and away form separately:</strong> A team's home record can be dramatically different from its form on the road.</li>
+                <li><strong>Use multiple markets:</strong> Combining the match result with an over/under market in an accumulator can increase returns while spreading risk across independent variables.</li>
+            </ul>
+
+            <h2>How to Bet on Football on Sky Exchange</h2>
+            <ol>
+                <li>Log in to your Sky Exchange account.</li>
+                <li>Select Football from the sports menu.</li>
+                <li>Browse today's fixtures or search for a specific competition.</li>
+                <li>Choose your market, enter your stake, and confirm your bet.</li>
+                <li>Track your bets in the My Bets section in real time.</li>
+            </ol>
+
+            <h2>Frequently Asked Questions</h2>
+            <h3>1. Which football leagues can I bet on with Sky Exchange?</h3>
+            <p>Sky Exchange covers major European leagues (Premier League, La Liga, Serie A, Bundesliga, Ligue 1), Champions League, Europa League, ISL, and many more worldwide competitions.</p>
+            <h3>2. Can I cash out my football bets early?</h3>
+            <p>Sky Exchange's exchange model allows you to lay off a back bet to lock in profit or cut losses before a match ends, effectively functioning as a cash-out mechanism.</p>
+            <h3>3. What happens to my bet if a match is postponed?</h3>
+            <p>If a match is postponed before it starts, all pre-match bets are voided and stakes returned. In-play bets already placed before the match was abandoned may be settled differently — check the rules for each market.</p>
+            <h3>4. Is live football betting available 24/7?</h3>
+            <p>Football fixtures are played worldwide across different time zones, so live markets are almost always available on Sky Exchange at any hour of the day.</p>
+            <h3>5. How do I deposit funds for football betting?</h3>
+            <p>Use UPI, net banking, or other available payment methods on Sky Exchange. Most deposits are processed instantly so you can start betting right away.</p>
+        `,
+    },
+    {
+        id: "35",
+        slug: "live-betting-exchange-guide",
+        title: "Live Betting Exchange: Enjoy Real-Time Sports Betting with Sky Exchange",
+        excerpt: "Experience the thrill of in-play wagering with Sky Exchange's live betting exchange — real-time odds, instant markets, and full control over your bets.",
+        image: "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&auto=format&fit=crop",
+        date: "July 9, 2026",
+        category: "Live Betting",
+        readTime: "5 min read",
+        metaTitle: "Live Betting Exchange | Real-Time Sports Betting – Sky Exchange",
+        metaDescription: "Bet live on sports with Sky Exchange's real-time betting exchange. React to in-play events with instant odds and a wide range of markets.",
+        hideFeaturedImage: false,
+        content: `
+            <h2>What Is a Live Betting Exchange?</h2>
+            <p>A live betting exchange is a platform that allows you to place wagers on sports events while they are in progress, with odds updating in real time based on what is happening on the field. Unlike pre-match betting, live markets react to every goal, wicket, injury, or tactical shift, giving you the opportunity to read the game and find value that was not visible before the action began.</p>
+            <p>Sky Exchange's live betting exchange is available for cricket, football, tennis, basketball, and more, with markets open throughout each event.</p>
+
+            <h2>Why Live Betting on an Exchange Is Different</h2>
+            <p>Traditional sportsbooks suspend their markets frequently during play and often offer limited in-play options. On Sky Exchange's peer-to-peer exchange model, markets stay active longer because odds are set by other bettors rather than a risk-averse bookmaker. This means:</p>
+            <ul>
+                <li>More markets stay open deeper into matches.</li>
+                <li>Odds are often sharper and more reflective of the true state of play.</li>
+                <li>You can trade positions — back at higher odds and lay at lower odds to lock in profit.</li>
+                <li>No arbitrary limits on account activity for winning users.</li>
+            </ul>
+
+            <h2>Popular Live Betting Markets on Sky Exchange</h2>
+            <h3>Live Match Winner</h3>
+            <p>The current favourite shifts continuously as the match unfolds. A cricket team that loses early wickets may drift significantly in odds, offering value for those who believe the lower-order can recover.</p>
+            <h3>Next Goal/Wicket</h3>
+            <p>Bet on which team will score next in football or which batsman will be dismissed next in cricket. Short-term live markets demand fast decisions but can offer substantial returns.</p>
+            <h3>Over/Under (Live)</h3>
+            <p>As the action progresses, the over/under line adjusts to account for what has already happened. If a cricket team has scored 60 in the first ten overs, the run total line for the innings will update accordingly.</p>
+            <h3>Live Session Betting (Cricket)</h3>
+            <p>Bet on the runs to be scored in the remaining overs of a session. This market is extremely popular with Indian cricket fans and is updated ball by ball on Sky Exchange.</p>
+
+            <h2>How to Win at Live Betting</h2>
+            <h3>Watch the Event</h3>
+            <p>The most successful live bettors are watching the match, not just tracking the score. Real-time observations — a bowler's fatigue, a team's pressing intensity, a player's physical condition — provide information that the market has not yet priced in.</p>
+            <h3>Act Quickly</h3>
+            <p>Live odds move fast. Once a significant event occurs — a red card, a wicket, a penalty awarded — the odds shift within seconds. Identifying the likelihood of events before they happen is the core skill of live betting.</p>
+            <h3>Trade Your Position</h3>
+            <p>If you backed a team at 3.0 (2/1) and they score first, their odds may drop to 1.5. You can now lay them at 1.5 to guarantee a profit regardless of the final result. This trading approach minimises risk and secures profit from favourable price movements.</p>
+            <h3>Set Limits Before You Start</h3>
+            <p>The pace of live betting can make it easy to overcommit. Decide your maximum stake per event before you open the markets and stick to it throughout the match.</p>
+
+            <h2>Getting Started with Live Betting on Sky Exchange</h2>
+            <ol>
+                <li>Log in to your Sky Exchange account.</li>
+                <li>Navigate to the Live section from the main menu.</li>
+                <li>Select a sport and an ongoing match.</li>
+                <li>Browse available in-play markets and place your bet.</li>
+                <li>Monitor the odds and trade your position if the opportunity arises.</li>
+            </ol>
+
+            <h2>Frequently Asked Questions</h2>
+            <h3>1. Which sports are available for live betting on Sky Exchange?</h3>
+            <p>Cricket, football, tennis, basketball, volleyball, and many more sports are available for live in-play betting on Sky Exchange.</p>
+            <h3>2. Can I place bets between deliveries in a cricket match?</h3>
+            <p>Yes, Sky Exchange keeps markets open between deliveries for most cricket formats, allowing you to react to each ball.</p>
+            <h3>3. Why do live odds sometimes disappear briefly?</h3>
+            <p>Live markets may be temporarily suspended around key events — for example, the fall of a wicket or a football goal — while the exchange processes the event and re-opens at new prices.</p>
+            <h3>4. Is live betting riskier than pre-match betting?</h3>
+            <p>Live betting moves faster and requires quicker decisions. Proper bankroll management and a disciplined approach are essential to keep risk at an acceptable level.</p>
+            <h3>5. Can I use mobile to place live bets?</h3>
+            <p>Yes, Sky Exchange's platform is fully optimised for mobile, so you can place and manage live bets from your smartphone wherever you are.</p>
+        `,
+    },
+    {
+        id: "36",
+        slug: "teen-patti-online-sky-exchange",
+        title: "Teen Patti Online: Enjoy India's Favorite Card Game with Sky Exchange",
+        excerpt: "Play Teen Patti online at Sky Exchange and experience India's most popular card game with live dealers, exciting variants, and real money rewards.",
+        image: "https://images.unsplash.com/photo-1586769852836-bc069f19e1be?w=800&auto=format&fit=crop",
+        date: "July 9, 2026",
+        category: "Casino Games",
+        readTime: "5 min read",
+        metaTitle: "Teen Patti Online | Play Live Teen Patti – Sky Exchange",
+        metaDescription: "Experience Teen Patti online at Sky Exchange with live dealers, multiple game variants, and real money play. India's favourite card game, now online.",
+        hideFeaturedImage: false,
+        content: `
+            <h2>What Is Teen Patti?</h2>
+            <p>Teen Patti — meaning "three cards" in Hindi — is a traditional Indian card game rooted in the British game of Three Card Brag and sharing elements with poker. Played between 3 to 6 players using a standard 52-card deck without jokers, the objective is to hold the best three-card hand or to bluff opponents into folding before the showdown.</p>
+            <p>The game has been a cornerstone of Indian social gatherings for generations and is now fully available online at Sky Exchange, where you can play in real time with live dealers and fellow players from across India.</p>
+
+            <h2>Teen Patti Hand Rankings</h2>
+            <p>From highest to lowest, the hand rankings in Teen Patti are:</p>
+            <ol>
+                <li><strong>Trail (Three of a Kind):</strong> Three cards of the same rank. Three aces are the highest possible hand.</li>
+                <li><strong>Pure Sequence (Straight Flush):</strong> Three consecutive cards of the same suit.</li>
+                <li><strong>Sequence (Straight):</strong> Three consecutive cards of different suits.</li>
+                <li><strong>Colour (Flush):</strong> Three cards of the same suit that are not in sequence.</li>
+                <li><strong>Pair:</strong> Two cards of the same rank. Higher pairs beat lower pairs; the third card acts as a kicker.</li>
+                <li><strong>High Card:</strong> No combination; the highest card determines the winner.</li>
+            </ol>
+
+            <h2>How to Play Teen Patti Online on Sky Exchange</h2>
+            <p>Playing Teen Patti on Sky Exchange follows the same rules as the traditional game:</p>
+            <ol>
+                <li>All players place an initial boot (ante) into the pot before cards are dealt.</li>
+                <li>Each player receives three cards face down.</li>
+                <li>Players take turns to call (match the current stake), raise (increase it), or fold (exit the round).</li>
+                <li>You can play blind (without seeing your cards) or seen (after looking at your cards). Blind players pay half the current stake; seen players pay the full stake.</li>
+                <li>The last player remaining or the player with the best hand at showdown wins the pot.</li>
+            </ol>
+
+            <h2>Teen Patti Variants on Sky Exchange</h2>
+            <p>Sky Exchange offers several popular Teen Patti variants to keep the experience fresh:</p>
+            <ul>
+                <li><strong>Classic Teen Patti:</strong> The original three-card game as described above.</li>
+                <li><strong>Joker Teen Patti:</strong> Random cards are designated as wild cards (jokers), allowing them to substitute for any card to complete a hand.</li>
+                <li><strong>AK47:</strong> Aces, Kings, Fours, and Sevens are all jokers, dramatically increasing the frequency of high-ranking hands.</li>
+                <li><strong>Muflis (Lowball):</strong> Hand rankings are reversed — the lowest-ranking hand wins the pot.</li>
+                <li><strong>Best of Four:</strong> Players receive four cards and must form the best three-card hand from them.</li>
+            </ul>
+
+            <h2>Tips for Playing Teen Patti Online</h2>
+            <ul>
+                <li><strong>Start with small stakes:</strong> Online Teen Patti moves quickly. Begin at lower-stake tables to get comfortable with the pace before moving up.</li>
+                <li><strong>Manage the boot carefully:</strong> The pot can grow rapidly. Do not let the cumulative pot tempt you into staying in a round with a weak hand.</li>
+                <li><strong>Play blind strategically:</strong> Blind play keeps your costs lower but requires confidence. Use it in moderation to maximise pressure on opponents.</li>
+                <li><strong>Observe patterns:</strong> Even in an online setting, betting patterns and timing can reveal information about other players' hands.</li>
+                <li><strong>Set a session limit:</strong> Decide the maximum you are willing to lose in a session before you sit down. Stop when you reach that limit.</li>
+            </ul>
+
+            <h2>Frequently Asked Questions</h2>
+            <h3>1. Is Teen Patti legal to play online in India?</h3>
+            <p>Sky Exchange operates under applicable licensing. The legality of online card games varies by state — check your local regulations before playing.</p>
+            <h3>2. Can I play Teen Patti with a live dealer on Sky Exchange?</h3>
+            <p>Yes, Sky Exchange's live casino section features professional dealers conducting real Teen Patti games streamed in high definition.</p>
+            <h3>3. What are the minimum stakes for Teen Patti on Sky Exchange?</h3>
+            <p>Sky Exchange offers tables with various stake levels, including low-limit tables suitable for casual players and high-limit tables for experienced players.</p>
+            <h3>4. Is Teen Patti purely a game of luck?</h3>
+            <p>While the deal of cards involves chance, Teen Patti also rewards strategy — knowing when to bluff, when to fold, and how to read the game can significantly improve your results over time.</p>
+            <h3>5. How do I deposit money to play Teen Patti on Sky Exchange?</h3>
+            <p>Use UPI, net banking, or other available payment methods. Deposits are typically instant, so you can be at the table within minutes.</p>
+        `,
+    },
+    {
+        id: "37",
+        slug: "poker-online-india-guide",
+        title: "Poker Online India: Improve Your Strategy and Enjoy Competitive Gameplay",
+        excerpt: "Play poker online in India with Sky Exchange. Master Texas Hold'em and Omaha, sharpen your strategy, and compete against players across the country.",
+        image: "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=800&auto=format&fit=crop",
+        date: "July 9, 2026",
+        category: "Casino Games",
+        readTime: "6 min read",
+        metaTitle: "Poker Online India | Play Poker Real Money – Sky Exchange",
+        metaDescription: "Play online poker in India at Sky Exchange. Explore Texas Hold'em, Omaha, and more. Build your strategy and win real money with competitive gameplay.",
+        hideFeaturedImage: false,
+        content: `
+            <h2>Poker Online in India: The Basics</h2>
+            <p>Poker has grown from a niche pastime into one of the most played skill-based card games in India. Platforms like Sky Exchange bring the full poker experience to your smartphone or desktop — from beginner-friendly cash games to competitive tournaments where the prize pools can be substantial.</p>
+            <p>Unlike pure luck-based casino games, poker rewards players who invest time in learning strategy, reading opponents, and managing their bankroll intelligently.</p>
+
+            <h2>Poker Variants Available on Sky Exchange</h2>
+            <h3>Texas Hold'em</h3>
+            <p>The most popular poker variant worldwide. Each player receives two private cards (hole cards) and combines them with five community cards to make the best five-card hand. The four betting rounds — pre-flop, flop, turn, and river — provide ample opportunity for strategy and bluffing.</p>
+            <h3>Omaha</h3>
+            <p>Players receive four hole cards and must use exactly two of them along with exactly three of the five community cards. Omaha tends to produce bigger hands and larger pots than Hold'em, making it popular among experienced players seeking action.</p>
+            <h3>Omaha Hi-Lo</h3>
+            <p>A split-pot variant where the pot is divided between the best high hand and the best qualifying low hand (five cards with ranks eight or lower). Players often compete for both halves of the pot simultaneously.</p>
+
+            <h2>Essential Poker Strategy for Indian Players</h2>
+            <h3>Understand Hand Rankings</h3>
+            <p>From highest to lowest: Royal Flush, Straight Flush, Four of a Kind, Full House, Flush, Straight, Three of a Kind, Two Pair, One Pair, High Card. Knowing these instinctively is the foundation of all poker strategy.</p>
+            <h3>Master Starting Hand Selection</h3>
+            <p>Not all two-card combinations in Texas Hold'em are equal. Premium hands — Ace-Ace, King-King, Queen-Queen, Ace-King suited — should be played aggressively. Weak hands in early position should usually be folded.</p>
+            <h3>Understand Position</h3>
+            <p>Position at the table is one of the most powerful advantages in poker. Acting last (being on the button) gives you information about all other players' actions before you must decide. Play tighter in early position; open up in late position.</p>
+            <h3>Pot Odds and Equity</h3>
+            <p>Before calling a bet, calculate whether the size of the call is justified by your chances of winning. If the pot is ₹1000 and you must call ₹100, you need to win at least 9% of the time to break even. Comparing your equity (probability of winning) to pot odds is a fundamental skill.</p>
+            <h3>Bluffing with Purpose</h3>
+            <p>Bluffing works best when you have a believable story — a consistent betting pattern that represents a strong hand. Bluffing randomly or too frequently is one of the most common mistakes beginners make.</p>
+            <h3>Bankroll Management</h3>
+            <p>A standard guideline is to keep at least 20–30 buy-ins for the stake level you are playing. Moving down in stakes when your bankroll drops and moving up when it grows protects you from going broke during natural variance.</p>
+
+            <h2>Tournaments vs. Cash Games</h2>
+            <p><strong>Cash games</strong> allow you to sit down and leave whenever you choose, with chips representing real money at a fixed value. They reward consistent, disciplined play.</p>
+            <p><strong>Tournaments</strong> have a fixed buy-in, and all players start with the same chip stack. The goal is to win all the chips. Tournaments involve increasing blind levels that create pressure as the game progresses, requiring players to adjust strategy dynamically.</p>
+
+            <h2>How to Play Poker on Sky Exchange</h2>
+            <ol>
+                <li>Log in to your Sky Exchange account.</li>
+                <li>Navigate to the Casino or Games section and select Poker.</li>
+                <li>Choose your preferred variant — Texas Hold'em, Omaha, or others.</li>
+                <li>Select a cash game table or enter a tournament lobby.</li>
+                <li>Buy in with your preferred amount and start playing.</li>
+            </ol>
+
+            <h2>Frequently Asked Questions</h2>
+            <h3>1. Is online poker legal in India?</h3>
+            <p>Poker is considered a game of skill by several Indian courts, but online gaming regulations vary by state. Check the laws in your state before playing for real money.</p>
+            <h3>2. Can I play poker for free on Sky Exchange?</h3>
+            <p>Sky Exchange may offer play-money tables or demo modes to help new players practise without financial risk. Check the current available options in the poker lobby.</p>
+            <h3>3. What is a rake in online poker?</h3>
+            <p>The rake is a small percentage of each pot taken by the platform as its fee for hosting the game. On Sky Exchange, the rake is competitive and clearly disclosed before you sit down.</p>
+            <h3>4. How do I improve at online poker?</h3>
+            <p>Study strategy resources, review your hand histories, understand pot odds, and practise consistently. Moving up in stakes slowly and responsibly also builds real-game experience.</p>
+            <h3>5. What is the minimum buy-in for poker on Sky Exchange?</h3>
+            <p>Minimum buy-ins vary by table. Sky Exchange offers tables across a range of stakes, including low-limit games suitable for players new to online poker.</p>
+        `,
+    },
+    {
+        id: "38",
+        slug: "roulette-online-live-casino",
+        title: "Roulette Online: Experience the Excitement of Live Casino Gaming",
+        excerpt: "Spin the wheel and win big with online roulette at Sky Exchange. Discover European, American, and live dealer roulette with real money payouts.",
+        image: "https://images.unsplash.com/photo-1596838132731-3301c3fd4317?w=800&auto=format&fit=crop",
+        date: "July 9, 2026",
+        category: "Casino Games",
+        readTime: "5 min read",
+        metaTitle: "Roulette Online | Live Casino Roulette – Sky Exchange",
+        metaDescription: "Play roulette online at Sky Exchange. Choose from European, American, and live dealer roulette tables with real money bets and instant payouts.",
+        hideFeaturedImage: false,
+        content: `
+            <h2>Roulette Online: How It Works</h2>
+            <p>Roulette is one of the oldest and most iconic casino games in the world. A croupier (or virtual random number generator in digital versions) spins a wheel and releases a small ball. Players bet on where the ball will land — a specific number, a range of numbers, a colour (red or black), or whether the result will be odd or even.</p>
+            <p>Sky Exchange offers multiple roulette variants, including European, American, and live dealer versions, all accessible from any device.</p>
+
+            <h2>Roulette Variants on Sky Exchange</h2>
+            <h3>European Roulette</h3>
+            <p>The European wheel has 37 pockets numbered 0–36. The single zero gives the house an edge of approximately 2.7%. This is the recommended variant for most players because the house edge is lower than in American roulette.</p>
+            <h3>American Roulette</h3>
+            <p>American roulette adds a 00 pocket, making 38 total pockets. The additional zero increases the house edge to about 5.26%. The rules are otherwise the same as European roulette.</p>
+            <h3>Live Dealer Roulette</h3>
+            <p>Sky Exchange's live casino section features real croupiers spinning actual wheels in a studio, streamed in high definition directly to your screen. Live roulette recreates the atmosphere of a physical casino while allowing you to play from home.</p>
+
+            <h2>Roulette Betting Options</h2>
+            <p>Roulette bets are divided into inside bets (higher risk, higher reward) and outside bets (lower risk, lower reward):</p>
+            <h3>Inside Bets</h3>
+            <ul>
+                <li><strong>Straight Up:</strong> Bet on a single number. Pays 35:1.</li>
+                <li><strong>Split:</strong> Bet on two adjacent numbers. Pays 17:1.</li>
+                <li><strong>Street:</strong> Bet on three consecutive numbers in a row. Pays 11:1.</li>
+                <li><strong>Corner:</strong> Bet on four numbers forming a square. Pays 8:1.</li>
+                <li><strong>Six Line:</strong> Bet on two adjacent rows (six numbers). Pays 5:1.</li>
+            </ul>
+            <h3>Outside Bets</h3>
+            <ul>
+                <li><strong>Red/Black:</strong> Bet on the ball landing on a red or black number. Pays 1:1.</li>
+                <li><strong>Odd/Even:</strong> Bet on odd or even outcome. Pays 1:1.</li>
+                <li><strong>Low/High:</strong> Bet on numbers 1–18 (low) or 19–36 (high). Pays 1:1.</li>
+                <li><strong>Dozen:</strong> Bet on numbers 1–12, 13–24, or 25–36. Pays 2:1.</li>
+                <li><strong>Column:</strong> Bet on one of three columns of 12 numbers. Pays 2:1.</li>
+            </ul>
+
+            <h2>Popular Roulette Strategies</h2>
+            <h3>Martingale</h3>
+            <p>Double your bet after every loss. When you eventually win, you recover all previous losses plus a profit equal to your original stake. This strategy requires a large bankroll and carries the risk of hitting table limits during a losing streak.</p>
+            <h3>Reverse Martingale (Paroli)</h3>
+            <p>Double your bet after every win instead of every loss. This limits downside risk but requires you to decide in advance how many consecutive wins you will ride before returning to your base stake.</p>
+            <h3>D'Alembert</h3>
+            <p>Increase your bet by one unit after a loss and decrease it by one unit after a win. A more conservative approach than the Martingale that produces steadier but slower session outcomes.</p>
+            <p><em>Note: No strategy eliminates the house edge. Roulette outcomes are random and no system guarantees profit over the long run.</em></p>
+
+            <h2>How to Play Roulette on Sky Exchange</h2>
+            <ol>
+                <li>Log in to your Sky Exchange account.</li>
+                <li>Navigate to Casino and select Roulette.</li>
+                <li>Choose your preferred variant — European, American, or Live Dealer.</li>
+                <li>Place your chips on the desired bets on the table layout.</li>
+                <li>Click Spin and watch the result. Winnings are credited instantly.</li>
+            </ol>
+
+            <h2>Frequently Asked Questions</h2>
+            <h3>1. Which roulette variant has the best odds for players?</h3>
+            <p>European roulette has the lowest house edge (2.7%) due to its single zero. Always choose European over American roulette if both are available.</p>
+            <h3>2. Can I play live roulette on mobile?</h3>
+            <p>Yes, Sky Exchange's live dealer roulette is fully optimised for mobile play with a smooth streaming experience.</p>
+            <h3>3. Is there a limit on how much I can bet per spin?</h3>
+            <p>Each roulette table on Sky Exchange has its own minimum and maximum bet limits, displayed clearly before you join the game.</p>
+            <h3>4. Are the results of online roulette truly random?</h3>
+            <p>Digital roulette uses certified random number generators (RNGs) to ensure fair and unpredictable results. Live roulette uses a physical wheel, providing full transparency.</p>
+            <h3>5. How are roulette winnings paid out?</h3>
+            <p>Winnings are credited to your Sky Exchange account balance immediately after each spin. You can withdraw funds at any time through the available payment methods.</p>
+        `,
+    },
+    {
+        id: "39",
+        slug: "live-dealer-casino-sky-exchange",
+        title: "Live Dealer Casino: Enjoy a Real Casino Experience with Sky Exchange",
+        excerpt: "Sky Exchange's live dealer casino brings professional dealers, real tables, and authentic casino atmosphere directly to your screen in real time.",
+        image: "https://images.unsplash.com/photo-1518895312237-a9e23508077d?w=800&auto=format&fit=crop",
+        date: "July 9, 2026",
+        category: "Casino Games",
+        readTime: "5 min read",
+        metaTitle: "Live Dealer Casino | Real Casino Online – Sky Exchange",
+        metaDescription: "Experience a real casino with Sky Exchange's live dealer games. Play live blackjack, roulette, baccarat, and more with professional dealers online.",
+        hideFeaturedImage: false,
+        content: `
+            <h2>What Is a Live Dealer Casino?</h2>
+            <p>A live dealer casino bridges the gap between the convenience of online gambling and the authentic feel of a physical casino. Professional croupiers run real games — shuffling cards, spinning roulette wheels, and calling results — from dedicated studios, while high-definition cameras stream the action directly to your device. You interact through a digital interface, placing bets in real time alongside other online players.</p>
+            <p>Sky Exchange's live dealer casino is available 24 hours a day and covers a comprehensive range of games favoured by Indian players.</p>
+
+            <h2>Live Dealer Games on Sky Exchange</h2>
+            <h3>Live Blackjack</h3>
+            <p>Sit at a real blackjack table with a professional dealer and compete to beat the dealer's hand without exceeding 21. Multiple seats are available per table, and you can join mid-shoe at most tables.</p>
+            <h3>Live Roulette</h3>
+            <p>A real croupier spins an actual wheel as you place bets on your preferred numbers, colours, or ranges. Results are fully transparent — you watch the ball drop in real time.</p>
+            <h3>Live Baccarat</h3>
+            <p>One of the most popular live casino games in Asia and India. Bet on the Player, Banker, or Tie as the dealer draws cards. Baccarat's simplicity and low house edge (1.06% on Banker bets) make it a favourite among both casual and experienced players.</p>
+            <h3>Live Teen Patti</h3>
+            <p>India's most beloved card game, played with a live dealer in real time. Experience the social energy of a traditional Teen Patti session from wherever you are.</p>
+            <h3>Live Andar Bahar</h3>
+            <p>A simple and fast-paced Indian card game where you bet on which side — Andar (inside) or Bahar (outside) — will receive a card matching the joker card drawn by the dealer.</p>
+            <h3>Live Dragon Tiger</h3>
+            <p>A simplified version of baccarat with just two cards dealt — Dragon and Tiger. Bet on which card will be higher, or whether the result will be a tie.</p>
+
+            <h2>Why Play Live Dealer Games on Sky Exchange?</h2>
+            <ul>
+                <li><strong>Authentic casino atmosphere:</strong> HD video streaming, real dealers, and physical equipment recreate the feel of being on a casino floor.</li>
+                <li><strong>Transparency:</strong> No RNG (random number generator) involved — you see every card dealt and every spin in real time.</li>
+                <li><strong>Interaction:</strong> Chat with dealers and fellow players for a social experience impossible with standard digital casino games.</li>
+                <li><strong>Availability:</strong> Tables operate around the clock, meaning you can play at 2 AM or 2 PM without restriction.</li>
+                <li><strong>Variety:</strong> Dozens of tables across multiple games ensure you always find a seat at your preferred stake level.</li>
+            </ul>
+
+            <h2>Tips for Live Dealer Casino Play</h2>
+            <ul>
+                <li><strong>Learn the rules before you sit down:</strong> Live games move at real-time pace. Practise on demo tables first if you are new to a game.</li>
+                <li><strong>Choose stakes appropriate for your bankroll:</strong> Sky Exchange has tables at a range of stake levels. Start at lower-limit tables to build familiarity.</li>
+                <li><strong>Focus on low house-edge games:</strong> Baccarat (Banker bet), blackjack with basic strategy, and European roulette all offer relatively low house edges compared to other casino games.</li>
+                <li><strong>Use a stable internet connection:</strong> Live games rely on video streaming. A strong Wi-Fi or 4G/5G connection prevents interruptions during critical moments.</li>
+                <li><strong>Set a session budget:</strong> Decide your win and loss limits before you open the live casino. Walking away at the right time is a skill as important as any game strategy.</li>
+            </ul>
+
+            <h2>How to Access the Live Casino on Sky Exchange</h2>
+            <ol>
+                <li>Log in to your Sky Exchange account.</li>
+                <li>Select Live Casino from the main navigation menu.</li>
+                <li>Browse available tables by game type and stake level.</li>
+                <li>Click Join Table to enter your chosen game.</li>
+                <li>Place bets using the on-screen betting interface.</li>
+            </ol>
+
+            <h2>Frequently Asked Questions</h2>
+            <h3>1. Is the live dealer experience the same as being in a real casino?</h3>
+            <p>The core gameplay is identical — real dealers, real cards, real wheels. The main difference is you interact through a screen rather than being physically present at the table.</p>
+            <h3>2. Can I play live dealer games on mobile?</h3>
+            <p>Yes, Sky Exchange's live casino is fully optimised for smartphones and tablets with seamless HD streaming.</p>
+            <h3>3. Are live dealer games available 24/7?</h3>
+            <p>Yes. Sky Exchange's live dealer casino operates around the clock with tables available at all hours.</p>
+            <h3>4. What is the minimum bet for live dealer games on Sky Exchange?</h3>
+            <p>Minimum bets vary by table and game. Sky Exchange offers tables across a wide range of stake levels, including options suitable for casual players.</p>
+            <h3>5. Are the live dealers real people?</h3>
+            <p>Yes. All live dealer games on Sky Exchange are hosted by trained, professional croupiers in real studios, streamed to you in real time.</p>
+        `,
+    },
+    {
+        id: "40",
+        slug: "casino-bonus-sky-exchange",
+        title: "Casino Bonus: Enhance Your Gaming Experience with Sky Exchange",
+        excerpt: "Learn about the casino bonuses available on Sky Exchange — welcome bonuses, reload offers, and loyalty rewards designed to boost your betting bankroll.",
+        image: "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&auto=format&fit=crop",
+        date: "July 9, 2026",
+        category: "Promotions",
+        readTime: "5 min read",
+        metaTitle: "Casino Bonus | Sky Exchange Promotions and Offers",
+        metaDescription: "Discover casino bonuses on Sky Exchange including welcome bonuses, deposit offers, and loyalty rewards. Boost your bankroll and enjoy more gaming.",
+        hideFeaturedImage: false,
+        content: `
+            <h2>Why Casino Bonuses Matter</h2>
+            <p>Casino bonuses are promotional offers that give you extra funds or free plays on top of your own deposits. When used wisely, they extend your gaming sessions, reduce the risk of your own money, and give you the opportunity to try new games without committing your full bankroll.</p>
+            <p>Sky Exchange offers a range of bonuses and promotions designed to reward both new users and loyal members of the platform.</p>
+
+            <h2>Types of Casino Bonuses on Sky Exchange</h2>
+            <h3>Welcome Bonus</h3>
+            <p>New players on Sky Exchange are eligible for a welcome bonus on their first deposit. This typically matches a percentage of your deposit up to a maximum amount, effectively doubling or increasing your starting bankroll. For example, a 100% welcome bonus on a ₹5,000 deposit would credit an additional ₹5,000 in bonus funds.</p>
+            <h3>Reload Bonus</h3>
+            <p>Reload bonuses reward existing players for making subsequent deposits. While usually smaller than the welcome offer, they provide ongoing value for regular players and are often tied to specific days or payment methods.</p>
+            <h3>Cashback Offer</h3>
+            <p>Some promotions return a percentage of your net losses over a defined period. Cashback bonuses reduce the sting of losing sessions and keep you engaged with the platform during a run of bad luck.</p>
+            <h3>Free Bets and Free Spins</h3>
+            <p>Free bet credits let you place wagers without risking your own funds. Any winnings from free bets are credited as bonus funds subject to wagering requirements. Free spins are the slot equivalent, granting you a set number of spins on featured games.</p>
+            <h3>Referral Bonus</h3>
+            <p>Invite friends to join Sky Exchange and earn a referral bonus when they register and make their first deposit. The reward is typically credited to your account once the referred user meets the qualifying conditions.</p>
+            <h3>Loyalty and VIP Rewards</h3>
+            <p>Long-term active players on Sky Exchange may qualify for loyalty tiers that unlock exclusive benefits including higher withdrawal limits, personalised account management, and special event access.</p>
+
+            <h2>How to Claim a Casino Bonus on Sky Exchange</h2>
+            <ol>
+                <li>Log in to your Sky Exchange account (or register if you are a new user).</li>
+                <li>Navigate to the Promotions section to see currently available offers.</li>
+                <li>Select the bonus you wish to claim and read the terms carefully.</li>
+                <li>Make a qualifying deposit if required.</li>
+                <li>The bonus funds or credits will be applied to your account automatically or after entering a promo code if specified.</li>
+            </ol>
+
+            <h2>Understanding Wagering Requirements</h2>
+            <p>Most casino bonuses come with wagering requirements — a multiple of the bonus amount (and sometimes the deposit) that you must bet through before any associated winnings can be withdrawn. For example, a ₹2,000 bonus with a 10x wagering requirement means you must wager ₹20,000 before cashing out.</p>
+            <p>Key points to check in bonus terms:</p>
+            <ul>
+                <li><strong>Wagering multiplier:</strong> Lower is better. 10x–20x is considered fair; above 30x is steep.</li>
+                <li><strong>Game contribution:</strong> Not all games count equally toward wagering requirements. Slots typically contribute 100%; table games may contribute less.</li>
+                <li><strong>Expiry period:</strong> Bonus funds and wagering requirements must usually be met within a set timeframe, often 7–30 days.</li>
+                <li><strong>Maximum bet restriction:</strong> Many bonuses restrict the maximum bet size while wagering requirements are active to prevent rapid clearing strategies.</li>
+            </ul>
+
+            <h2>Tips for Making the Most of Casino Bonuses</h2>
+            <ul>
+                <li><strong>Read terms before claiming:</strong> Understanding the wagering requirements and restrictions helps you decide whether a bonus is worth accepting.</li>
+                <li><strong>Play games that contribute fully:</strong> Prioritise games with 100% contribution rates to clear wagering requirements efficiently.</li>
+                <li><strong>Track your wagering progress:</strong> Sky Exchange's account section typically shows your current wagering progress. Monitor it to avoid letting bonus funds expire.</li>
+                <li><strong>Opt out if needed:</strong> If a bonus's wagering requirements are too high, some platforms allow you to decline or forfeit the bonus before playing. Check whether this option is available on Sky Exchange.</li>
+            </ul>
+
+            <h2>Frequently Asked Questions</h2>
+            <h3>1. How do I know which bonuses I am eligible for?</h3>
+            <p>Log in to your Sky Exchange account and visit the Promotions page. Eligible offers will be clearly listed based on your account status and history.</p>
+            <h3>2. Can I withdraw my bonus funds immediately?</h3>
+            <p>Bonus funds are typically subject to wagering requirements that must be met before withdrawal. Review the specific terms of each offer for details.</p>
+            <h3>3. Do bonuses expire?</h3>
+            <p>Yes. Most bonuses have an expiry period after which unused bonus funds and any associated winnings are forfeited. Check the terms of each promotion for the applicable timeframe.</p>
+            <h3>4. Is there a maximum amount I can win from a bonus?</h3>
+            <p>Some bonuses cap the maximum winnings that can be converted to real withdrawable funds. This information will be stated in the offer's terms and conditions.</p>
+            <h3>5. Can I use a bonus on sports betting and casino games?</h3>
+            <p>This depends on the specific promotion. Some bonuses are restricted to casino games; others cover sports markets as well. The Promotions page on Sky Exchange will specify which products each offer applies to.</p>
+        `,
+    },
 ];
