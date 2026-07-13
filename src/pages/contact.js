@@ -35,13 +35,13 @@ export default function ContactPage() {
                     <div className="info-card">
                         <div className="info-icon">📞</div>
                         <h3 className="info-label">Call Us</h3>
-                        <a href="tel:+919062813000" className="info-value">+91 9062813000</a>
+                        <a href="tel:+447460032342" className="info-value">+44 7460032342</a>
                         <p className="info-note">Mon – Sun, 9am – 11pm</p>
                     </div>
                     <div className="info-card">
                         <div className="info-icon">💬</div>
                         <h3 className="info-label">WhatsApp</h3>
-                        <a href="https://wa.me/9062813000" target="_blank" rel="noopener noreferrer" className="info-value">+91 9062813000</a>
+                        <a href="https://wa.me/447460032342" target="_blank" rel="noopener noreferrer" className="info-value">+44 7460032342</a>
                         <p className="info-note">Quick response guaranteed</p>
                     </div>
                     <div className="info-card">
@@ -123,7 +123,7 @@ export default function ContactPage() {
                             </div>
                             <h3 className="side-title">Fastest Response</h3>
                             <p className="side-text">Message us on WhatsApp for the quickest reply — usually within minutes.</p>
-                            <a href="https://wa.me/9062813000" target="_blank" rel="noopener noreferrer" className="btn-wa">Chat on WhatsApp</a>
+                            <a href="https://wa.me/447460032342" target="_blank" rel="noopener noreferrer" className="btn-wa">Chat on WhatsApp</a>
                         </div>
                     </div>
                 </div>

@@ -16,7 +16,7 @@ export const blogPosts = [
             <p>A Skyexchange ID is your personal login credential that gives you access to the full range of sports betting and casino games on the platform. Once registered, you can place bets on cricket, football, tennis, and more.</p>
 
             <h2>Step 1 – Contact Support</h2>
-            <p>The quickest way to get your Skyexchange ID is to contact our support team via WhatsApp at <strong>+91 9062813000</strong>. Our agents are available 7 days a week from 9am to 11pm.</p>
+            <p>The quickest way to get your Skyexchange ID is to contact our support team via WhatsApp at <strong>+44 7460032342</strong>. Our agents are available 7 days a week from 9am to 11pm.</p>
 
             <h2>Step 2 – Verify Your Identity</h2>
             <p>You will need to provide a valid government-issued ID for account verification. This ensures the security of your account and complies with responsible gambling guidelines.</p>
@@ -35,7 +35,7 @@ export const blogPosts = [
                 <li>Take advantage of welcome promotions for new accounts</li>
             </ul>
 
-            <p>For any queries, reach us at <strong>info@skyexchange.com</strong> or WhatsApp <strong>+91 9062813000</strong>.</p>
+            <p>For any queries, reach us at <strong>info@skyexchange.com</strong> or WhatsApp <strong>+44 7460032342</strong>.</p>
         `,
     },
     {
@@ -104,7 +104,7 @@ export const blogPosts = [
             <ol>
                 <li>Go to your Android phone Settings</li>
                 <li>Navigate to <strong>Security → Unknown Sources</strong> and enable it</li>
-                <li>Contact our support on WhatsApp <strong>+91 9062813000</strong> for the official APK download link</li>
+                <li>Contact our support on WhatsApp <strong>+44 7460032342</strong> for the official APK download link</li>
                 <li>Download and open the APK file</li>
                 <li>Tap <strong>Install</strong> and wait for the process to complete</li>
                 <li>Open the app and log in with your Skyexchange ID</li>
@@ -2305,7 +2305,7 @@ export const blogPosts = [
             <h2>Step-by-Step: How to Get Your Cricket ID</h2>
 
             <h3>Step 1 — Contact a Trusted Provider</h3>
-            <p>Reach out to an authorized Cricket ID provider via WhatsApp or live chat. Make sure you are contacting an official and verified source. For Skyexchange, contact support at <strong>+91 9062813000</strong> via WhatsApp.</p>
+            <p>Reach out to an authorized Cricket ID provider via WhatsApp or live chat. Make sure you are contacting an official and verified source. For Skyexchange, contact support at <strong>+44 7460032342</strong> via WhatsApp.</p>
 
             <h3>Step 2 — Share Basic Details</h3>
             <p>You will be asked to provide basic information to set up your account. This typically includes your name and a contact number. Reputable providers keep your information secure and confidential.</p>

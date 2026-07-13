@@ -67,7 +67,7 @@ export default function BlogDetail({ blog, related }) {
                         <div className="sidebar-card" data-aos="fade-left">
                             <h3 className="sidebar-title">Quick Links</h3>
                             <ul className="sidebar-links">
-                                <li><a href="https://wa.me/9062813000" target="_blank" rel="noopener noreferrer">💬 Get Skyexchange ID</a></li>
+                                <li><a href="https://wa.me/447460032342" target="_blank" rel="noopener noreferrer">💬 Get Skyexchange ID</a></li>
                                 <li><a href="/#login">🔐 Login Help</a></li>
                                 <li><a href="/#apk-guide">📱 Download App</a></li>
                                 <li><a href="/#deposit">💰 Deposit Guide</a></li>
@@ -77,8 +77,8 @@ export default function BlogDetail({ blog, related }) {
                         </div>
                         <div className="sidebar-wa" data-aos="fade-left" data-aos-delay="100">
                             <p className="sidebar-wa-text">Need help? Chat with us instantly on WhatsApp</p>
-                            <a href="https://wa.me/9062813000" target="_blank" rel="noopener noreferrer" className="btn-wa">
-                                WhatsApp: +91 9062813000
+                            <a href="https://wa.me/447460032342" target="_blank" rel="noopener noreferrer" className="btn-wa">
+                                WhatsApp: +44 7460032342
                             </a>
                         </div>
                     </aside>
