@@ -63,7 +63,7 @@ export default function Document() {
               description: "SkyExchin is a trusted online cricket exchange platform providing secure sports exchange services.",
               contactPoint: {
                 "@type": "ContactPoint",
-                telephone: "+44-7460032342",
+                telephone: "+91-6284220750",
                 contactType: "customer service",
                 availableLanguage: "en",
               },
