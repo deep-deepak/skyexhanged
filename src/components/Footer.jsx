@@ -50,13 +50,13 @@ const Footer = () => {
 
             {/* CONTACT BAR */}
             <div className="ft-contact-bar" data-aos="fade-up">
-                <a href="tel:+919062813000" className="ft-contact-item ft-contact-link">
+                <a href="tel:+916284220750" className="ft-contact-item ft-contact-link">
                     <span className="ft-contact-icon">📞</span>
-                    <span>Customer Support: +91 9062813000</span>
+                    <span>Customer Support: +91 6284220750</span>
                 </a>
-                <a href="https://wa.me/9062813000" target="_blank" rel="noopener noreferrer" className="ft-contact-item ft-contact-link">
+                <a href="https://wa.me/918146856853" target="_blank" rel="noopener noreferrer" className="ft-contact-item ft-contact-link">
                     <span className="ft-contact-icon">💬</span>
-                    <span>WhatsApp: +91 9062813000</span>
+                    <span>WhatsApp: +91 8146856853</span>
                 </a>
                 <div className="ft-contact-item">
                     <span className="ft-contact-icon">✉️</span>
