@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }) {
     <>
       {/* Floating WhatsApp CTA */}
       <a
-        href="https://wa.me/916284220750"
+        href="https://wa.me/918146856853"
         target="_blank"
         rel="noopener noreferrer"
         style={{

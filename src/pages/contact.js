@@ -41,7 +41,7 @@ export default function ContactPage() {
                     <div className="info-card">
                         <div className="info-icon">💬</div>
                         <h3 className="info-label">WhatsApp</h3>
-                        <a href="https://wa.me/916284220750" target="_blank" rel="noopener noreferrer" className="info-value">+91 6284220750</a>
+                        <a href="https://wa.me/918146856853" target="_blank" rel="noopener noreferrer" className="info-value">+91 8146856853</a>
                         <p className="info-note">Quick response guaranteed</p>
                     </div>
                     <div className="info-card">
@@ -123,7 +123,7 @@ export default function ContactPage() {
                             </div>
                             <h3 className="side-title">Fastest Response</h3>
                             <p className="side-text">Message us on WhatsApp for the quickest reply — usually within minutes.</p>
-                            <a href="https://wa.me/916284220750" target="_blank" rel="noopener noreferrer" className="btn-wa">Chat on WhatsApp</a>
+                            <a href="https://wa.me/918146856853" target="_blank" rel="noopener noreferrer" className="btn-wa">Chat on WhatsApp</a>
                         </div>
                     </div>
                 </div>
